@@ -13,11 +13,7 @@ primary interface is through the command line. Git allows
 you to save changes within your local repositories to online 
 storages such as GitHub. 
 
-
-### Git is great because you can record changes to a file overtime, 
-### so that you can recall specific versions later. 
-
-
+### Source control is great because it allows you to record changes over time. While keeping reference to changes. 
 
 
 
