@@ -13,7 +13,7 @@ primary interface is through the command line. Git allows
 you to save changes within your local repositories to online 
 storages such as GitHub. 
 
-<img="https://media.geeksforgeeks.org/wp-content/uploads/20190624140226/distvcs.png" alt="test" style="max-width: 300px"/>
+![Alt Text](vm.png)
 
 ### Git is great because you can record changes to a file overtime, 
 ### so that you can recall specific versions later. 
