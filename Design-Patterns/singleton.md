@@ -1,12 +1,8 @@
-# Quick Sort 
+# Singleton 
 
-**Time** - O(n log(n)) 
-**Space** - O(log (n)) 
-
-In *quick sort* the alogorithm picks a random elements and then 
-will partition the array so that all the numbers that are less 
-than the partitioned element come before all the elements that 
-are greater than it. 
+The *sinlgeton* patterns designates that a class 
+**has only one instance** and **ensures access to 
+such instance**. 
 
 
 # References 

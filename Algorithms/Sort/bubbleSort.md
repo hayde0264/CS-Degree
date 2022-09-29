@@ -1,12 +1,7 @@
-# Quick Sort 
+# Bubble Sort 
 
-**Time** - O(n log(n)) 
-**Space** - O(log (n)) 
-
-In *quick sort* the alogorithm picks a random elements and then 
-will partition the array so that all the numbers that are less 
-than the partitioned element come before all the elements that 
-are greater than it. 
+**Time** - O(n^2) 
+**Space** - O(1) 
 
 
 # References 
