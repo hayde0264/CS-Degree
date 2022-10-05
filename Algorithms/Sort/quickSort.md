@@ -32,8 +32,6 @@ are then sorted **recursively**.
   divison and to the sub-range after it, possibly excluding from both ranges
   the element equal to the pivot at the point of division. 
   
-  ![](Quicksort.png)
-
 ## Java 
 ``` java 
 public class QuickSort {
