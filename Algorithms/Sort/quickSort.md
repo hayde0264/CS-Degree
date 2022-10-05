@@ -41,6 +41,40 @@ are then sorted **recursively**.
 ``` 
 ## Kotlin
 ``` kotlin 
+
+fun <T> Array<T>.swap(i: Int, j: Int) { 
+    val temporary = this[i]
+    this[i] = this[j]
+    this[j] = temporary
+}
+fun <T: Comparable<T>> partition(array: Array<T>, low: Int, high: Int): Int { 
+    var left = low
+    var right = high
+    val mid = (left + right) / 2 
+    val pivot = array[mid]
+    
+    while (left <= right) {
+        while (array[left] < pivot) {
+            left++ 
+        }
+        while (array[right] > pivot) {
+            right--
+        }
+        if (left <= right) {
+            array.swap(left, right) 
+            left++ 
+            right-- 
+        }
+    }
+    return left
+}
+fun <T: Comparable<T>> quickSort(array: Array<T>, low: Int, high: Int) { 
+    if (low < high) {
+        val pivot = partition(array, low, high)
+        quickSort(array, low, high)
+        quickSort(array, pivot, high)
+    }
+}
 ``` 
 
 # References 
