@@ -1,6 +1,6 @@
 # Quick Sort 
 
-Class: Sorting Algorithm
+Class: **Sorting Algorithm**
 
 **Best**: O(n log n) 
 
