@@ -35,7 +35,6 @@ are then sorted **recursively**.
 ## Java 
 ``` java 
 public class QuickSort {
-    
     private int partition(int[] array, int lo, int hi) {
         int pivot = array[hi];
         int i = (lo - 1);
@@ -61,7 +60,6 @@ public class QuickSort {
             quickSort(array, partition + 1, hi);
         }
     } 
-    
 }
 ``` 
 ## Swift 
