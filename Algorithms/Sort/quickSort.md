@@ -122,6 +122,12 @@ func quickSort(array []int, low int, high int) []int {
 ``` 
 ## Kotlin
 ``` kotlin 
+fun <T> Array<T>.swap(i: Int, j: Int) { 
+    val temporary = this[i]
+    this[i] = this[j]
+    this[j] = temporary
+}
+
 fun <T: Comparable<T>> partition(array: Array<T>, low: Int, high: Int): Int { 
     var left = low
     var right = high
@@ -142,12 +148,6 @@ fun <T: Comparable<T>> partition(array: Array<T>, low: Int, high: Int): Int {
         }
     }
     return left
-}
-
-fun <T> Array<T>.swap(i: Int, j: Int) { 
-    val temporary = this[i]
-    this[i] = this[j]
-    this[j] = temporary
 }
 
 fun <T: Comparable<T>> quickSort(array: Array<T>, low: Int, high: Int) { 
