@@ -66,26 +66,34 @@ public class QuickSort {
 ``` 
 ## Swift 
 ``` swift 
-func partition<T: Comparable>(_ array: inout [T], _ low: Int, _ high: Int) -> Int {
-    let pivot = array[high]
-    var i = low
-    for j in low..<high {
-        if a[j] <= pivot {
-            (a[i], a[j]) = (a[j], a[i])
-            i += 1
-        }
-    }
-    (array[i], array[high]) = (a[high], a[i])
-    return i
+func swap<T: Comparable>(_ leftValue: inout T, _ rightValue: inout T) {
+    (leftValue, rightValue) = (rightValue, leftValue)
 }
 
-func quickSort<T: Comparable>(_ array: inout [T], low: Int, high: Int) {
+func partition<T: Comparable>(_ array: inout [T], _ low: Int, _ high: Int) -> Int {
+    let pivot = array[low]
+    var i = low - 1
+    var j = high + 1
+
+    while true {
+        repeat { j -= 1 } while a[j] > pivot
+        repeat { i += 1 } while a[i] < pivot
+
+        if i < j {
+            a.swap(i, j)
+        } else {
+            return j
+        }
+    }
+}
+
+func quickSort<T: Comparable>(_ array: inout [T], _ low: Int, _ high: Int) {
     if low < high {
-        let p = partion(&a, low, high)
+        let p = partition(&array, low, high)
         quickSort(&array, low, p - 1)
         quickSort(&array, p + 1, high)
     }
-}                                                                                                                                                    
+}                                                                                                                                             
 ``` 
 ## Go 
 ``` go 
