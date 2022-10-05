@@ -32,7 +32,9 @@ are then sorted **recursively**.
 
 ## Java 
 ``` java 
-   private int partition(int[] array, int lo, int hi) {
+public class QuickSort {
+    
+    private int partition(int[] array, int lo, int hi) {
         int pivot = array[hi];
         int i = (lo - 1);
         for (int j = lo; j < hi; j++) {
@@ -50,12 +52,15 @@ are then sorted **recursively**.
         return i + 1;
     }
     
-    public void quickSort(int[] array, int lo, int hi) { 
-        if (lo < hi) { 
-            int partition = partition(array, lo, hi); 
+    public void quickSort(int[] array, int lo, int hi) {
+        if (lo < hi) {
+            int partition = partition(array, lo, hi);
             quickSort(array, lo, partition - 1);
             quickSort(array, partition + 1, hi);
-    }
+        }
+    } 
+    
+}
 ``` 
 ## Swift 
 ``` swift 
