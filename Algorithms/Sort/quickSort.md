@@ -32,7 +32,7 @@ are then sorted **recursively**.
   divison and to the sub-range after it, possibly excluding from both ranges
   the element equal to the pivot at the point of division. 
   
-![](/Users/haydenhowell/Downloads/Quicksort.png)
+![lll](/Users/haydenhowell/Downloads/Quicksort.png "" )
   
 ## Java 
 ``` java 
