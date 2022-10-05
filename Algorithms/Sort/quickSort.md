@@ -3,7 +3,9 @@
 Class: Sorting Algorithm
 
 **Best**: O(n log n) 
+
 **Worst**: O(n^2) 
+
 **Space**: O(n) 
 
 The *quick sort* algorithm is **a in-place 
