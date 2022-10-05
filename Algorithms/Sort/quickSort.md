@@ -131,5 +131,5 @@ fun <T: Comparable<T>> quickSort(array: Array<T>, low: Int, high: Int) {
 ``` 
 
 # References 
-Wikipedia. (2022 20, September). *Quicksort* <https://en.wikipedia.org/wiki/Quicksort> 
+Wikipedia. (2022 20, September). *Quicksort*. <https://en.wikipedia.org/wiki/Quicksort> 
 
