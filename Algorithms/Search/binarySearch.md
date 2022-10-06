@@ -26,11 +26,28 @@ half** of the array.
 - if the value of the search key is less than the middleIndex, disgard numbers greater than the middleIndex 
 - if the value of the search key is greater than the middleIndex, disgard numbers less than the middleIndex
 - continue until either the value is found or array is empty
-- 
 
 ## Java 
 ``` java 
+public class BinarySearch {
 
+    public static int binarySearch(int array[], int key) {
+        int low = 0;
+        int high = array.length - 1;
+        while (low <= high) {
+            int middleIndex = low + (high - low) / 2;
+            if (array[middleIndex] == key) {
+                return middleIndex;
+            } else if (array[middleIndex] < key) {
+                low = middleIndex + 1;
+            } else {
+                high = middleIndex - 1;
+            }
+        }
+        return -1;
+    }
+
+}
 ``` 
 ## Go 
 ``` go 
