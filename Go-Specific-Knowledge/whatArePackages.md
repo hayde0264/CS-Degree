@@ -5,6 +5,8 @@ Go source files or other Go packages. Each piece of code
 from variables to functions are written in the "source files", 
 so they, too, are stored in a package. 
 
+## Declaring Packages
+
 ### You may declare a package at the top of a Go file as package<package_name> 
 
 ### You may import package(s) at the top of a Go file as import <package_name> 
