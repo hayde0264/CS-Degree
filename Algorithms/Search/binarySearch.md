@@ -12,23 +12,17 @@ Class: **Search**
 for an element within a sorted array. 
 
 ## How does it work? 
-Binary search implements a **divide and conquer** strategy 
-to identify the key element position within an array. The algorithm 
-compares the key element to the middle element within the array. 
-If a match is found, it's position is returned. If the key element
-is smaller than the middle element, the key **cannot be higher or 
-on the right side** so these values are discarded. If the element 
-is higher that the middle element, the key **cannot be lower or on the 
-left side** of the middle element, so these values become discarded. This 
-processes continues until the array returns the key value. 
+Binary search implements a divide-and-conquer strategy to identify the key element position within an array. The algorithm compares the key element to the middle index of the array. If a match is found, its position is returned. If the key element is smaller than the middle index, the key cannot be higher or on the right side, so these values are discarded. If the element is higher than the middle index, the key cannot be lower or on the left side, so these values become discarded. This process continues until the array returns the key value.
 
 ### Steps:
-- declare a key to search for within the array  
-- initialize a constant that that will find the middleIndex of the array 
-- if the value of the search key is equal to the middleIndex return such index 
-- if the value of the search key is less than the middleIndex, disgard numbers greater than the middleIndex 
-- if the value of the search key is greater than the middleIndex, disgard numbers less than the middleIndex
-- continue until either the value is found or array is empty
+- create an array to search through and a key to search for 
+- identify the lowest and highest value of the array 
+- as long as the lower value is less than the highest value
+- initialize a constant that will find the middle index of the array 
+- if the value of the search key is equal to the middle index return, such index 
+- if the value of the search key is less than the middle index, discard numbers greater than the middle index 
+- if the value of the search key is greater than the middle index, discard numbers less than the middle index
+- continue until either the value is found or the array is empty
 
 ![binary-search](https://user-images.githubusercontent.com/109105989/194418509-1742728e-071a-4afd-8861-d5250b7f4c0a.png)
 
