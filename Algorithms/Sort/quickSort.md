@@ -33,31 +33,30 @@ are then sorted **recursively**.
 ``` java 
 public class QuickSort {
 
-    private int partition(int[] array, int lo, int hi) {
-        int pivot = array[hi];
-        int i = (lo - 1);
-        for (int j = lo; j < hi; j++) {
-            if (array[j] <= pivot) {
+    static void swap(int[] array, int i, int j) {
+        int temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+    static int partition(int[] array, int low, int high) {
+        int pivot = array[high];
+        int i = (low - 1);
+        for (int j = low; j <= high; j++) {
+            if (array[j] < pivot) {
                 i++;
-
-                int swapTemp = array[i];
-                array[i] = array[hi];
-                array[hi] = swapTemp;
+                swap(array, i, j);
             }
         }
-        int swapTemp = array[i + 1];
-        array[i + 1] = array[hi];
-        array[hi] = swapTemp;
-        return i + 1;
+        swap(array, i + 1, high);
+        return (i + 1);
     }
-    
-    public void quickSort(int[] array, int lo, int hi) {
-        if (lo < hi) {
-            int partition = partition(array, lo, hi);
-            quickSort(array, lo, partition - 1);
-            quickSort(array, partition + 1, hi);
+    static void quickSort(int[] array, int low, int high) {
+        if (low < high) {
+            int pi = partition(array, low, high);
+            quickSort(array, low, pi - 1);
+            quickSort(array, pi + 1, high);
         }
-    } 
+    }
     
 }
 ``` 
