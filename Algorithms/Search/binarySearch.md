@@ -20,7 +20,12 @@ half** of the array.
 
 
 ### Steps:
--
+- declare a key to search for within the array  
+- initialize a constant that that will find the middleIndex of the array 
+- if the value of the search key is equal to the middleIndex return such index 
+- if the value of the search key is less than the middleIndex, disgard numbers greater than the middleIndex 
+- if the value of the search key is greater than the middleIndex, disgard numbers less than the middleIndex
+- continue until either the value is found or array is empty
 
 ``` java 
 
@@ -36,4 +41,5 @@ half** of the array.
 ``` 
 
 # References 
-Wikipedia. 
+GeeksForGeeks. (2022, September 5). *Binary Search*. <https://www.geeksforgeeks.org/binary-search> 
+
