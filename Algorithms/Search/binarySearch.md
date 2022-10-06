@@ -8,13 +8,10 @@ Class: **Search**
 
 **COMPLEXITY** - O(1) for iterative, O(log N) for recursive
 
-*Binary Search* begins by comparing an element in the middle 
-of an array with the target (key) value. If the target value 
-matches the element, its position with the array is returned. 
-If the target value is **less than** the element, the search 
-continues in the **lower half** of the array. If the target value 
-is **greater tha** the element, the search continues in the **upper 
-half** of the array.
+*Binary Search* is a popular algorithm used to search 
+for an element within a sorted array. Binary search 
+implements a **divide and conquer** approach by comparing 
+the target element with the middle element of the array. 
 
 ## How does it work? 
 
@@ -64,4 +61,5 @@ public class BinarySearch {
 
 # References 
 GeeksForGeeks. (2022, September 5). *Binary Search*. <https://www.geeksforgeeks.org/binary-search> 
+Nirmitha, D. (n.d.). *Binary Search in Java*. Stack Abuse. <https://www.stackabuse.com/binary-search-in-java/> 
 
