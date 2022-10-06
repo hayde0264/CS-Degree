@@ -8,8 +8,8 @@ Class: **Search**
 
 **COMPLEXITY** - O(1) for iterative, O(log N) for recursive
 
-*Binary Search* is a popular algorithm used to search 
-for an element within a sorted array. 
+*Binary Search* - is a popular algorithm used to search 
+                  for an element within a sorted array. 
 
 ## How does it work? 
 Binary search implements a **divide and conquer** strategy 
