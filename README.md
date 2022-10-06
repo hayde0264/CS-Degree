@@ -1,5 +1,5 @@
 # CS-Degree
-This will be my a repository for computer science knowledge from, purely, Google. 
+This will be my a repository for computer science knowledge.
 
 Feel free to clone this repository, as the information will, be language 
 ambigious, so anyone interested in learning about programming or computers 
