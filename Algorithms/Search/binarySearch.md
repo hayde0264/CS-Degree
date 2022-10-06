@@ -9,12 +9,18 @@ Class: **Search**
 **COMPLEXITY** - O(1) for iterative, O(log N) for recursive
 
 *Binary Search* is a popular algorithm used to search 
-for an element within a sorted array. Binary search 
-implements a **divide and conquer** approach by comparing 
-the target element with the middle element of the array. 
+for an element within a sorted array. 
 
 ## How does it work? 
-
+Binary search implements a **divide and conquer** strategy 
+to identify the key element position within an array. The algorithm 
+compares the key element to the middle element within the array. 
+If a match is found, it's position is returned. If the key element
+is smaller than the middle element, the key **cannot be higher or 
+on the right side** so these values are discarded. If the element 
+is higher that the middle element, the key **cannot be lower or on the 
+left side** of the middle element, so these values become discarded. This 
+processes continues until the array returns the key value. 
 
 ### Steps:
 - declare a key to search for within the array  
