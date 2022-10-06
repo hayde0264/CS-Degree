@@ -64,7 +64,19 @@ public class BinarySearch {
 ``` 
 ## Kotlin 
 ``` kotlin 
-
+fun binarySearch(array: IntArray, key: Int): Int { 
+    var low = 0 
+    var high = array.size - 1 
+    while (low <= high) {
+        val middle = low + (high - low) / 2 
+        when { 
+            array[middle] == key -> return middle
+            array[middle] < key -> low = middle + 1 
+            array[middle] > key -> high = middle - 1
+        }
+    }
+    return -1
+}
 ``` 
 
 # References 
