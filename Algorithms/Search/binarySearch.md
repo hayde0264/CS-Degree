@@ -1,6 +1,8 @@
 # Binary Search
 
-**Best** - O(1) 
+Class: **Search**
+
+**BEST** - O(1) 
 
 **WORST** - O(log N) 
 
