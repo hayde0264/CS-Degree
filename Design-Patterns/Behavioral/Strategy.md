@@ -24,7 +24,7 @@ composition (has - a) instead of inheritance (is - a).
 
 ![Strategy-Pattern](https://user-images.githubusercontent.com/109105989/194192512-b21efbe6-0343-45b5-bf0d-e1946e158c5a.png)
 
-
+## Java 
 ``` java 
 abstract class Programmer {
     CodingStyle codingStyle;
@@ -78,16 +78,16 @@ class EmployeesOverall {
 
 }
 ``` 
-
+## Go 
 ``` go 
 
 
 ``` 
-
+## Swift 
 ``` swift 
 
 ``` 
-
+## Kotlin 
 ``` kotlin 
 
 
