@@ -67,5 +67,6 @@ public class BinarySearch {
 
 # References 
 GeeksForGeeks. (2022, September 5). *Binary Search*. <https://www.geeksforgeeks.org/binary-search> 
+
 Nirmitha, D. (n.d.). *Binary Search in Java*. Stack Abuse. <https://www.stackabuse.com/binary-search-in-java/> 
 
