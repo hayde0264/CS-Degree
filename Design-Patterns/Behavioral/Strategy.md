@@ -5,7 +5,9 @@ Class: **Behavioral**
 The *strategy design pattern* is a behavioral software design pattern 
 that enables the programmer **to select an algorithm at runtime**. Rather 
 than use a single algorithm directly, objects can receive run-time instructs 
-as to which algorihtm to implement. 
+as to which algorihtm to implement.
+
+### Remember to progrogram to interfaces, not implementations  
 
 ## How does it work? 
 To adhere to the strategy pattern, behaviors of classes **should not** 
@@ -21,7 +23,57 @@ composition (has - a) instead of inheritance (is - a).
 - Extend the abstract class with concrete examples 
 
 ``` java 
+abstract class Programmer {
+    CodingStyle codingStyle;
+    Programmer() {}
 
+    public void setCodingStyle(CodingStyle codingStyle) {
+        this.codingStyle = codingStyle;
+    }
+    public void getCodingStyle () {
+        codingStyle.style();
+    }
+    public void hasNotBeenEvaluated() {
+        System.out.println("This employee's code has not yet been evaluated");
+    }
+}
+interface CodingStyle {
+    public void style();
+}
+class MessyCode implements CodingStyle {
+    @Override
+    public void style() {
+        System.out.println("Anyone want spaghetti?");
+    }
+}
+class CleanCode implements CodingStyle {
+    @Override
+    public void style() {
+        System.out.println("They certainly read Clean Code by Robert Martin");
+    }
+}
+class Jennie extends Programmer {
+    public Jennie() {
+        codingStyle = new CleanCode();
+    }
+}
+class Ben extends Programmer {
+    public Ben() {
+        codingStyle = new MessyCode();
+    }
+}
+class EmployeesOverall {
+
+    public static void main(String[] args) {
+        Programmer jenny = new Jennie();
+        jenny.getCodingStyle();
+
+        Programmer ben = new Ben();
+        ben.getCodingStyle();
+        ben.setCodingStyle(new CleanCode());
+    }
+
+}
 ``` 
 
 ``` go 
