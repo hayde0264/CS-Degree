@@ -28,7 +28,21 @@ half** of the array.
 - continue until either the value is found or array is empty
 
 ``` java 
-
+    public static int binarySearch(int array[], int key) {
+        int low = 0;
+        int high = array.length - 1;
+        while (low <= high) {
+            int middleIndex = low + (high - low) / 2;
+            if (array[middleIndex] == key) {
+                return middleIndex;
+            } else if (array[middleIndex] < key) {
+                low = middleIndex + 1;
+            } else {
+                high = middleIndex - 1;
+            }
+        }
+        return -1;
+    }
 ``` 
 ``` go 
 
