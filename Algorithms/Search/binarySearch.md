@@ -56,7 +56,21 @@ public class BinarySearch {
 ``` 
 ## Go 
 ``` go 
-
+func binarySearch(array []int, key int) int { 
+        low := 0 
+        high := len(array) - 1 
+        for low <= high { 
+                middle := low + (high - low) / 2 
+                if array[middle] == key { 
+                        return middle 
+                } else if array[middle] < key { 
+                        low = middle + 1 
+                } else { 
+                        high = middle - 1 
+                } 
+        } 
+        return -1 
+} 
 ``` 
 ## Swift 
 ``` swift 
