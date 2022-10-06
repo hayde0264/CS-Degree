@@ -12,22 +12,20 @@ The quick sort algorithm is an in-place sorting algorithm (an algorithm that pla
 
 ## How does it work?
 Quick sort selects a **pivot** element from an array 
-and then partitions the other elements of such array 
+and then partitions the remaining elements of such array 
 into two sub-arrays, based on if the value is **greater 
 than** or **less than** the pivot value. The sub-arrays 
 are then sorted **recursively**. 
 
 ### Steps: 
-- If the range has less than two elements, return immediately 
-- Otherwise pick a value, or a **pivot**, that lies within the array 
-- Partition the range: by reordering its elements, while keeping track 
+- if the range has less than two elements, return immediately 
+- otherwise, pick a value, or a **pivot**, that lies within the array 
+- partition the array: by reordering its elements while keeping track 
   of a **point of division**. Having a point of division allows you to 
-  determine if the element should come before the pivot (element is 
-  less than pivot), or if the element should be placed after the pivot (element 
-  is greater than pivot).  
-- **Recursively** apply the quicksort to the sub-range to the point of 
-  divison and to the sub-range after it, possibly excluding from both ranges
-  the element equal to the pivot at the point of division. 
+  determine if the element should come before the pivot (the element is 
+  less than the pivot) or if the element should be placed after the pivot (element is greater than the pivot).  
+- **recursively** apply the quicksort to the sub-ranges 
+- repeat until the pivot element is the point of division.
   
  ![Quicksort](https://user-images.githubusercontent.com/109105989/194144386-e8bf46f6-7be3-4b9b-a2f7-99a3917f14a5.png)
   
