@@ -11,7 +11,7 @@ so they, too, are stored in a package.
 
 ### You may import package(s) at the top of a Go file as import <package_name> 
 
-#### **An import Go package is the "fmt" package. The "fmt" package has valuable functions such as Prinln(). 
+#### ***An import Go package is the "fmt" package. The "fmt" package has valuable functions such as Prinln(). 
 
 ![packages](https://user-images.githubusercontent.com/109105989/194211936-e04029e1-6356-461c-a19e-f8c500b6b542.png)
 
