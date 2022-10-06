@@ -11,5 +11,7 @@ so they, too, are stored in a package.
 
 #### An import Go package is the "fmt" package. The "fmt" package has valuable functions such as Prinln(). 
 
+![packages](https://user-images.githubusercontent.com/109105989/194211936-e04029e1-6356-461c-a19e-f8c500b6b542.png)
+
 # References 
 InterviewBit. (2022, January 3). *Golang Interview Questions*. <https://www.interviewbit.com/golang-interview-questions/> 
