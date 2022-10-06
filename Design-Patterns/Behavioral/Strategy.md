@@ -20,6 +20,9 @@ composition (has - a) instead of inheritance (is - a).
 - Create an abstract class that references each interface 
 - Extend the abstract class with concrete examples 
 
+![Strategy-Pattern](https://user-images.githubusercontent.com/109105989/194192512-b21efbe6-0343-45b5-bf0d-e1946e158c5a.png)
+
+
 ``` java 
 
 ``` 
