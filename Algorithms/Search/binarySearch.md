@@ -74,7 +74,21 @@ func binarySearch(array []int, key int) int {
 ``` 
 ## Swift 
 ``` swift 
-
+func binarySearch<T: Comparable>(_ array: [T], key: T) -> Int? {
+    var low = 0
+    var high = array.count
+    while low < high {
+        let  mid = low + (high - low) / 2
+        if array[mid] == key {
+            return mid
+        } else if array[mid] < key {
+            low = mid + 1
+        } else {
+            high = mid
+        }
+    }
+    return nil
+}
 ``` 
 ## Kotlin 
 ``` kotlin 
