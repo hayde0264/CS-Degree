@@ -30,6 +30,8 @@ processes continues until the array returns the key value.
 - if the value of the search key is greater than the middleIndex, disgard numbers less than the middleIndex
 - continue until either the value is found or array is empty
 
+![binary-search](https://user-images.githubusercontent.com/109105989/194418509-1742728e-071a-4afd-8861-d5250b7f4c0a.png)
+
 ## Java 
 ``` java 
 public class BinarySearch {
