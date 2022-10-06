@@ -8,10 +8,7 @@ Class: **Sorting Algorithm**
 
 **SPACE**: O(n) 
 
-The *quick sort* algorithm is **a in-place 
-sorting algorithm** (an algorithm that places elements 
-of a list into order). Quicksort is also defined 
-as a *divide-and-conquer* algorithm. 
+The quick sort algorithm is an in-place sorting algorithm (an algorithm that places elements of a list into order). Quicksort is also defined as a divide-and-conquer algorithm.
 
 ## How does it work?
 Quick sort selects a **pivot** element from an array 
