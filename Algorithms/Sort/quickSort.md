@@ -66,6 +66,31 @@ public class QuickSort {
     
 }
 ``` 
+## Go 
+``` go 
+func partition(array []int, low int, high int) ([]int, int) { 
+        pivot := array[high] 
+        i := low 
+        for j := low; j < high; j++ { 
+                if array[j] < pivot { 
+                        array[i], array[j] = array[j], array[i] 
+                        i++ 
+                } 
+        } 
+        array[i], array[high] = array[high], array[i] 
+        return array, i 
+}
+
+func quickSort(array []int, low int, high int) []int { 
+        if low < high { 
+                var p int 
+                array, p = partition(array, low, high) 
+                array = quickSort(array, low, p - 1) 
+                array = quickSort(array, p + 1, high) 
+        } 
+        return array 
+} 
+``` 
 ## Swift 
 ``` swift 
 func swap<T: Comparable>(_ leftValue: inout T, _ rightValue: inout T) {
@@ -96,31 +121,6 @@ func quickSort<T: Comparable>(_ array: inout [T], _ low: Int, _ high: Int) {
         quickSort(&array, p + 1, high)
     }
 }                                                                                                                                             
-``` 
-## Go 
-``` go 
-func partition(array []int, low int, high int) ([]int, int) { 
-        pivot := array[high] 
-        i := low 
-        for j := low; j < high; j++ { 
-                if array[j] < pivot { 
-                        array[i], array[j] = array[j], array[i] 
-                        i++ 
-                } 
-        } 
-        array[i], array[high] = array[high], array[i] 
-        return array, i 
-}
-
-func quickSort(array []int, low int, high int) []int { 
-        if low < high { 
-                var p int 
-                array, p = partition(array, low, high) 
-                array = quickSort(array, low, p - 1) 
-                array = quickSort(array, p + 1, high) 
-        } 
-        return array 
-} 
 ``` 
 ## Kotlin
 ``` kotlin 
