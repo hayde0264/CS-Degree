@@ -19,7 +19,7 @@ half** of the array.
 ## How does it work? 
 
 
-### Steps 
+### Steps:
 -
 
 ``` java 
