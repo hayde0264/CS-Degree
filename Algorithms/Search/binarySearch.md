@@ -40,13 +40,13 @@ public class BinarySearch {
         int low = 0;
         int high = array.length - 1;
         while (low <= high) {
-            int middleIndex = low + (high - low) / 2;
-            if (array[middleIndex] == key) {
-                return middleIndex;
-            } else if (array[middleIndex] < key) {
-                low = middleIndex + 1;
+            int middle = low + (high - low) / 2;
+            if (array[middle] == key) {
+                return middle;
+            } else if (array[middle] < key) {
+                low = middle + 1;
             } else {
-                high = middleIndex - 1;
+                high = middle - 1;
             }
         }
         return -1;
