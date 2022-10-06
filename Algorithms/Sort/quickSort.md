@@ -74,7 +74,6 @@ func partition(array []int, low int, high int) ([]int, int) {
         array[i], array[high] = array[high], array[i] 
         return array, i 
 }
-
 func quickSort(array []int, low int, high int) []int { 
         if low < high { 
                 var p int 
@@ -90,7 +89,6 @@ func quickSort(array []int, low int, high int) []int {
 func swap<T: Comparable>(_ leftValue: inout T, _ rightValue: inout T) {
     (leftValue, rightValue) = (rightValue, leftValue)
 }
-
 func partition<T: Comparable>(_ array: inout [T], _ low: Int, _ high: Int) -> Int {
     let pivot = array[low]
     var i = low - 1
@@ -107,7 +105,6 @@ func partition<T: Comparable>(_ array: inout [T], _ low: Int, _ high: Int) -> In
         }
     }
 }
-
 func quickSort<T: Comparable>(_ array: inout [T], _ low: Int, _ high: Int) {
     if low < high {
         let p = partition(&array, low, high)
@@ -123,7 +120,6 @@ fun <T> Array<T>.swap(i: Int, j: Int) {
     this[i] = this[j]
     this[j] = temporary
 }
-
 fun <T: Comparable<T>> partition(array: Array<T>, low: Int, high: Int): Int { 
     var left = low
     var right = high
@@ -145,7 +141,6 @@ fun <T: Comparable<T>> partition(array: Array<T>, low: Int, high: Int): Int {
     }
     return left
 }
-
 fun <T: Comparable<T>> quickSort(array: Array<T>, low: Int, high: Int) { 
     if (low < high) {
         val pivot = partition(array, low, high)
