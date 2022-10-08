@@ -3,7 +3,8 @@
 **Exceptions** - are unwanted or unexpected events 
 		 which occur during the execution 
  		 of a program. 
-### Excpetions are objects that indicate "something went wrong" 
+		 
+### Excpetions are objects that indicate "something went wrong", now "what are we going to do about it so we don't sink ship"
 
 ## What is exception handling? 
 In programming *exception handling* is
