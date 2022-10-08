@@ -16,7 +16,11 @@ of data, using a for loop may be better.
 
 ## Java 
 ``` java 
-
+public void makeNamesUppercase() {
+   List<String> lowercasedNames = Arrays.asList("ben", "katy", "sussie", "robbie");
+   Stream<Object> uppercaseNames = lowercasedNames.stream().map(names -> names.toUpperCase());
+   System.out.println(uppercaseNames);
+}            // PRINTS - ["BEN", "KATY", "SUSSIE", "ROBBIE"] 
 ```
 ## Go 
 ``` go 
