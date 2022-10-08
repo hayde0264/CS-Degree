@@ -36,24 +36,7 @@ problems**.
 
 *finally block* - is the block executed after the catch block. 
 		  This block is  
-
-
-## Java 
-``` java 
-
-``` 
-## Go 
-``` go 
-
-``` 
-## Swift 
-``` swift 
-
-```
-## Kotlin 
-``` kotlin 
-
-```  
+		  
 # References 
 GeeksForGeeks. (2022, June 9). *Try, catch, throw, and throws in Java*. <https://www.geeksforgeeks.org/try-catch-throw-and-throws-in-java->
 
