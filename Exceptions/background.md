@@ -36,6 +36,8 @@ problems**.
 
 *finally block* - is the block executed after the catch block. 
 		  This block is  
+
+![try-except-else-finally](https://user-images.githubusercontent.com/109105989/194728752-4ab9b63c-4f13-4699-bca4-6c40e08d8fc3.png)
 		  
 # References 
 GeeksForGeeks. (2022, June 9). *Try, catch, throw, and throws in Java*. <https://www.geeksforgeeks.org/try-catch-throw-and-throws-in-java->
