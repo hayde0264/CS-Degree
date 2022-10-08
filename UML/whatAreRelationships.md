@@ -10,6 +10,8 @@ association.
 		   entities. An object is considered a depend 
   		   if by changing its implemention another class 
 		   would be impacted.
+		   
+![example_of_dependencies](https://user-images.githubusercontent.com/109105989/194687523-6dcf739d-8d01-4f48-b9f6-6e68764d2ade.png)
 
 ## Generalizations  
 **Generalization** - are relationships in which one entity 
