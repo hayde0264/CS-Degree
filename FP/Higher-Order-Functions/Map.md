@@ -12,6 +12,8 @@ Since the .map() method updates each element
 in an array, if you have a huge collection 
 of data, using a for loop may be better. 
 
+![map](https://user-images.githubusercontent.com/109105989/194680143-304280df-4ec4-4745-a93a-c7c615970985.png)
+
 ## Java 
 ``` java 
 
@@ -26,11 +28,12 @@ of data, using a for loop may be better.
 
 ``` 
 ## Kotlin 
+``` kotlin
 fun makeNamesUppercase() {
     var lowercasedNames = arrayListOf<String>("ben", "katy", "susie", "robbie")
     val uppercaseNames = lowercasedNames.map { name -> name.uppercase() }
     print(uppercaseNames)
-}           // PRINTS - [BEN, KATY, SUSIE, ROBBIE] 
+}       // PRINTS - [BEN, KATY, SUSIE, ROBBIE] 
 ```
  
 # References
