@@ -38,5 +38,6 @@ fun makeNamesUppercase() {
  
 # References
 Levkovsky, M. (2019, August 17). *The Holy Trinity of Functional Programming: Map, Filter, Reduce* DEV. <https://dev.to/mlevkov/the-holy-trinity-map-filter-and-reduce-381e> 
+
 Wikipedia. (2022, January 30). *Map (higher-order function*. <https://en.wikipedia.org/wiki/Map_(higher-order_function> 
 
