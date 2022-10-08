@@ -1,4 +1,4 @@
-# What are relationships? 
+# What are the different types of relationships in UML? 
 
 In the *universal-modeling language* there 
 are three different kinds of relationships. 
