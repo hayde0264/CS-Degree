@@ -21,15 +21,20 @@ problems**.
  
 ### Paradigms:
 *try block* - contains the exception statements(s). 
+
 *catch block* - will handle uncertain conditions within 
 	        the try block. The try block is **always** 
 		followed by a catch block. 
+		
 *throw keyword* - is a keyword used to transfer code from the try 
 	  block to the catch block. 
-*throws keyword* - is a keyword used for exception handling **without the try and catch 	   block**
+	  
+*throws keyword* - is a keyword used for exception handling **without the try and catch block**
+
 *finally block* - is the block executed after the catch block. 
 		  This block is  
- 
+
+
 ## Java 
 ``` java 
 
