@@ -6,14 +6,11 @@ to each element, and finally will return a brand
 new array with modified values. 
 
 ### The .map() method is sometimes referenced as "apply-to-all" 
+
+## Keep in mind
 Since the .map() method updates each element 
 in an array, if you have a huge collection 
 of data, using a for loop may be better. 
-
-## Explained in a sentence: 
-The .map() method have the ability to 
-change objects within collections by 
-applying functions. 
 
 ## Java 
 ``` java 
