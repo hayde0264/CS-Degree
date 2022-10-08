@@ -26,12 +26,11 @@ of data, using a for loop may be better.
 
 ``` 
 ## Kotlin 
-``` kotlin 
 fun makeNamesUppercase() {
     var lowercasedNames = arrayListOf<String>("ben", "katy", "susie", "robbie")
     val uppercaseNames = lowercasedNames.map { name -> name.uppercase() }
     print(uppercaseNames)
-}
+}           // PRINTS - [BEN, KATY, SUSIE, ROBBIE] 
 ```
  
 # References
