@@ -33,7 +33,7 @@ func makeNamesUppercased() {
             name.uppercased()
    }
   print(uppercasedNames)
-}
+}         // PRINTS - ["BEN", "KATY", "SUSSIE", "ROBBIE"] 
 ``` 
 ## Kotlin 
 ``` kotlin
