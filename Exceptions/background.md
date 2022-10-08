@@ -20,6 +20,8 @@ exception in called. Exceptions
 render **solutions to software 
 problems**.
  
+![exceptions](https://user-images.githubusercontent.com/109105989/194728574-c1a61b59-c106-4012-9c1e-ca03689c8248.jpeg)
+ 
 ### Paradigms:
 *try block* - contains the exception statements(s). 
 
