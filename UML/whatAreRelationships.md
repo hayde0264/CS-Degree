@@ -22,5 +22,7 @@ association.
 ## Associations
 **Association** - are the "structural" relationships between objects 
 
+![associations](https://user-images.githubusercontent.com/109105989/194687730-e46667bd-f07f-4fb3-a9b7-ffe4993655c2.jpg)
+
 # References 
 Online Interview Questions. (n.d.). *UML Interview Questions*. <https://www.onlineinterviewquestions.com/uml-interview-questions/> 
