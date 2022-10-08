@@ -15,7 +15,27 @@ The .map() method have the ability to
 change objects within collections by 
 applying functions. 
 
+## Java 
+``` java 
 
+```
+## Go 
+``` go 
+
+``` 
+## Swift 
+``` swift
+
+
+``` 
+## Kotlin 
+``` kotlin 
+fun makeNamesUppercase() {
+    var lowercasedNames = arrayListOf<String>("ben", "katy", "susie", "robbie")
+    val uppercaseNames = lowercasedNames.map { name -> name.uppercase() }
+    print(uppercaseNames)
+}
+```
  
 # References
 Levkovsky, M. (2019, August 17). *The Holy Trinity of Functional Programming: Map, Filter, Reduce* DEV. <https://dev.to/mlevkov/the-holy-trinity-map-filter-and-reduce-381e> 
