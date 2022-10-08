@@ -16,6 +16,8 @@ association.
 ## Generalizations  
 **Generalization** - are relationships in which one entity 
 		     inherts the properties of another entity. 
+		     
+![association](https://user-images.githubusercontent.com/109105989/194687586-a582c984-59ad-47b5-a166-3593c7531b9b.jpg)
 
 ## Association 
 **Association** - are the "structural" relationships between objects 
