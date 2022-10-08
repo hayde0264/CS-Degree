@@ -13,14 +13,18 @@ association.
 		   
 ![example_of_dependencies](https://user-images.githubusercontent.com/109105989/194687523-6dcf739d-8d01-4f48-b9f6-6e68764d2ade.png)
 
-## Generalizations (is - a)
+## Generalizations (is a)
 **Generalization** - are relationships in which one entity 
 		     inherts the properties of another entity. 
 		     
+### A jet "is a" plane.
+		     
 ![association](https://user-images.githubusercontent.com/109105989/194687586-a582c984-59ad-47b5-a166-3593c7531b9b.jpg)
 
-## Associations (has - a)
+## Associations (has a)
 **Association** - are the "structural" relationships between objects 
+
+## A person "has a" address.
 
 ![associations](https://user-images.githubusercontent.com/109105989/194687730-e46667bd-f07f-4fb3-a9b7-ffe4993655c2.jpg)
 
