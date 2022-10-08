@@ -28,8 +28,13 @@ public void makeNamesUppercase() {
 ``` 
 ## Swift 
 ``` swift
-
-
+func makeNamesUppercased() {
+   var lowercasedNames = ["ben", "katy", "susie", "robbie"]
+   let uppercasedNames = lowercasedNames.map { name in
+            name.uppercased()
+   }
+  print(uppercasedNames)
+}
 ``` 
 ## Kotlin 
 ``` kotlin
