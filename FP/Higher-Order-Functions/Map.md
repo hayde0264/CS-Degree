@@ -1,9 +1,6 @@
 # Map
 
-The *map* method goes through each element 
-of an array and applies a **passed in** function 
-to each element, and finally will return a brand 
-new array with modified values. 
+The map method goes through each element of an array, applies a passed-in function to each element, and returns a brand-new array with modified values.
 
 ### The .map() method is sometimes referenced as "apply-to-all" 
 
