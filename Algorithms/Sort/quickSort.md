@@ -86,32 +86,33 @@ func quickSort(array []int, low int, high int) []int {
 ``` 
 ## Swift 
 ``` swift 
-func swap<T: Comparable>(_ leftValue: inout T, _ rightValue: inout T) {
-    (leftValue, rightValue) = (rightValue, leftValue)
+func swap<T>(_ array: inout [T], _ i: Int, _ j: Int) {
+    if i != j {
+        array.swapAt(i, j)
+    }
 }
-func partition<T: Comparable>(_ array: inout [T], _ low: Int, _ high: Int) -> Int {
+func partition<T: Comparable>(_ array: inout [T], _ low: Int, _ high: Int) -> Int? {
     let pivot = array[low]
     var i = low - 1
     var j = high + 1
-
     while true {
-        repeat { j -= 1 } while a[j] > pivot
-        repeat { i += 1 } while a[i] < pivot
-
+        repeat { j -= 1 } while array[j] < pivot
+        repeat { i += 1 } while array[j] > pivot
+        
         if i < j {
-            a.swap(i, j)
+            array.swapAt(i, j)
         } else {
             return j
         }
     }
 }
-func quickSort<T: Comparable>(_ array: inout [T], _ low: Int, _ high: Int) {
+func quicksort<T: Comparable>(_ array: inout [T], _ low: Int, _ high: Int) {
     if low < high {
         let p = partition(&array, low, high)
-        quickSort(&array, low, p - 1)
-        quickSort(&array, p + 1, high)
+        quicksort(&array, low, p)
+        quicksort(&array, p + 1, high)
     }
-}                                                                                                                                             
+}                                                                                                                                           
 ``` 
 ## Kotlin
 ``` kotlin 
