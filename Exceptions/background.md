@@ -37,6 +37,7 @@ problems**.
 *finally block* - is the block executed after the catch block. 
 		  This block is  
 
+## In a picture
 ![try-except-else-finally](https://user-images.githubusercontent.com/109105989/194728752-4ab9b63c-4f13-4699-bca4-6c40e08d8fc3.png)
 		  
 # References 
