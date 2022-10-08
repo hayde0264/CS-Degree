@@ -17,16 +17,16 @@ association.
 **Generalization** - are relationships in which one entity 
 		     inherts the properties of another entity. 
 		     
-### A jet "is a" plane.
-		     
 ![association](https://user-images.githubusercontent.com/109105989/194687586-a582c984-59ad-47b5-a166-3593c7531b9b.jpg)
+
+### A jet "is a" plane.
 
 ## Associations (has a)
 **Association** - are the "structural" relationships between objects 
 
-## A person "has a" address.
-
 ![associations](https://user-images.githubusercontent.com/109105989/194687730-e46667bd-f07f-4fb3-a9b7-ffe4993655c2.jpg)
+
+## A person "has a" address.
 
 # References 
 Online Interview Questions. (n.d.). *UML Interview Questions*. <https://www.onlineinterviewquestions.com/uml-interview-questions/> 
