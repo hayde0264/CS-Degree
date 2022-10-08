@@ -1,5 +1,17 @@
 # Functional Programming 
 
+Functional programming is also known as 
+*declarative programming*. Declarative 
+programming tells the compiler **what 
+we want**, rather than delve into how 
+to do it.
+
+Functional programming gives the developer 
+an alterative to traditional control-flow 
+paradigms. Rather than use if-else or for 
+loops, you can use can methods on collections 
+such as map, filter, and reduce.  
+
 ## What are some of the paraidmgs of FP? 
 - *Pure Functions* 
 - *Recursion* 
@@ -7,18 +19,15 @@
 - *First-Class Functions* 
 - *Immutability* 
 
+## Benefits of FP? 
+**Fewer Mutations**  
+**Parallelized Code**  
+**Expressive Code** 
+**Concise Code** 
+**Intuitive Code** 
+**Avoidance of Side Effects** 
 
-## FP can be: 
- **Comprehensible** because pure functions don't change states 
- **Concurrent** because pure functions avoid changing variables or data outside of it 
- **Lazyily evaluated** because can be stored and evaluated only when needed 
- **Easier to debug and test** because pure functions take arguements once and produce unchangeable outputs 
-
-## Does FP have any disadvantages? 
-1. Potentially pooer performance, because of immutable values and recursive methods. 
-2. Writing pure functions isn't always easy 
-3. Making programs without any imparative programming paradigms ("if statments", "for loops", "while") can be complicated 
 
 # References 
-Hackr. (n.d.). *Functional Programming Languages: Concepts & Advantages*. 
-	<https://hackr.io/blog/functional-programming> 
+Hackr. (n.d.). *Functional Programming Languages: Concepts & Advantages*. <https://hackr.io/blog/functional-programming>
+Subramaniam, V. (2014, March 11). *Functional Programming in Java: Harnessing The Power of Java 8 Lambda Expressions*. Pragmatic Bookshelf. <https://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/ref=sr_1_1?crid=3GL7Q0WFXF8K5&keywords=java+functional+programming&qid=1665177445&qu=eyJxc2MiOiIzLjQ2IiwicXNhIjoiMi41MCIsInFzcCI6IjIuNDIifQ%3D%3D&sprefix=java+functional+%2Caps%2C84&sr=8-1>  
