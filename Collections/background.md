@@ -1,7 +1,7 @@
 # Collections 
 
 In programming, a *collection* is a class 
-that's used to represent a group of a similar 
+that's used to represent a group of similar 
 data as a **single type**. 
 
 Collections **group** and **manage** related objects. 
@@ -12,14 +12,14 @@ to **store** and **manipulate** data effectively.
 
 ## Most modern languages break collections into: 
 *Lists* - also known as arrays, lists are collections 
-          that except duplicate elements, and are 
-	  acessible through indexing the elements 
+          that except duplicate elements and are 
+	  accessible through indexing the elements 
           within the list.
  
-*Sets* - are collecetions that **do not** allow 
+*Sets* - are collections that **do not** allow 
 	 duplicate elements.
  
-*Maps* - also known as dictonaries, are collections 
+*Maps* - also known as dictionaries, are collections 
 	 that contain key/value pairs. Maps **cannot** 
 	 contain duplicate pairs. 
 
