@@ -37,43 +37,90 @@ to **store** and **manipulate** data effectively.
 ``` 
 ## Go Collection Heirachy 
 ``` go 
-  Shift() Collection                      // Removes and returns the first item from the collection. 
+Last login: Sun Oct  9 19:53:35 on ttys000
+haydenhowell@Haydens-Mac-mini ~ % vim collections.go 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
-  Shuffle() Collection                    // Randomly shuffles the items in the collection. 
+>>All() []interface{} // Returns the underlying array represented by the collection. 
   
-  Slice(...int) Collection                // Returns the slice of a collection starting at the given index. 
+  Length() int        // Returns the length of the collection.
   
-  Sort() Collection                       // Sorts the collection. 
+  ToStruct(dist interface{})              // Turns collections into specified structs using mapstructure. 
   
-  SortByDesc() Collection                 // Sorts the collecion in the opposite order. 
+  Select(keys ...string) Collection       // Select the keys of collections and delete others. 
   
-  Splice(index ...int) Collection         // Removes and returns a slice of elements starting at the specified index. 
+  Avg(key ...string) decimal.Decimal      // Returns the average value of a given key. 
   
-  Split(int) Collection                   // Breaks a collection into the given number of groups. 
+  Sum(key ...string) decimal.Decimal      // Returns the sum of all items within a collection. 
   
-  Unique() Collection                     // Returns all of the unique items in the collection. 
+  Min(key ...string) decimal.Decimal      // Returns the minimum value within a collection. 
   
-  WhereIn(string, []interface{}) Collection               // Filters the collection by a given key/value contained within the given collection. 
+  Max(key ...string) decimal.Decimal      // Returns the maximum value within a collection. 
   
-  WhereNotIt(string, []interface{}) Collection            // Filters the collection by a given key/value not contained within the given array. 
+  Join(delimiter string) string           // Returns a string of joined values. 
   
-  ToJson() string                         // Converts the collection into a json string. 
+  Count() int                             // Returns the total number of items within a collection.
   
-  ToNumberArray() []decimal.Decimal       // Converts the collection into a plain golang slice which contains decimal.Decimal. 
+  Pluck(key string) Collection            // Retruns specified values within a collection. 
   
-  ToIntArray() []int                      // Converts the collection into a plain golang slice which contains int. 
+  Mode(key ...string) []interface{}       // Returns the mode value of an element. 
   
-  ToInt64Array() []int64                  // Converts the collection into a plain golang slice which contains int64. 
+  Only(key []string) Collection           // Returns the collection with only specified elements. 
   
-  ToStringArray() []string                // Converts the collection into a plain golang slice which contains string. 
+  Prepend(values ...interface{}) Collection       // Adds an item to the beginning of a collection. 
   
-  ToMultiDimensionalArray() [][]interface{}               // Converts the collection into a multi-dimensional array. 
+  Pull(key interface{}) Collection                // Removes and returns an element from the collection. 
   
-  ToMap() map[string]interface{}          // Converts the collection into a plain golang map. 
+  Put(key string, value interface{}) Collection   // Sets the given key and value within a collection. 
   
-  ToMapArray() []map[string]interface{}   // Converts the collection into a plain golang slice with contains map. 
+  SortBy(key string) Collection           // Sorts the collection by the given key. 
   
-  Where(key string, values ...interface{}) Collection     // Filters the collection by a given key/value pair. 
+  Take(num int) Collection                // Returns a new collection with a specified number of elements. 
+  
+  Chunk(num int) MultiDimensionalArrayCollection          // Breaks the collecetion into multiple, smaller collection of a given size. 
+  
+  Collapse() Collection                   // Collapses a collection of arrays into a single-flat collection. 
+  
+  Concat(value interface{}) Collection    // Appends the given array or collection values onto the end of the collection. 
+  
+  Contains(value ...interface{}) bool     // Determines whether the collecetion contains a given element. 
+  
+  CountBy(callback ...interface{{) map[interface{}] int   // Counts the occurances of values in the collection. By default, the method counts the occurences of each element. 
+  
+  CrossJoin(array ...[]interface{}) MultiDimensionalArray // Joins the collection's values among the given arrays or collections, returning a Cartesian product will all possible permutations. 
+  
+  Dd()                                    // Dumps the collection's items and ends execution of the script. 
+  
+  Diff(interface{}) Collection            /* Compares teh collection against another collection or a plain PHP array based on its values. This method will return the values in the original col                                            lection that are not present in the given collection. */
+  DiffAssoc(map[string]interface{}) Collection            /* Compares the collection against another collection or plain PHP array based on its values. 
+                                                             This method will return the key/value pairs in the original collection that are not present in the given collection.*/
+  Dump()                                  // Dumps the collection's items. 
+  
+  Each(func(item, value interface{}) (interface{}, bool)) Collection      // Each iterates over the items in the collection and passes each item to callback. 
+  
+  Every(CB) bool                          // Verifies elements of a collection pass a truth test. 
+
 ``` 
 ## Swift Collection Heirachy 
 ``` swift 
