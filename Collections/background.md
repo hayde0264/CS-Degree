@@ -37,7 +37,43 @@ to **store** and **manipulate** data effectively.
 ``` 
 ## Go Collection Heirachy 
 ``` go 
-
+  Shift() Collection                      // Removes and returns the first item from the collection. 
+  
+  Shuffle() Collection                    // Randomly shuffles the items in the collection. 
+  
+  Slice(...int) Collection                // Returns the slice of a collection starting at the given index. 
+  
+  Sort() Collection                       // Sorts the collection. 
+  
+  SortByDesc() Collection                 // Sorts the collecion in the opposite order. 
+  
+  Splice(index ...int) Collection         // Removes and returns a slice of elements starting at the specified index. 
+  
+  Split(int) Collection                   // Breaks a collection into the given number of groups. 
+  
+  Unique() Collection                     // Returns all of the unique items in the collection. 
+  
+  WhereIn(string, []interface{}) Collection               // Filters the collection by a given key/value contained within the given collection. 
+  
+  WhereNotIt(string, []interface{}) Collection            // Filters the collection by a given key/value not contained within the given array. 
+  
+  ToJson() string                         // Converts the collection into a json string. 
+  
+  ToNumberArray() []decimal.Decimal       // Converts the collection into a plain golang slice which contains decimal.Decimal. 
+  
+  ToIntArray() []int                      // Converts the collection into a plain golang slice which contains int. 
+  
+  ToInt64Array() []int64                  // Converts the collection into a plain golang slice which contains int64. 
+  
+  ToStringArray() []string                // Converts the collection into a plain golang slice which contains string. 
+  
+  ToMultiDimensionalArray() [][]interface{}               // Converts the collection into a multi-dimensional array. 
+  
+  ToMap() map[string]interface{}          // Converts the collection into a plain golang map. 
+  
+  ToMapArray() []map[string]interface{}   // Converts the collection into a plain golang slice with contains map. 
+  
+  Where(key string, values ...interface{}) Collection     // Filters the collection by a given key/value pair. 
 ``` 
 ## Swift Collection Heirachy 
 ``` swift 
