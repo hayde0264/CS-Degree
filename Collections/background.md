@@ -120,6 +120,67 @@ haydenhowell@Haydens-Mac-mini ~ % vim collections.go
   Each(func(item, value interface{}) (interface{}, bool)) Collection      // Each iterates over the items in the collection and passes each item to callback. 
   
   Every(CB) bool                          // Verifies elements of a collection pass a truth test. 
+  
+  Every(CB) bool                          // Verifies elements of a collection pass a truth test. 
+  
+  Except([]string) Collection             // Returns all items in the collection except for those with specified keys. 
+  
+  Filter(CB) Collection                   // Filters the collection using the given callback, keeping only those items that pass a given truth test. 
+  
+  First(...CB) interface{}                // Returns the first element in the collection that passes a given truth test. 
+  
+  FirstWhere(key string, values ...interface{}) map[string]interface{}    // Returns the first element in the collection with the given key/value pair. 
+  
+  FlatMap(func(value interface{}) interface{}) Collection                 // Iterates through the collection and passes each value to the given callback. 
+  
+  Flip() Collection                       // Swaps the collection's key with their corresponding values. 
+  
+  Forget(string) Collection               // Removes an item from the collection by its key. 
+  
+  ForPage(int, int) Collection            // Returns a new colleection containing items that would be present on a given page number. 
+  
+  Get(string ...interface{}) interface{}                  // Returns the item at a given key. If the key does not exist, null is returned. 
+  
+  GroupBy(string) Collection              // Groups the collection's items by a given key. 
+  
+  Has(...string) Bool                     // Determines if a given key exists in the collection. 
+  
+  Implode(string, string) string          // Joines the items in a collection. Its arguements depend on the type of items in the collection. 
+  
+  Intersect([]string) Collection          // Removes any values from the original collection that are not present in the given collection. 
+  
+  IntersectByKeys(map[string]interface{}) Collection      // Removes any keys from the original collection that  are not present in the given collection. 
+  
+  isEmpty() bool                          // Returns true if the collection is empty; otherwise false is returned. 
+  
+  isNotEmpty() bool                       // Returns true if the collection is not empty; other false is returned. 
+  
+  KeyBy(interface{}) Collection           // Keys the collection by the given key. If multiple items have the same key, only the last one will appear in the new collection. 
+  
+  Keys() Collection                       // Returns all of the collection's keys. 
+  
+  Last(..CB) interface{}                  // Returns the last element in the collection that passes a given truth test. 
+  
+  MapToGroups(MapCB) Collection           // Groups the collection's items by the given callback. 
+  
+  MapWithKeys(MapCB) Collection           // Iterates through the collection and passes each value to the given callback. 
+  
+  Median(...string) decimal.Decimal       // Returns the median value of a given key. 
+  
+  Merge(interface{}) Collection           /* Merges the given collection with the original collection. If a string key in the given items matched a string key in the original collection, 
+                                             the given item's value will overwrite teh value in the original collection. */
+  Pad(int, interface{}) Collection        // Fills collections with the given element until the array reaches the specified size. 
+  
+  Partition(PartCB) (Collection, Collection)              // Seperates elements that pass a given truth test from those that do not. 
+  
+  Pop() interface{} Collection            // Removes and returns the last item from the collection. 
+  
+  Push(interface{}) Collection            // Appends an item to the end of the collection. 
+  
+  Random(...int) Collection               // Returns a random item from the collection. 
+  
+  Reduce(ReduceCB) Collection             // Reduces the collection to a single value, passing the result of each iteration into the subsequent iteration. 
+
 
 ``` 
 ## Swift Collection Heirachy 
