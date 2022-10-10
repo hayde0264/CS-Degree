@@ -37,31 +37,6 @@ to **store** and **manipulate** data effectively.
 ``` 
 ## Go Collection Heirachy 
 ``` go 
-Last login: Sun Oct  9 19:53:35 on ttys000
-haydenhowell@Haydens-Mac-mini ~ % vim collections.go 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 >>All() []interface{} // Returns the underlying array represented by the collection. 
   
   Length() int        // Returns the length of the collection.
@@ -108,17 +83,15 @@ haydenhowell@Haydens-Mac-mini ~ % vim collections.go
   
   CountBy(callback ...interface{{) map[interface{}] int   // Counts the occurances of values in the collection. By default, the method counts the occurences of each element. 
   
-  CrossJoin(array ...[]interface{}) MultiDimensionalArray // Joins the collection's values among the given arrays or collections, returning a Cartesian product will all possible permutations. 
-  
+  CrossJoin(array ...[]interface{}) MultiDimensionalArray /* Joins the collection's values among the given arrays or collections, returning a Cartesian 							     product will all possible permutations.*/ 
   Dd()                                    // Dumps the collection's items and ends execution of the script. 
   
-  Diff(interface{}) Collection            /* Compares teh collection against another collection or a plain PHP array based on its values. This method will return the values in the original col                                            lection that are not present in the given collection. */
+  Diff(interface{}) Collection            /* Compares the collection against another collection or a plain PHP array based on its values. This method 						    will return the values in the original collection that are not present in the given collection. */
   DiffAssoc(map[string]interface{}) Collection            /* Compares the collection against another collection or plain PHP array based on its values. 
-                                                             This method will return the key/value pairs in the original collection that are not present in the given collection.*/
+                                                             This method will return the key/value pairs in the original collection that are not present 							      in the given collection.*/
   Dump()                                  // Dumps the collection's items. 
   
-  Each(func(item, value interface{}) (interface{}, bool)) Collection      // Each iterates over the items in the collection and passes each item to callback. 
-  
+  Each(func(item, value interface{}) (interface{}, bool)) Collection      /* Each iterates over the items in the collection and passes each item to 										     callback. */  
   Every(CB) bool                          // Verifies elements of a collection pass a truth test. 
   
   Every(CB) bool                          // Verifies elements of a collection pass a truth test. 
@@ -131,8 +104,7 @@ haydenhowell@Haydens-Mac-mini ~ % vim collections.go
   
   FirstWhere(key string, values ...interface{}) map[string]interface{}    // Returns the first element in the collection with the given key/value pair. 
   
-  FlatMap(func(value interface{}) interface{}) Collection                 // Iterates through the collection and passes each value to the given callback. 
-  
+  FlatMap(func(value interface{}) interface{}) Collection                 /* Iterates through the collection and passes each value to the given 										     callback.*/  
   Flip() Collection                       // Swaps the collection's key with their corresponding values. 
   
   Forget(string) Collection               // Removes an item from the collection by its key. 
@@ -149,14 +121,12 @@ haydenhowell@Haydens-Mac-mini ~ % vim collections.go
   
   Intersect([]string) Collection          // Removes any values from the original collection that are not present in the given collection. 
   
-  IntersectByKeys(map[string]interface{}) Collection      // Removes any keys from the original collection that  are not present in the given collection. 
-  
+  IntersectByKeys(map[string]interface{}) Collection      /* Removes any keys from the original collection that  are not present in the given 									     collection.*/ 
   isEmpty() bool                          // Returns true if the collection is empty; otherwise false is returned. 
   
   isNotEmpty() bool                       // Returns true if the collection is not empty; other false is returned. 
   
-  KeyBy(interface{}) Collection           // Keys the collection by the given key. If multiple items have the same key, only the last one will appear in the new collection. 
-  
+  KeyBy(interface{}) Collection           /* Keys the collection by the given key. If multiple items have the same key, only the last one will appear in 					      the new collection.*/ 
   Keys() Collection                       // Returns all of the collection's keys. 
   
   Last(..CB) interface{}                  // Returns the last element in the collection that passes a given truth test. 
@@ -167,7 +137,7 @@ haydenhowell@Haydens-Mac-mini ~ % vim collections.go
   
   Median(...string) decimal.Decimal       // Returns the median value of a given key. 
   
-  Merge(interface{}) Collection           /* Merges the given collection with the original collection. If a string key in the given items matched a string key in the original collection, 
+  Merge(interface{}) Collection           /* Merges the given collection with the original collection. If a string key in the given items matched a 						     string key in the original collection, 
                                              the given item's value will overwrite teh value in the original collection. */
   Pad(int, interface{}) Collection        // Fills collections with the given element until the array reaches the specified size. 
   
@@ -185,7 +155,7 @@ haydenhowell@Haydens-Mac-mini ~ % vim collections.go
   
   Reverse() Collection                    // Reverse the order of the collection's elements, preserving the original keys. 
   
-  Search(interface{}) int                 // Searches the collection for the given element and returns its key if found. If the item is not found, -1 is returned. 
+  Search(interface{}) int                 /* Searches the collection for the given element and returns its key if found. If the item is not found, -1 is 					      returned. */ 
   
   Shift() Collection                      // Removes and returns the first item from the collection. 
   
@@ -224,12 +194,6 @@ haydenhowell@Haydens-Mac-mini ~ % vim collections.go
   ToMapArray() []map[string]interface{}   // Converts the collection into a plain golang slice with contains map. 
   
   Where(key string, values ...interface{}) Collection     // Filters the collection by a given key/value pair. 
-  
-  
-  
-  
-
-
 ``` 
 ## Swift Collection Heirachy 
 ``` swift 
