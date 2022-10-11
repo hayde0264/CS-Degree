@@ -12,5 +12,7 @@ affect execution time.
 *Complexity of space* - which examies algorithms based on how much space 
 		        they require to complete their tasks. 
 
+![bigOh](https://user-images.githubusercontent.com/109105989/194979931-cf81caf3-3250-4388-b2c4-f945d501b051.png)
+
 # References 
 Interview Bit. (2022, May 16). *Algorithm Interview Questions*. <https://www.interviewbit.com/algorithm-interview-questions/> 		  
