@@ -4,5 +4,4 @@
 		  as a new commit snapshot 
 
 # References 
-GitHub Education. *GIT CHEAT SHEET* 
-	GitHub. <https://education.github.com/git-cheat-sheet-education.pdf> 
+GitHub Education. *GIT CHEAT SHEET*. GitHub. <https://education.github.com/git-cheat-sheet-education.pdf> 
