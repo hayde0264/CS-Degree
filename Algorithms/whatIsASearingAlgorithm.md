@@ -15,7 +15,6 @@
 		      much more efficient algorithm. (ex. Binary Search)   
 		
 ![binary-search](https://user-images.githubusercontent.com/109105989/194979946-8b2f4a4c-c1bb-4065-aa2b-74c1e04a454b.jpg)
-80af13748602.png)		
 		     
 # References 
 Interview Bit. (2022, May 16). *Algorithm Interview Questions*. <https://www.interviewbit.com/algorithm-interview-questions/> 		  
