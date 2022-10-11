@@ -17,7 +17,7 @@ solution.
 - Graph Max Coloring 
 - Graph Vertex Cover 
 
-
+![greedyAlgo](https://user-images.githubusercontent.com/109105989/194978842-3279a23f-b6d5-4dd5-befb-759f9b830801.png)
 
 # References 
 Interview Bit. (2022, May 16). *Algorithm Interview Questions*. <https://www.interviewbit.com/algorithm-interview-questions/> 		  
