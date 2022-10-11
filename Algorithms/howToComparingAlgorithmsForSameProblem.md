@@ -8,6 +8,7 @@ affect execution time.
 
 ### There are two units of measure: 
 *Complexity of time* - which computes the **running time** of a program 
+
 *Complexity of space* - which examies algorithms based on how much space 
 		        they require to complete their tasks. 
 
