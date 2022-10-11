@@ -13,7 +13,7 @@ primary interface is through the command line. Git allows
 you to save changes within your local repositories to online 
 storages such as GitHub. 
 
-## The power of source control is the ability to record changes over time but keep the reference to changes. 
+## The power of source control is the ability to record changes over time while keeping the references to changes. 
 
 ![branches](https://user-images.githubusercontent.com/109105989/194974440-eaf0273d-e5d4-4452-ba2f-4352192b39e0.png)
 
