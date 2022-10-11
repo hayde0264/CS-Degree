@@ -6,11 +6,13 @@
 		 
 #### Excpetions indicate "something went wrong, now what are we going to do about it so we don't sink ship"
 
+
 ## What is exception handling? 
 In programming *exception handling* is
 the process of responding to runtme errors
 so that the regular flow of the program remains
 uninterupted.
+
 
 ## How does exception handling work? 
 To prevent systems from crashing, 

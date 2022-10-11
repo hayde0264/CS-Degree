@@ -26,6 +26,7 @@ Binary search implements a divide-and-conquer strategy to identify the key eleme
 
 ![binary-search](https://user-images.githubusercontent.com/109105989/194418509-1742728e-071a-4afd-8861-d5250b7f4c0a.png)
 
+# Examples in: 
 ## Java 
 ``` java 
 public class BinarySearch {
