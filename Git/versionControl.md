@@ -8,7 +8,7 @@
 - Parallel versions 
 - Document Development
 
-*Git* is a distributed version control system (VCS) whose 
+Git is a distributed version control system (VCS) whose 
 primary interface is through the command line. Git allows 
 you to save changes within your local repositories to online 
 storages such as GitHub. 
