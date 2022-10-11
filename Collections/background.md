@@ -31,6 +31,8 @@ to **store** and **manipulate** data effectively.
 - Sorting 
 - Cloning 
 
+![collections](https://user-images.githubusercontent.com/109105989/194971668-7aaa4923-e3d4-4cf7-aaa2-a1b2da48576d.png)
+
 # References 
 *Collections*. (n.d.). <https://www.andrew.cmu.edu/course/15-121/lectures/Collections/collections.html> 
 
