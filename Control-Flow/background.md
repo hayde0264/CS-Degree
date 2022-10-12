@@ -1,8 +1,8 @@
 # Control flow 
 
 Control flow is the process 
-of analysing variables within 
-a system and then chooseing 
+of analyzing variables within 
+a system and then choosing 
 which one(s) to execute based 
 on given parameters. 
 
@@ -10,19 +10,19 @@ on given parameters.
 Initial conditions are declared 
 to the compiler. These "preconditions" 
 are the state of variables before entering 
-a control structrues. Based on those 
-preconditions, the compiler runs an 
+control structures. Based on preconditions, 
+the compiler runs an 
 algorithm (the control structure) to 
 determine the output. 
 
 ## Types of flow control: 
 - *Sequential*  
 - *Selection* 
-- *Repitition* 
+- *Repetition* 
 
 <img src="https://user-images.githubusercontent.com/109105989/195220857-b9a3a1f9-e27f-4e61-992a-4cd834704668.png" />
 
-## Seqential Flow 
+## Sequential Flow 
 refers to the line-by-line execution by which statements are executed (in the same order in which they appear) 
 
 ### Examples of sequential flow: 
@@ -41,10 +41,10 @@ used for making decisions based on conditions (true or false).
 
 ![selection](https://user-images.githubusercontent.com/109105989/195222076-766229bd-9a9f-428b-8fcf-a47fa5e5986b.png)
 
-## Repitition Flow 
-used for looping, which means, repeating a sequence **until a certain condition is met**. 
+## Repetition Flow 
+used for looping, which means repeating a sequence **until a certain condition is met**. 
 
-### Exmaples of repition flow:
+### Examples of repetition flow:
 - for 
 - while 
 - do/while 
