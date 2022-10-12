@@ -20,7 +20,7 @@ determine the output.
 - *Selection* 
 - *Repitition* 
 
-<img align="right" src="https://user-images.githubusercontent.com/109105989/195220857-b9a3a1f9-e27f-4e61-992a-4cd834704668.png" />
+<img src="https://user-images.githubusercontent.com/109105989/195220857-b9a3a1f9-e27f-4e61-992a-4cd834704668.png" />
 
 ## Seqential Flow 
 used for iteration through each element within a collection. 
