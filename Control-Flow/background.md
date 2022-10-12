@@ -52,8 +52,8 @@ used for looping, which means, repeating a sequence **until a certain condition 
 ![loops](https://user-images.githubusercontent.com/109105989/195221769-12a5876d-e36d-4fae-9a72-48bdf34e7cf7.png)
 
 # References
-Computer Hope. (2021, May 2). *Statement* <https://www.computerhope.com/jargon/s/statmen.htm> 
+Computer Hope. (2021, May 2). *Statement*. <https://www.computerhope.com/jargon/s/statmen.htm> 
 
-*Control Structures - Intro, Selection* (n.d.) <https://www.cs.fsu.edu/myers/c++/notes/control1.html> 
+*Control Structures - Intro, Selection*. (n.d.). <https://www.cs.fsu.edu/myers/c++/notes/control1.html> 
 
-WikiUniversity. (2022, September 12). *Control Structures* <https://en.wikiuniversity/wiki/Control_structures>  
+WikiUniversity. (2022, September 12). *Control Structures*. <https://en.wikiuniversity/wiki/Control_structures>  
