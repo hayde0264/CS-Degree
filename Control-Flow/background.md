@@ -43,7 +43,7 @@ used for making decisions based on conditions (true or false).
 
 
 ## Repitition Flow 
-used for looping, which means, repeating a block **until a certain condition is met**. 
+used for looping, which means, repeating a sequence **until a certain condition is met**. 
 
 ### Exmaples of repition flow:
 - for 
