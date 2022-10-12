@@ -23,10 +23,10 @@ determine the output.
 <img src="https://user-images.githubusercontent.com/109105989/195220857-b9a3a1f9-e27f-4e61-992a-4cd834704668.png" />
 
 ## Seqential Flow 
-used for iteration through each element within a collection. 
+refers to the line-by-line execution by which statements are executed (in the same order in which they appear) 
 
 ### Examples of sequential flow: 
-- for 
+
 
 
 
@@ -45,10 +45,10 @@ used for making decisions based on conditions (true or false).
 
 
 ## Repitition Flow 
-used for looping, which means, repeating a a piece of 
-**until a certain condition is met**. 
+used for looping, which means, repeating a block **until a certain condition is met**. 
 
 ### Exmaples of repition flow:
+- for 
 - while 
 - do/while 
 
