@@ -42,8 +42,6 @@ used for making decisions based on conditions (true or false).
 - when  
 
 
-
-
 ## Repitition Flow 
 used for looping, which means, repeating a block **until a certain condition is met**. 
 
@@ -52,8 +50,7 @@ used for looping, which means, repeating a block **until a certain condition is 
 - while 
 - do/while 
 
-
-
+![loops](https://user-images.githubusercontent.com/109105989/195221769-12a5876d-e36d-4fae-9a72-48bdf34e7cf7.png)
 
 # References
 *Control Structures - Intro, Selection* (n.d.) <https://www.cs.fsu.edu/myers/c++/notes/control1.html> 
