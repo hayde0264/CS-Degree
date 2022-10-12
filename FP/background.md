@@ -30,4 +30,7 @@ such as map, filter, and reduce.
 
 # References 
 Hackr. (n.d.). *Functional Programming Languages: Concepts & Advantages*. <https://hackr.io/blog/functional-programming>
+
+Normand, E. (2021). *Grokking Simplicity: Taming complex software with functional thinking*. Manning Publications Co. <https://www.manning.com/books/grokking-simplicity> 
+
 Subramaniam, V. (2014, March 11). *Functional Programming in Java: Harnessing The Power of Java 8 Lambda Expressions*. Pragmatic Bookshelf. <https://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/ref=sr_1_1?crid=3GL7Q0WFXF8K5&keywords=java+functional+programming&qid=1665177445&qu=eyJxc2MiOiIzLjQ2IiwicXNhIjoiMi41MCIsInFzcCI6IjIuNDIifQ%3D%3D&sprefix=java+functional+%2Caps%2C84&sr=8-1>  
