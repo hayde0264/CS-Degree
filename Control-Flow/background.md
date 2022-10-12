@@ -26,13 +26,14 @@ determine the output.
 refers to the line-by-line execution by which statements are executed (in the same order in which they appear) 
 
 ### Examples of sequential flow: 
+- statements
 
 ![sequence](https://user-images.githubusercontent.com/109105989/195222283-8e6ba0fb-f891-42b5-822c-6fd049d9946c.png)
 
 ## Selection Flow 
 used for making decisions based on conditions (true or false). 
 
-## Examples of selection flow: 
+### Examples of selection flow: 
 - if 
 - if/else 
 - switch 
