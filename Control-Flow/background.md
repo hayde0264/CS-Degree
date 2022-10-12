@@ -41,6 +41,7 @@ used for making decisions based on conditions (true or false).
 - switch 
 - when  
 
+![selection](https://user-images.githubusercontent.com/109105989/195222076-766229bd-9a9f-428b-8fcf-a47fa5e5986b.png)
 
 ## Repitition Flow 
 used for looping, which means, repeating a sequence **until a certain condition is met**. 
