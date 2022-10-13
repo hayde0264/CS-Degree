@@ -9,7 +9,6 @@
 ``` kotlin 
 val name = "Ben Riley" 
 val description = "$name is a Kotlin developer, too. ${name.length}" 
- 
 ```
 
 # Referenes 
