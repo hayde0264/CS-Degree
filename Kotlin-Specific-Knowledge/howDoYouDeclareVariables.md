@@ -13,10 +13,10 @@ val aString: String = "Hello, World"
 val compilerInterprets = "The compiler will interpret the type is String" 
 
 var aStringVariable: String = "A string variable" 
-
 ```
 
 
-# Referenes 
+# References 
 Chugh, A. (2022, August 3). *Kotlin Interview Questions* 
-	Digital Ocean. <https://www.digitalocean.com/community/tutorials/kotlin-interview-questions> 
+
+Digital Ocean. <https://www.digitalocean.com/community/tutorials/kotlin-interview-questions> 
