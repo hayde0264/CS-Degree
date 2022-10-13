@@ -4,12 +4,11 @@
 
 ### In Kotlin you use the "$" symbol to store variable inside of a string 
 
+*** By using the {} brackets we can compute expressions too.
+
 ``` kotlin 
 val name = "Ben Riley" 
 val description = "$name is a Kotlin developer, too. ${name.length}" 
-
-*** By using the {} brackets we can compute expressions too. 
-
 ```
 
 # Referenes 
