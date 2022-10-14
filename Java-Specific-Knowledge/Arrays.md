@@ -13,7 +13,7 @@ index*.
 ## Declaring a variable to refer to an Array 
 ``` java 
 // declares an array of integers
-   int[] anArray;
+int[] anArray;
 ``` 
 
 Like declarations for other Java types, an array declaration 
@@ -22,10 +22,10 @@ has two components: the **array's type** and the **array's name**.
 ### Declaring arrays of different types: 
 ``` java 
 // declaring an array of different types
-   byte[] anArrayOfBytes;
-   short[] anArrayOfShorts;
-   long[] anArrayOfLongs;
-   String[] anArrayOfStrings;
+byte[] anArrayOfBytes;
+short[] anArrayOfShorts;
+long[] anArrayOfLongs;
+String[] anArrayOfStrings;
 ``` 
 
 ## Creating, Initializing, and Accessing Arrays 
@@ -34,25 +34,26 @@ You can create arrays with the **new** operator, followed by the amount of memor
 ### Creating an array
 ``` java 
 // creating an array of 10 integers
-   int[] randomInts = new int[10];
+int[] randomInts = new int[10];
         
 // creating an array by shorthand 
-   int[] shorthandArray = {1, 2, 3, 4, 5}; 
+int[] shorthandArray = {1, 2, 3, 4, 5}; 
 ``` 
 
 ### Initializing an array 
 ``` java 
-   int[] randomInts = new int[10];
+int[] randomInts = new int[10];
 
-   randomInts[0] = 1; // initializes the first element on the array 
-   randomInts[1] = 2; // initializes the second element 
-   randomInts[2] = 3; // and the third
+randomInts[0] = 1; // initializes the first element on the array 
+randomInts[1] = 2; // initializes the second element 
+randomInts[2] = 3; // and the third
 ``` 
 ### Accessing an array 
 ``` java 
-   System.out.println("Element 1 at index: " + randomInts[0]); // Prints 1 
-   System.out.println("Element 2 at index: " + randomInts[1]); // Prints 2 
-   System.out.println("Element 3 at index: " + randomInts[2]); // Prints 3
+// Printing the elements 
+System.out.println("Element 1 at index: " + randomInts[0]); // Prints 1 
+System.out.println("Element 2 at index: " + randomInts[1]); // Prints 2 
+System.out.println("Element 3 at index: " + randomInts[2]); // Prints 3
 ``` 
 
 # References 
