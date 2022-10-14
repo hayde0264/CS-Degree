@@ -17,19 +17,19 @@ index*.
 ``` 
 
 Like declarations for other Java types, an array declaration 
-has two componets: the **array's type** and the **array's name**. 
+has two components: the **array's type** and the **array's name**. 
 
 ### Declaring arrays of different types: 
 ``` java 
-// declaring array of different types
+// declaring an array of different types
    byte[] anArrayOfBytes;
    short[] anArrayOfShorts;
    long[] anArrayOfLongs;
    String[] anArrayOfStrings;
 ``` 
 
-## Creating, Initializing, and Acessing Arrays 
-You can create arrays with the **new** operator. Followed by the amount of memory you'd like to allocate to such array. 
+## Creating, Initializing, and Accessing Arrays 
+You can create arrays with the **new** operator, followed by the amount of memory you'd like to allocate to the such array. 
 
 ### Creating an array
 ``` java 
@@ -37,7 +37,7 @@ You can create arrays with the **new** operator. Followed by the amount of memor
    int[] randomInts = new int[10];
         
 // creating an array by shorthand 
-   int[] shortHandArray = {1, 2, 3, 4, 5}; 
+   int[] shorthandArray = {1, 2, 3, 4, 5}; 
 ``` 
 
 ### Initializing an array 
@@ -48,7 +48,7 @@ You can create arrays with the **new** operator. Followed by the amount of memor
    randomInts[1] = 2; // initializes the second element 
    randomInts[2] = 3; // and the third
 ``` 
-### Acessing an array 
+### Accessing an array 
 ``` java 
    System.out.println("Element 1 at index: " + randomInts[0]); // Prints 1 
    System.out.println("Element 2 at index: " + randomInts[1]); // Prints 2 
@@ -57,3 +57,4 @@ You can create arrays with the **new** operator. Followed by the amount of memor
 
 # References 
 Java. (2022). *Learn Java*. <https://dev.java/learn/> 
+
