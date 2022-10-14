@@ -8,6 +8,8 @@ After creation, an array's length **is fixed**. Each item in an array
 is called an *element*, and each element is accessed by its *numerical 
 index*. 
 
+![array](https://user-images.githubusercontent.com/109105989/195759009-8bfe18b6-b981-4f2f-aeb0-5ca71d28ce37.png)
+
 ## Declaring a variable to refer to an Array 
 ``` java 
 // declares an array of integers
