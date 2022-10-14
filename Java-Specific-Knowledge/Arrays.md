@@ -38,8 +38,6 @@ You can create arrays with the **new** operator. Followed by the amount of memor
         
 // creating an array by shorthand 
    int[] shortHandArray = {1, 2, 3, 4, 5}; 
-}
-
 ``` 
 
 ### Initializing an array 
