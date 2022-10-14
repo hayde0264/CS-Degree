@@ -10,8 +10,10 @@ index*.
 
 ## Declaring a variable to refer to an Array 
 ``` java 
+
 // declares an array of integers
    int[] anArray;
+   
 ``` 
 
 Like declarations for other Java types, an array declaration 
