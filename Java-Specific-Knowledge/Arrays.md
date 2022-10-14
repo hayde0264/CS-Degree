@@ -10,8 +10,12 @@ index*.
 
 ## Declaring a variable to refer to an Array 
 ``` java 
-// declares an array of integers 
-    int[] anArray; 
+public class Arrays {
+    public static void main() {
+        // declares an array of integers
+        int[] anArray;
+    }
+}
 ``` 
 
 Like declarations for other Java types, an array declaration 
@@ -19,11 +23,18 @@ has two componets: the **array's type** and the **array's name**.
 
 ### Declaring arrays of different types: 
 ``` java 
-    // declaring array of different types 
-    byte[] anArrayOfBytes; 
-    short[] anArrayOfShorts;
-    long[] anArrayOfLongs; 
-    String[] anArrayOfString; 
+public class Arrays {
+    public static void main() {
+        // declares an array of integers
+        int[] anArray;
+
+        // declaring array of different types
+        byte[] anArrayOfBytes;
+        short[] anArrayOfShorts;
+        long[] anArrayOfLongs;
+        String[] anArrayOfString;
+    }
+}
 ``` 
 
 ## Creating, Initializing, and Acessing Arrays 
@@ -31,11 +42,24 @@ You can create arrays with the **new** operator. Followed by the amount of memor
 
 ### Creating an array
 ``` java 
-    // creating an array of 10 integers 
-    int[] randomInts = new int[10];
+public class Arrays {
+    public static void main() {
+        // declares an array of integers
+        int[] anArray;
 
-    // or by shorthand 
-    int[] shorthandArray = {1, 2, 3, 4, 5}; 
+        // declaring array of different types
+        byte[] anArrayOfBytes;
+        short[] anArrayOfShorts;
+        long[] anArrayOfLongs;
+        String[] anArrayOfString;
+
+        // creating an array of 10 integers
+        int[] randomInts = new int[10];
+        // creating an array by shorthand 
+        int[] shortHandArray = {1, 2, 3, 4, 5}; 
+    }
+}
+
 ``` 
 
 ### Initializing an array 
