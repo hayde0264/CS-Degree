@@ -23,7 +23,7 @@ has two componets: the **array's type** and the **array's name**.
    byte[] anArrayOfBytes;
    short[] anArrayOfShorts;
    long[] anArrayOfLongs;
-   String[] anArrayOfString;
+   String[] anArrayOfStrings;
 ``` 
 
 ## Creating, Initializing, and Acessing Arrays 
