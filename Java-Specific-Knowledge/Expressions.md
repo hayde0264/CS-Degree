@@ -11,8 +11,10 @@ public class Expressions {
         int[] anArray = {};
         int value1 = 3;
         int value2 = 2;
+        int x = 3;
+        int y = 4;
 
-        // expressions 
+        // expressions
         int age = 0;
         anArray[0] = 5;
         System.out.println("Element 1 at index 0: " + anArray[0]);
@@ -20,6 +22,11 @@ public class Expressions {
         if (value1 > value2) {
             System.out.println("Value1 is greater than Value2");
         }
+
+        // compound expressions
+        int multipleIntsExpression = 5 * 3 * 9;
+        int ambiguousExpression = x + y * 100;
+        int recommendExpressionInitialization = (x + y) / 2;
     }
 }
 ``` 
