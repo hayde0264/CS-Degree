@@ -12,7 +12,6 @@ index*.
 ``` java 
 // declares an array of integers
    int[] anArray;
-}
 ``` 
 
 Like declarations for other Java types, an array declaration 
@@ -25,7 +24,6 @@ has two componets: the **array's type** and the **array's name**.
    short[] anArrayOfShorts;
    long[] anArrayOfLongs;
    String[] anArrayOfString;
-}
 ``` 
 
 ## Creating, Initializing, and Acessing Arrays 
