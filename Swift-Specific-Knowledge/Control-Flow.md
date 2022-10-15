@@ -17,6 +17,8 @@ Matched values in a switch case **can be bound to temporary constants or variabl
 You the **for-in** loop to iterate over a sequence, such as items in an array, 
 ranges of numbers, or characters in a string. 
 
+![for-loop-javascript](https://user-images.githubusercontent.com/109105989/196009601-3cf0d01f-69b6-40f0-9318-42f29ada822c.png)
+
 ``` swift
 // standard for-in loop
 let workStaff = ["Bill", "Katy", "Susie", "Reggie"]
@@ -78,7 +80,6 @@ These kinds of loops are best used when **the number of iterations isn't known b
 
 A while loop starts by evaluating a single condition. **If the condition is true, a set of statments is repeated until the conditon becomes false**. 
 
-
 ``` swift
 // general while loop  
 var cash = 0 
@@ -125,6 +126,8 @@ print(evaluateAtEnd())
 ``` 
 
 The loops condition **(while cash <= spendLimit)** is the same as before, but this time it's not evaluated **until the end of the first run through the loop**. 
+
+![do-while](https://user-images.githubusercontent.com/109105989/196009598-c9345800-e7f4-4714-aabc-03ff981adb3d.jpg)
 
 # References
 The Swift Programming Language. Swift 5.7 Ed.  
