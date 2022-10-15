@@ -80,6 +80,8 @@ These kinds of loops are best used when **the number of iterations isn't known b
 
 A while loop starts by evaluating a single condition. **If the condition is true, a set of statments is repeated until the conditon becomes false**. 
 
+![word-image](https://user-images.githubusercontent.com/109105989/196009731-7cd92672-f0ce-4e8a-87a6-ce29150d6eba.png)
+
 ``` swift
 // general while loop  
 var cash = 0 
@@ -127,7 +129,7 @@ print(evaluateAtEnd())
 
 The loops condition **(while cash <= spendLimit)** is the same as before, but this time it's not evaluated **until the end of the first run through the loop**. 
 
-![do-while](https://user-images.githubusercontent.com/109105989/196009598-c9345800-e7f4-4714-aabc-03ff981adb3d.jpg)
+![While-and-Do-While-flowchart_structure_loop](https://user-images.githubusercontent.com/109105989/196009744-4ae2ec1f-d7e2-4a50-8032-4755bb6ad116.png)
 
 # References
 The Swift Programming Language. Swift 5.7 Ed.  
