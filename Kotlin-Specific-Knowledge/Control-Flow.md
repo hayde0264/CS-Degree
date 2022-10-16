@@ -123,6 +123,8 @@ fun checkSequence(x: Int) {
 ## For Loops 
 The **for** loop iterates through anything that provides an iterator. This is equivalent to the **foreach** loop in languages like C#. 
 
+![for](https://user-images.githubusercontent.com/109105989/196064676-f04a800b-3955-4350-b84d-7c4d278b5412.png)
+
 Iterator over a range of numbers: 
 ``` kotlin 
 // iterate over a range of numbers 
