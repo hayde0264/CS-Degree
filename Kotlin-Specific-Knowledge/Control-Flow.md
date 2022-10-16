@@ -3,6 +3,10 @@
 ## If expression 
 In Kotlin, **if** is an expression: so it returns a value. Therefore, there is no ternary operator **(condition ? then : else)** because ordinary **if** works fine in this role. 
 
+![if](https://user-images.githubusercontent.com/109105989/196064958-6986c6bf-ff4b-41c9-afcf-cb0e59f7d697.png)
+
+![expressionif](https://user-images.githubusercontent.com/109105989/196064959-d3c50ad7-98c2-4ba1-86c1-e8f9a0bac1d6.png)
+
 ``` kotlin
 // if
 fun ifExample(a: Int, b: Int) {
