@@ -2,6 +2,8 @@
 
 The **singleton pattern** is a creational design pattern that ensures that a class contains only a single instance while providing a global access point to this instance. 
 
+![SINGLEton](https://user-images.githubusercontent.com/109105989/196064678-ced1c63a-88a9-40b4-81d9-e897671d0c45.png)
+
 ## The good: 
 - the singleton object is only initialized when it's requested for the first time. 
 
