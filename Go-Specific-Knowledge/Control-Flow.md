@@ -62,46 +62,46 @@ An if/else statement basically says, **"do x if such-and-such is true; otherwise
  
 ``` go 
 func ifElseExample(num int) {
-	if num%2 == 0 {
+	if num %2 == 0 {
 		fmt.Println("The number is even")
-	} else {
-		fmt.Println("The number is odd")
-	}
+		} else {
+			fmt.Println("The number is odd")
+	}	// ifElseExample(num: 2) PRINTS - The number is even 
 }
 ``` 
 
 ## Short Circuiting
  
 ``` go 
-func sunnyOutside() bool { // 1
+func sunnyOutside() bool { 
 	fmt.Println("Check if its sunny outside...")
 	return true
 }
-func snowyOutside() bool { // 2
+func snowyOutside() bool {
 	fmt.Println("Check if its snowy outside...")
 	return true
 }
-func stormyOutside() bool { // 3
+func stormyOutside() bool { 
 	fmt.Println("Check if the weather is dangerous...")
 	return true
 }
 
-func goHike() { // 4
+func goHike() { 
 	if sunnyOutside() && !stormyOutside() {
 		fmt.Println("Let's go for a hike!")
-	}
+	}					// PRINTS - Let's go for a hike! 
 }
 
 func goSki() { // 5
 	if snowyOutside() && !stormyOutside() {
 		fmt.Println("Let's go for a ski!")
-	}
+	}					// PRINTS - Let's go for a ski! 
 }
 
 func chooseEither() {
-	if sunnyOutside() || snowyOutside() { // 6
+	if sunnyOutside() || snowyOutside() { 
 		fmt.Println("You choose the activity")
-	}
+	}					// PRINTS - You choose the activity 
 }
 ``` 
 
@@ -119,7 +119,7 @@ func talkWithCustomer(customerInput string) {
 	default:
 		fmt.Println("I'm sorry I don't understand your message")
 	}
-}
+}		// talkWithCustomer(customerInput: "I want to cancel my account")	PRINTS - Okay, go to the delete tab
 ``` 
 
 ## For 
