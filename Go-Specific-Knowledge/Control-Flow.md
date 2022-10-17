@@ -66,8 +66,8 @@ func ifElseExample(num int) {
 		fmt.Println("The number is even")
 		} else {
 			fmt.Println("The number is odd")
-	}	// ifElseExample(num: 2) PRINTS - The number is even 
-}
+	}	
+}	// ifElseExample(num: 2) PRINTS - The number is even 
 ``` 
 
 ## Short Circuiting
@@ -89,20 +89,20 @@ func stormyOutside() bool {
 func goHike() { 
 	if sunnyOutside() && !stormyOutside() {
 		fmt.Println("Let's go for a hike!")
-	}					// PRINTS - Let's go for a hike! 
-}
+	}				
+}	// PRINTS - Let's go for a hike!
 
 func goSki() { // 5
 	if snowyOutside() && !stormyOutside() {
 		fmt.Println("Let's go for a ski!")
-	}					// PRINTS - Let's go for a ski! 
-}
+	}				
+}	// PRINTS - Let's go for a ski!
 
 func chooseEither() {
 	if sunnyOutside() || snowyOutside() { 
-		fmt.Println("You choose the activity")
-	}					// PRINTS - You choose the activity 
-}
+		fmt.Println("You choose the activity.")
+	}
+}	// PRINTS - You choose the activity.
 ``` 
 
 ## Switch  
@@ -119,7 +119,7 @@ func talkWithCustomer(customerInput string) {
 	default:
 		fmt.Println("I'm sorry I don't understand your message")
 	}
-}		// talkWithCustomer(customerInput: "I want to cancel my account")	PRINTS - Okay, go to the delete tab
+}	// talkWithCustomer(customerInput: "I want to cancel my account") PRINTS - Okay, go to the delete tab
 ``` 
 
 ## For 
