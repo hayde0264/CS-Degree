@@ -2,13 +2,15 @@ Control flow allows programmers to make decisions based on the values of variabl
 
 Boolean values are the **cornerstone of control flow**.  
 
-## Go constructs for making decisions: 
-- if/else statements 
-- Switch statments 
+## Go control flow constructs: 
+- if/else  
+- switch 
+- for 
 
 ## If/Else 
 An if/else statement basically says, **"do x if such-and-such is true; otherwise, do y."** 
 
+## Booleans with operators: 
 ``` go 
 func comparisons() {
 	// == "equal to"
@@ -53,8 +55,10 @@ func comparisons() {
 	num12 := 25
 	fmt.Println(num12 <= 30) // PRINTS - false
 }
+``` 
 
-// if/else
+## If/Else 
+``` go 
 func ifElseExample(num int) {
 	if num%2 == 0 {
 		fmt.Println("The number is even")
@@ -62,9 +66,10 @@ func ifElseExample(num int) {
 		fmt.Println("The number is odd")
 	}
 }
+``` 
 
-// short-circuiting
-
+## Short Circuiting
+``` go 
 func sunnyOutside() bool { // 1
 	fmt.Println("Check if its sunny outside...")
 	return true
@@ -95,7 +100,10 @@ func chooseEither() {
 		fmt.Println("You choose the activity")
 	}
 }
+``` 
 
+## Switch 
+``` go 
 // switch
 func talkWithCustomer(customerInput string) {
 	switch customerInput {
@@ -109,7 +117,10 @@ func talkWithCustomer(customerInput string) {
 		fmt.Println("I'm sorry I don't understand your message")
 	}
 }
+``` 
 
+## For 
+``` go 
 // standard loops
 func elementIncrement() {
 	for i := 0; i < 5; i++ {
