@@ -167,6 +167,8 @@ fun iterationWithIndexMethod(array: List<Int>) {
 ## While Loops 
 **while** and **do-while** loops execute their body **continuously while their condition is satisfied**. The difference between them is the condition checking time: 
 
+![while-loop](https://user-images.githubusercontent.com/109105989/196065452-12ec8c74-9e9a-4ed3-af19-1c18fd175990.png)
+
 - **while** checks the condition and, if it's satisfied, executes the body and then returns to the condition check. 
 
 - **do-while** executes the body and then checks the condition. If it's satisfied, the loop repeats. So, the body of **do-while** is executed at least once, regardless of the condition. 
