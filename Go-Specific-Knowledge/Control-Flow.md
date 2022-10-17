@@ -1,3 +1,5 @@
+# Control Flow 
+
 Control flow allows programmers to make decisions based on the values of variables and constants.
 
 Boolean values are the **cornerstone of control flow**.  
@@ -7,9 +9,8 @@ Boolean values are the **cornerstone of control flow**.
 - switch 
 - for 
 
-# Booleans role in Control Flow
-
-## Example: 
+## Booleans role in Control Flow
+ 
 ``` go 
 func comparisons() {
 	// == "equal to"
@@ -56,10 +57,9 @@ func comparisons() {
 }
 ```  
 
-# If/Else 
+##If/Else 
 An if/else statement basically says, **"do x if such-and-such is true; otherwise, do y."** 
-
-## Example: 
+ 
 ``` go 
 func ifElseExample(num int) {
 	if num%2 == 0 {
@@ -70,9 +70,8 @@ func ifElseExample(num int) {
 }
 ``` 
 
-# Short Circuiting
-
-## Example: 
+## Short Circuiting
+ 
 ``` go 
 func sunnyOutside() bool { // 1
 	fmt.Println("Check if its sunny outside...")
@@ -106,9 +105,7 @@ func chooseEither() {
 }
 ``` 
 
-# Switch
-
-## Example: 
+## Switch  
 ``` go 
 // switch
 func talkWithCustomer(customerInput string) {
@@ -125,9 +122,7 @@ func talkWithCustomer(customerInput string) {
 }
 ``` 
 
-# For
-
-## Example: 
+## For 
 ``` go 
 // standard loops
 func elementIncrement() {
