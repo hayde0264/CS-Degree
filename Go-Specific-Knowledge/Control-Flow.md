@@ -57,7 +57,7 @@ func comparisons() {
 }
 ```  
 
-##If/Else 
+## If/Else 
 An if/else statement basically says, **"do x if such-and-such is true; otherwise, do y."** 
  
 ``` go 
