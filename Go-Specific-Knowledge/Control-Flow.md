@@ -135,7 +135,10 @@ func elementDecrement() {
 		fmt.Println(i)
 	}
 } // PRINTS - 4 3 2 1 0
+``` 
 
+
+``` go 
 // range loops
 func forRange() {
 	var Computers [3]string
