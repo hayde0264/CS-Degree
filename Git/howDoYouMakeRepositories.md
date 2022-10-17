@@ -16,7 +16,7 @@ is creted, which includes metadata, like subdirectories for files.
 	     use the *cd* command into your created project directory and enter 
 	     "git init". 
 	     
-*git init <directory>* - creates a git repository to a specified directory. 
+Git init initializes a git repository with a specified directory. 
 
 # References 
 W3 Docs. (n.d) *Git init*. <https://www.w3docs.com/learn-git/git-add.html>
