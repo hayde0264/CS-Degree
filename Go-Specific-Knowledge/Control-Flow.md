@@ -173,4 +173,4 @@ func forRange() {
 } // PRINTS - 0 Dell 1 Mac 2 Windows
 ``` 
 # References 
-Lee, W. (2021). *Go Programming Langauge For Dummies*. John Wiley & Sons. 
+Lee, W. (2021). *Go Programming Langauge For Dummies*. John Wiley & Sons. <https://www.amazon.com/Programming-Language-Dummies-Wei-Meng-Lee-ebook/dp/B0921HHN48/ref=sr_1_7?crid=3DQARY10K4826&keywords=go+programming+language&qid=1666043979&qu=eyJxc2MiOiIzLjg2IiwicXNhIjoiMi45MSIsInFzcCI6IjIuMDcifQ%3D%3D&sprefix=go+programming+language%2Caps%2C76&sr=8-7>
