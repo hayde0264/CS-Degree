@@ -5,21 +5,21 @@ Control flow allows programmers to make decisions based on the values of variabl
 Boolean values with operators are the **cornerstone of control flow**.  
 
 ## Operators in go: 
-- **equal to** (==) 
-- **not equal to** (!=) 
-- **less than** (<) 
-- **less than or equal to** (<=) 
-- **greater than** (>) 
-- **greater than or equal to** (>=) 
-- **AND** (&&) both operands must be true in order for the condition to evaluate to true 
-- **OR** (||) either operand must be true in order for the condition to evaluate to true 
-- **NOT** (!) reverses the boolean value - true becomes false and false becomes true 
+- **equal to**		(==) 
+- **not equal to**	(!=) 
+- **less than** 	(<) 
+- **less than or equal to** 	(<=) 
+- **greater than** 		(>) 
+- **greater than or equal to** 	(>=) 
+- **AND** 	(&&) 		both operands must be true in order for the condition to evaluate to true 
+- **OR** 	(||) 		either operand must be true in order for the condition to evaluate to true 
+- **NOT** 	(!) 		reverses the boolean value - true becomes false and false becomes true 
 
 ## Booleans role in Control Flow
  
 ``` go 
 // comparisons 
-func comparisons() {
+func comparisons() {s
 	// == "equal to"
 	num1 := 3
 	fmt.Println(num1 == 3) // PRINTS - true
