@@ -7,10 +7,23 @@ Boolean values are the **cornerstone of control flow**.
 - switch 
 - for 
 
-## If/Else 
+# If/Else 
 An if/else statement basically says, **"do x if such-and-such is true; otherwise, do y."** 
 
-## Booleans with operators: 
+## Example: 
+``` go 
+func ifElseExample(num int) {
+	if num%2 == 0 {
+		fmt.Println("The number is even")
+	} else {
+		fmt.Println("The number is odd")
+	}
+}
+``` 
+
+# Booleans with operators: 
+
+## Example: 
 ``` go 
 func comparisons() {
 	// == "equal to"
@@ -55,20 +68,11 @@ func comparisons() {
 	num12 := 25
 	fmt.Println(num12 <= 30) // PRINTS - false
 }
-``` 
+```  
 
-## If/Else 
-``` go 
-func ifElseExample(num int) {
-	if num%2 == 0 {
-		fmt.Println("The number is even")
-	} else {
-		fmt.Println("The number is odd")
-	}
-}
-``` 
+# Short Circuiting
 
-## Short Circuiting
+## Example: 
 ``` go 
 func sunnyOutside() bool { // 1
 	fmt.Println("Check if its sunny outside...")
@@ -102,7 +106,9 @@ func chooseEither() {
 }
 ``` 
 
-## Switch 
+# Switch
+
+## Example: 
 ``` go 
 // switch
 func talkWithCustomer(customerInput string) {
@@ -119,7 +125,9 @@ func talkWithCustomer(customerInput string) {
 }
 ``` 
 
-## For 
+# For
+
+## Example: 
 ``` go 
 // standard loops
 func elementIncrement() {
