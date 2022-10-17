@@ -7,7 +7,7 @@ Boolean values are the **cornerstone of control flow**.
 - switch 
 - for 
 
-# Booleans with operators
+# Booleans role in Control Flow
 
 ## Example: 
 ``` go 
