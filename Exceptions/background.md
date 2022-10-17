@@ -4,14 +4,14 @@
 		 which occur during the execution 
  		 of a program. 
 		 
-#### Excpetions indicate "something went wrong, now what are we going to do about it so we don't sink ship"
+#### Exceptions indicate, "something went wrong; now what are we going to do about it, so we don't sink the ship."
 
 
 ## What is exception handling? 
 In programming *exception handling* is
-the process of responding to runtme errors
+the process of responding to runtime errors
 so that the regular flow of the program remains
-uninterupted.
+uninterrupted.
 
 
 ## How does exception handling work? 
