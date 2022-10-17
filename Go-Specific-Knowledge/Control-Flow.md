@@ -117,7 +117,7 @@ func chooseEither() {
 ``` 
 
 ## Switch  
-Switch is useful when you have **multiple conditions to evaluate**. Switch statements avoids writing redundant if/else statements. A switch statement is passed a variable whos value is compared **to each case value**. When a match is found, the corresponding block of statements become executed. 
+Switch is useful when you have **multiple conditions to evaluate**. Switch statements avoid writing redundant if/else statements. A switch statement is passed a variable whose value is compared **to each case value**. When a match is found, the corresponding block of statements becomes executed. 
 
 ``` go 
 // switch
@@ -139,9 +139,9 @@ func talkWithCustomer(customerInput string) {
 For statments are also called **loops**. 
 
 ## For statements contain: 
-- a **init** statement: is executed befoer the first iteration starts 
+- a **init** statement: is executed before the first iteration starts 
 - a **condition** expression: which is the expression evaluated before the iteration starts to determine if the iteration should continue
-- a **operator** : which increments or decrements the inital statement
+- a **operator** : which increments or decrements the initial statement
 
 
 ``` go 
