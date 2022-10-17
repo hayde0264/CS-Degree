@@ -71,6 +71,8 @@ If **when** is used as an expression, the **else** branch is mandatory unless th
 - when has a subject of a Boolean, enum, or sealed type, or their nullable counterparts 
 - branches of when don't cover all possible cases for this subject
 
+![when](https://user-images.githubusercontent.com/109105989/196065526-a640b464-38ef-41aa-b8cc-5c8b6b840826.jpg)
+
 ``` kotlin 
 // else not required because all cases are covered
 enum class Color {
