@@ -2,12 +2,18 @@
 
 Control flow allows programmers to make decisions based on the values of variables and constants.
 
-Boolean values are the **cornerstone of control flow**.  
+Boolean values with operators are the **cornerstone of control flow**.  
 
-## Go control flow constructs: 
-- if/else  
-- switch 
-- for 
+## Operators in go: 
+- **equal to** (==) 
+- **not equal to** (!=) 
+- **less than** (<) 
+- **less than or equal to** (<=) 
+- **greater than** (>) 
+- **greater than or equal to** (>=) 
+- **AND** (&&) both operands must be true in order for the condition to evaluate to true 
+- **OR** (||) either operand must be true in order for the condition to evaluate to true 
+- **NOT** (!) reverses the boolean value - true becomes false and false becomes true 
 
 ## Booleans role in Control Flow
  
@@ -57,6 +63,10 @@ func comparisons() {
 	fmt.Println(num12 <= 30) // PRINTS - false
 }
 ```  
+## Go control flow constructs: 
+- if/else  
+- switch 
+- for 
 
 ## If/Else 
 An if/else statement basically says, **"do x if such-and-such is true; otherwise, do y."** 
@@ -72,10 +82,8 @@ func ifElseExample(num int) {
 }	// ifElseExample(num: 2) PRINTS - The number is even 
 ``` 
 
-## Short Circuiting
- 
 ``` go 
-// short circuiting 
+// short circuiting if/else
 func sunnyOutside() bool { 
 	fmt.Println("Check if its sunny outside...")
 	return true
@@ -109,6 +117,8 @@ func chooseEither() {
 ``` 
 
 ## Switch  
+Switch is useful when you have **multiple conditions to evaluate**. Switch statements avoids writing redundant if/else statements. A switch statement is passed a variable whos value is compared **to each case value**. When a match is found, the corresponding block of statements become executed. 
+
 ``` go 
 // switch
 func talkWithCustomer(customerInput string) {
@@ -126,6 +136,14 @@ func talkWithCustomer(customerInput string) {
 ``` 
 
 ## For 
+For statments are also called **loops**. 
+
+## For statements contain: 
+- a **init** statement: is executed befoer the first iteration starts 
+- a **condition** expression: which is the expression evaluated before the iteration starts to determine if the iteration should continue
+- a **operator** : which increments or decrements the inital statement
+
+
 ``` go 
 // standard loops
 func elementIncrement() {
@@ -139,7 +157,7 @@ func elementDecrement() {
 	}
 } // PRINTS - 4 3 2 1 0
 ``` 
-
+Besides using the **for** statement to perform a set of statements repeatedly, you often will use it to **iterate through sequences** to extract values. 
 
 ``` go 
 // range loops
