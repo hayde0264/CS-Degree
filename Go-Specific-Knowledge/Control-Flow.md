@@ -12,6 +12,7 @@ Boolean values are the **cornerstone of control flow**.
 ## Booleans role in Control Flow
  
 ``` go 
+// comparisons 
 func comparisons() {
 	// == "equal to"
 	num1 := 3
@@ -61,6 +62,7 @@ func comparisons() {
 An if/else statement basically says, **"do x if such-and-such is true; otherwise, do y."** 
  
 ``` go 
+// if/else 
 func ifElseExample(num int) {
 	if num %2 == 0 {
 		fmt.Println("The number is even")
@@ -73,6 +75,7 @@ func ifElseExample(num int) {
 ## Short Circuiting
  
 ``` go 
+// short circuiting 
 func sunnyOutside() bool { 
 	fmt.Println("Check if its sunny outside...")
 	return true
