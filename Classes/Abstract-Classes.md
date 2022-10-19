@@ -1,6 +1,6 @@
 # Abstract Classes
 
-Abstract class obtains data and provides methods for subclasses to work on such data. 
+Abstract classes obtain data and provide methods for subclasses to work on such data. 
 
 Abstract data types **hide implementation details**, which means if a data type changes, you can change it in a single place without affecting multiple classes or objects. 
 
