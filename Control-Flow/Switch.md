@@ -1,6 +1,6 @@
 # Switch 
 
-The **switch** statement allows a variable to be tested for equality against a list of values. Each value is called a "case". 
+The **switch** statement allows a variable to be tested for equality against a list of values. Each value is called a "case." 
 
 The switch statement can be **implemented instead of redundant if/else statements** to increase code readability. 
 
@@ -10,6 +10,8 @@ The switch statement can be **implemented instead of redundant if/else statement
 3. If there is a match, the associated block of code is executed
 4. The break statement breaks out of the switch block and stops the execution 
 5. The default statement specifies code to execute if there are no matches
+
+![switch](https://user-images.githubusercontent.com/109105989/196579219-778955f9-5459-4465-995b-101f1042e50f.png)
 
 # References 
 *C switch statement*. (2022). Tutorials Point. <https://www.tutorialspoint.com/cprogramming/switch_statement_in_c.htm> 
