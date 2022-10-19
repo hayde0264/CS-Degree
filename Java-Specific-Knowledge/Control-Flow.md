@@ -32,10 +32,11 @@ The if-else statement provides a secondary path of execution when at **"if" clau
 
 ``` java 
  public void applySunscreen() {
- 	// if hasFairSkin == true 
-        if (hasFairSkin) {           
+        if (hasFairSkin) {   
+	// if hasFairSkin == true 
 	System.out.println("Apply Sunscreen")      
-  	} else {  // if hasFairSkin == false 
+  	} else {  
+	// if hasFairSkin == false 
         System.out.println("Jump right in!");
      }
  }
