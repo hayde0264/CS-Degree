@@ -4,6 +4,7 @@ Abstract classes obtain data and provide methods for subclassesto work on such d
 
 Abstract data types **hide implementation details**, which means if a data type changes, you can change it in a single place without affecting multiple classes or objects. 
 
+## Abstract-Classes vs Interfaces
 ![Abstract-Class-vs-Interface](https://user-images.githubusercontent.com/109105989/196578403-380b4e9e-bfca-4d62-ab9a-94126b8b73d2.png)
 
 # References 
