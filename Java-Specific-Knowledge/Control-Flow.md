@@ -85,6 +85,7 @@ The **for** statement provides a compact way to **iterate over a range of values
 ``` java 
 class ForDemo { 
     public static void main(String[] args) { 
+    	// initialize i with 0, as long as i is less than 11, incement i by 1 
         for (int i = 0; i < 11; i++) {
             System.out.println("Count is " + i);
         } 
@@ -110,6 +111,7 @@ The **for** statement is also designed **to iterate through Collections and arra
 class EnhancedForDemo { 
     public static void main(String[] args) { 
         int[] arrayOfNums = {1, 2, 3, 4, 5, 6, 7, 8}; 
+	// here num each element within the arrayOfNums
         for (int num: arrayOfNums) {
             System.out.println("Number is " + num);
         }
