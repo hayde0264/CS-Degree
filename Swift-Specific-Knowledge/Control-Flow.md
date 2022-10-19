@@ -132,4 +132,4 @@ The loops condition **(while cash <= spendLimit)** is the same as before, but th
 ![While-and-Do-While-flowchart_structure_loop](https://user-images.githubusercontent.com/109105989/196009744-4ae2ec1f-d7e2-4a50-8032-4755bb6ad116.png)
 
 # References
-The Swift Programming Language. Swift 5.7 Ed.  
+Apple. (2022). *The Swift Programming Language* (5.7 Edition).  
