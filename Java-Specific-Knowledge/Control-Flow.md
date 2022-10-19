@@ -1,7 +1,7 @@
 # Control Flow
 
 ## If-Then Statement 
-The **if-then** statement is the most basic of all control flow statements. It tells your program to execute a certain section of code **only if a particular test evaluates to true**. For example in the **Person**, you would only supply sunscreen **if you have fairskin**. 
+The **if-then** statement is the most basic of all control flow statements. It tells your program to execute a certain section of code **only if a particular test evaluates to true**. For example, in the **Person**, you would only supply sunscreen **if you have fair skin**. 
 
 ``` java 
 class Person {
@@ -28,7 +28,7 @@ class Person {
 }
 ``` 
 ## The If-Else Statement 
-The if-else statement provides a secondary path of execution when at **"if" clause evaluates to false**. So, in the **Person** class if an object don't have fair skin, we can return an expression. 
+The if-else statement provides a secondary path of execution when at **"if" clause evaluates to false**. So, in the **Person** class, if an object doesn't implement fair skin, we can return an expression. 
 
 ``` java 
  public void applySunscreen() {
@@ -44,21 +44,21 @@ The if-else statement provides a secondary path of execution when at **"if" clau
 ## While and Do-while Statements 
 The **while** statement continually executes a block of statements while a particular **condition is true**. 
 
-The **while** statement evaluates an expression, which must **return a boolean value**. If the expression evaluates to true, **the while statement will continueexecuting statement(s) within the block**. The while statement will continue testing the expression and executing its block **until the expression evaluates to false**. 
+The **while** statement evaluates an expression, which must **return a boolean value**. If the expression evaluates to true, **the while statement will continue executing statement(s) within the block**. The while statement will continue testing the expression and executing its block **until the expression evaluates to false**. 
 
 ``` java 
 class WhileDemo {
     public static void main(String[] args) {
         int spendingLimit = 10;
         while (spendingLimit < 10) {
-            System.out.println("You've spent" + spendingLimit);
+            System.out.println("You've spent " + spendingLimit);
             spendingLimit++;
         }
     }
 } 
 ``` 
 
-Java also provides a **do-while** statement. The difference between **do-while** and **while** is that **do-while** evaluates its expression **at the bottom of the loop instead of the top**. Which means statments within the **do** block **are always executed at least once**. 
+Java also provides a **do-while** statement. The difference between **do-while** and **while** is that **do-while** evaluates its expression **at the bottom of the loop instead of the top**. This means statements within the **do** block **are always executed at least once**. 
 
 
 ``` java 
@@ -74,12 +74,12 @@ class DoWhileDemo {
 ``` 
 
 ## The For Statement 
-The **for** statment provies a compact way to **iterate over a range of values**. Programmers often refer to it as the "for loop" because of the way in which **it repeadely loops until a particular condition is satisfied**. 
+The **for** statement provides a compact way to **iterate over a range of values**. Programmers often refer to it as the "for loop" because of the way in which **it repeatedly loops until a particular condition is satisfied**. 
 
 ### Every for statement has: 
-- a **initialization** expression which initialzes the loop (gives the loop a starting point)
-- a **condition** expression comes next, once this expression evaluates to falsethe loop terminates
-- a **increment** expression which is invoked after each iteration through the loop; this expression can increment or decrement a value
+- a **initialization** expression which initializes the loop (gives the loop a starting point)
+- a **condition** expression comes next. Once this expression evaluates to false the loop terminates
+- an **increment** expression which is invoked after each iteration through the loop; this expression can increment or decrement a value
 
 ``` java 
 class ForDemo { 
@@ -103,7 +103,7 @@ Count is 10
  */
 ``` 
 
-The **for** statement is also designed **to iterate through Collections and arrays**. This form is sometimes refered to as the **enhanced for statement**, and can be used to make your loops **more compact and easy to read**. 
+The **for** statement is also designed **to iterate through Collections and arrays**. This form is sometimes referred to as the **enhanced for statement** and can be used to make your loops **more compact and easy to read**. 
 
 ``` java 
 class EnhancedForDemo { 
