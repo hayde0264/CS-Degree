@@ -111,7 +111,7 @@ The **for** statement is also designed **to iterate through Collections and arra
 class EnhancedForDemo { 
     public static void main(String[] args) { 
         int[] arrayOfNums = {1, 2, 3, 4, 5, 6, 7, 8}; 
-	// here num each element within the arrayOfNums
+	// here num represents each element within the arrayOfNums
         for (int num: arrayOfNums) {
             System.out.println("Number is " + num);
         }
