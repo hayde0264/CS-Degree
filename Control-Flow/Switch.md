@@ -1,6 +1,6 @@
 # Switch 
 
-The **switch** statement allows a variable to be tested for equality against a list of values. Each value is called a "case". 
+The **switch** statement allows a variable to be tested for equality against a list of values. Each value is called a "case." 
 
 The switch statement can be **implemented instead of redundant if/else statements** to increase code readability. 
 
