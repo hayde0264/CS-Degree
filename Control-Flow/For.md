@@ -14,7 +14,7 @@ Below I will instantiate an array containing elements. To retrieve the elements 
 
 For instance, below, I'll create a **constant array of Strings**, which give the for loop data to iterate through. I'll ASK the for loop to acknowledge each item within the warehouse (taskInProgress == true), and once it's finished (taskInProgress == false), let me know what you found. 
 
-## In Java: 
+## Java: 
 ``` java 
 public static void main(String[] args) {
    String[] inventory = {"anchors", "fire extinguishers", "catamaran sails"};
@@ -24,7 +24,7 @@ public static void main(String[] args) {
 }  // Prints - anchors fire extinguishers catamaran sails
 ``` 
 
-## In Go:
+## Go:
 ``` go 
 func forSimple() {
         inventory := []string{"anchors", "fire extinguishers", "catamaran sails"}
@@ -34,7 +34,7 @@ func forSimple() {
 }  // Prints - anchors fire extinguishers catamaran sails 
 ``` 
 
-## In Kotlin: 
+## Kotlin: 
 ``` kotlin 
 fun forSimple() {
         inventory := []string{"anchors", "fire extinguishers", "catamaran sails"}
@@ -44,7 +44,7 @@ fun forSimple() {
 }  // Prints - anchors fire extinguishers catamaran sails
 ``` 
 
-## In Swift: 
+## Swift: 
 ``` swift 
 func forSimple() {
     let inventory = ["anchors", "fire extinguishers", "catamaran sails"]
