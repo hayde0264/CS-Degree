@@ -1,6 +1,6 @@
 # Data Types 
 
-All programs contain: **data** and **operations** on such data, so all complex systems are simply built from types. 
+All programs contain **data** and **operations** on such data. 
 
 ## Most languages contain datatypes such as: 
 - numbers 
@@ -11,7 +11,7 @@ All programs contain: **data** and **operations** on such data, so all complex s
 
 
 
-Data types **tell the compiler how the programmer will inted to use the data**. 
+Data types **tell the compiler how the programmer intends to use the data**. 
 
 # References 
 Data Type. (2022, October 8). *Wikipedia*. <https://en.wikipedia.org/wiki/Data_type> 
