@@ -17,7 +17,7 @@ public static void main(String[] args) {
    for (String item: inventory) {
         System.out.println(item);
    }
-}	// Prints - anchors fire extinguishers catamaran sails
+}// Prints - anchors fire extinguishers catamaran sails
 ``` 
 
 ## In Go:
@@ -27,7 +27,7 @@ func forSimple() {
         for item := range inventory {
                 fmt.Println(item)
         }
-}	// Prints - anchors fire extinguishers catamaran sails 
+}// Prints - anchors fire extinguishers catamaran sails 
 ``` 
 
 ## In Kotlin: 
@@ -37,7 +37,7 @@ fun forSimple() {
         for item := range inventory {
                 fmt.Println(item)
         }
-}	// Prints - anchors fire extinguishers catamaran sails
+}// Prints - anchors fire extinguishers catamaran sails
 ``` 
 
 ## In Swift: 
@@ -47,7 +47,7 @@ func forSimple() {
     for item in inventory {
         print(item)
     }
-}	// Prints - anchors fire extinguishers catamaran sails 
+}// Prints - anchors fire extinguishers catamaran sails 
 ``` 
 
 
