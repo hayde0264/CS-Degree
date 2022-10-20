@@ -8,7 +8,7 @@ The keyword **for** is often identified in programming as a **loop**. Why is it 
 
 Notice in the picture as long as a task is still running, loops consider this state **true**. Once a task finishes, the loop considers the task to be **false**, thus ending the process. " 
 
-Developers depend upon the for loop to scan through a clump of data and, once complete, reveal such data. 
+Developers depend upon the for loop to scan through a clump of data and, once complete, reveal or alter such data. 
 
 Below I will instantiate an array containing elements. To retrieve the elements within the array, I can instruct my for loop to **loop** through the array **until all the elements are accessed**" at this point, the **condition is considered false**, so the program will end. 
 
