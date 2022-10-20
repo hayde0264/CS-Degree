@@ -2,7 +2,7 @@
 
 The keyword **for** is often identified in programming as a **loop**. Why is it called a loop? Loops earn their name through their behavior. Loops continually iterate (or **loop**) through sections of code **until a specified condition becomes satisfied**. 
 
-> "Rather than say, **" until a condition is satisfied"**, which is ambiguous, you can save yourself time if you realize that for loops and as well as other control-flow paradigms such (if/else, while, switch) execute based upon **booleans** the concepts become lucid. 
+> "Rather than say, **"until a condition is satisfied"**, which is ambiguous, you can save yourself time if you realize that for loops and as well as other control-flow paradigms such (if/else, while, switch) execute based upon **booleans**. 
 
 <img align="right" src="https://user-images.githubusercontent.com/109105989/196835097-4ff631fc-dcff-46a5-a3e5-e2a68e197447.png">
 
