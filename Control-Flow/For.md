@@ -20,7 +20,8 @@ public static void main(String[] args) {
 }	// Prints - anchors fire extinguishers catamaran sails
 ``` 
 
-## In Go: 
+## In Go:
+``` go 
 func forSimple() {
         inventory := []string{"anchors", "fire extinguishers", "catamaran sails"}
         for item := range inventory {
