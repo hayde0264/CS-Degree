@@ -32,7 +32,7 @@ func forSimple() {
 
 ## In Kotlin: 
 ``` kotlin 
-func forSimple() {
+fun forSimple() {
         inventory := []string{"anchors", "fire extinguishers", "catamaran sails"}
         for item := range inventory {
                 fmt.Println(item)
