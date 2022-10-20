@@ -4,10 +4,10 @@ Microservices are **an architectural approach to building applications**.
 
 This **SOA** (Service-Oriented architecture) constructs applications as a collection of **loosely-coupled, fine-grained services** which communicate through lightweight protocols. 
 
-## Microserices: 
+## Microservices: 
 - communicate over a network with protocols such as HTTP
-- are organized around business capibilities 
-- can implement different programming languages, databases, hardware and software enviornments 
+- are organized around business capabilities 
+- can implement different programming languages, databases, hardware, and software environments 
 - focus on small services that are decentralized and built and released with automated processes 
 
 
