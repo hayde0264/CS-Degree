@@ -4,6 +4,8 @@ The keyword **for** is often identified in programming as a **loop**. Why is it 
 
 > "Rather than say, **" until a condition is satisfied"**, which is ambiguous, you can save yourself time if you realize that for loops and as well as other control-flow paradigms such (if/else, while, switch) execute based upon **booleans** the concepts become lucid. 
 
+![for-loop](https://user-images.githubusercontent.com/109105989/196835097-4ff631fc-dcff-46a5-a3e5-e2a68e197447.png)
+
 Notice in the picture below as long as a task is still running, loops consider this state **true**. Once a task finishes, the loop considers the task to be **false**, thus ending the process. " 
 
 Developers depend upon the for loop to scan through a clump of data and, once complete, reveal such data. 
