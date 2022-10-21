@@ -1,6 +1,6 @@
 # Type checks and casts 
 
-Use the **is** operator or its negated form **!is** to perform a runtime check that **idtenfies whether an object conforms to a give type**: 
+Use the **is** operator or its negated form **!is** to perform a runtime check that **identifies whether an object conforms to a given type**: 
 ``` kotlin 
 fun checkType(obj: Any) {
     if (obj is String) {
@@ -16,7 +16,7 @@ fun checkType(obj: Any) {
 
 
 ## Smart casts 
-In most cases, you don't need to use explicit cast operators in Kotlin **because the compiler tracks the is-checks and explicit casts** for immutable values and inserts (safe) casts automatically when neccessay: 
+In most cases, you don't need to use explicit cast operators in Kotlin **because the compiler tracks the is-checks and explicit casts** for immutable values and inserts (safe) casts automatically when necessary: 
 
 ``` kotlin 
 fun smartCast(x: Any) {
@@ -27,7 +27,7 @@ fun smartCast(x: Any) {
 ``` 
 
 The compiler is smart enough to know that a cast is safe if a negative check leads to a return. But remember 
-> "smart casts only work when the compiler can guarantee that the variable won't change between the check and the usage" 
+> "smart casts only work when the compiler can guarantee that the variable won't change between the check and the usage." 
 
 An example with or: 
 ``` kotlin 
@@ -39,7 +39,7 @@ fun smartCastWithOr(x: Any) {
 }
 ```
 
-An example withe when: 
+An example with when: 
 ``` kotlin 
 fun smartCastWithWhen(x: Any) {
     when(x) {
