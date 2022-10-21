@@ -1,14 +1,18 @@
 # For
 
-The keyword **for** is often identified in programming as a **loop**. But why call it a loop? Loops earn their name through their behavior. Loops continually iterate (or **loop**) through sections of code **until a specified condition becomes satisfied**. 
+The keyword **for** is often identified in programming as a **loop**. Why is it called a loop? Loops earn their name through their behavior. Loops continually iterate (or **loop**) through sections of code **until a specified condition becomes satisfied**. 
 
-Below I will instantiate an array containing elements. To retrieve the elements within the array, I can instruct my for loop to **loop** through the array **until all the elements are accessed**", at this point the **condition is consideredsatisfied** so the program will complete. 
+> "Rather than say, **"until a condition is satisfied"**, which is ambiguous, you can save yourself time if you realize that for loops and as well as other control-flow paradigms such (if/else, while, switch) execute based upon **booleans**. 
 
-> "Rather than say, **"until a condition is satisfied"**, which is ambigous for new developers if realize that for loops and as well as other control-flow paridgms such (if/else, while, switch) are based upon **booleans** the concepts become lucid. 
+<img align="right" src="https://user-images.githubusercontent.com/109105989/196835097-4ff631fc-dcff-46a5-a3e5-e2a68e197447.png">
 
-A major job developers ask of the for loop is to scan through a clump of data and and once finished returning such data. 
+Notice in the picture as long as a task is still running, loops consider this state **true**. Once a task finishes, the loop considers the task to be **false**, thus ending the process. " 
 
-For instance, below, I'll create an **constant array** for holding the name of items within the warehouse. I'll then create a for loop asking it to return to me items we have in stock. 
+Developers depend upon the for loop to scan through a clump of data and, once complete, reveal or alter such data. 
+
+Below I will instantiate an array containing elements. To retrieve the elements within the array, I can instruct my for loop to **loop** through the array **until all the elements are accessed**" at this point, the **condition is considered false**, so the program will end. 
+
+For instance, below, I'll create a **constant array of Strings**, which give the for loop **the task of iterating through such data**. I'll ask the for loop to acknowledge each item within the warehouse (taskInProgress == true), and once it's finished (taskInProgress == false), let me know what you found. 
 
 ## In Java: 
 ``` java 
@@ -17,7 +21,7 @@ public static void main(String[] args) {
    for (String item: inventory) {
         System.out.println(item);
    }
-}	// Prints - anchors fire extinguishers catamaran sails
+}  // Prints - anchors fire extinguishers catamaran sails
 ``` 
 
 ## In Go:
@@ -27,17 +31,17 @@ func forSimple() {
         for item := range inventory {
                 fmt.Println(item)
         }
-}	// Prints - anchors fire extinguishers catamaran sails 
+}  // Prints - anchors fire extinguishers catamaran sails 
 ``` 
 
 ## In Kotlin: 
 ``` kotlin 
-func forSimple() {
+fun forSimple() {
         inventory := []string{"anchors", "fire extinguishers", "catamaran sails"}
         for item := range inventory {
                 fmt.Println(item)
         }
-}	// Prints - anchors fire extinguishers catamaran sails
+}  // Prints - anchors fire extinguishers catamaran sails
 ``` 
 
 ## In Swift: 
@@ -47,7 +51,7 @@ func forSimple() {
     for item in inventory {
         print(item)
     }
-}	// Prints - anchors fire extinguishers catamaran sails 
+}  // Prints - anchors fire extinguishers catamaran sails 
 ``` 
 
 
