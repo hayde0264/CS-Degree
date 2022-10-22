@@ -4,6 +4,8 @@ Generics enable types (classes and interfaces) **to be parameters when defining 
 
 Type parameters provide a way for you to **re-use the same code with different inputs**. 
 
+![generics](https://user-images.githubusercontent.com/109105989/197359753-7136d638-c69c-4441-a8b3-71198a8ca854.png)
+
 # Why use generic code? 
 - stronger type checks at compile time. (Fixing compile-time errors is easier than fixing runtime errors). 
 - elimination of casts 
