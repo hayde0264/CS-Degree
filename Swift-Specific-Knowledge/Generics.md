@@ -27,7 +27,7 @@ func swapTwoValues<T>(_ a: inout T, _ b: inout T) {
 }
 ```  
 
-Notice that the body of the swapTwoValues() function is identical to the body of the swapTwoINts function. However, within the first line of swapTwoValues there is a generic placeholder **<T>** which says, "a and b must be of the same type, but the actual type can be determined when the function is called." 
+Notice that the body of the swapTwoValues() function is identical to the body of the **swapTwoINts** function. However, within the first line of **swapTwoValues** there is a generic placeholder **<T>** which says, "a and b must be of the same type, but the actual type can be determined when the function is called." 
 
 # Naming Type Paramters 
 In most cases, type parameters have descriptive names, such as **Key** and **Value** in **Dictonary<Key, Value>** and **Element** in **Array<Element>**, which tells the reader about the relationships between the type parameter and the generic type or function it's used in. 
