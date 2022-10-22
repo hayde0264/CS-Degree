@@ -4,12 +4,12 @@ Generic code enables you to write **flexible, reusable functions and types that 
 
 Much of the Swift standard library is built with generic code. For example, Swift's **Array** and **Dictionary** types are both generic collections. 
 
-For instance, you can create an array that holds **Int** values, or an array that holds **String** values, or indeed an array for any other type that can be created in Swift. Similarly, you can create a **dictionary** to store values of any specified type, and there are **no** limitations on what that type can be. 
+For instance, you can create an array that holds **Int** values, an array that holds **String** values, or, indeed, an array for any other type that can be created in Swift. Similarly, you can create a **dictionary** to store values of any specified type, and there are **no** limitations on what that type can be. 
 
 # Problems Generics Solve
 Generic functions **can work with any type**. 
 
-So instead of writing a function swapTwoInts(), make once instead called swapTwoValues() which is **polymorphic**. 
+So instead of writing a function swapTwoInts(), make a single generic fucntion called swapTwoValues() which is **polymorphic**. 
 
 ``` swift 
 // nongeneric swap
@@ -27,10 +27,10 @@ func swapTwoValues<T>(_ a: inout T, _ b: inout T) {
 }
 ```  
 
-Notice that the body of the swapTwoValues() fucntion is identical to the body of the swapTwoINts function. Howver, within the first line of swapTwoValues there is a generic placeholder **<T>** which says "a and b must be of the same type, but the actually type can be determined when the function is called". 
+Notice that the body of the swapTwoValues() function is identical to the body of the swapTwoINts function. However, within the first line of swapTwoValues there is a generic placeholder **<T>** which says, "a and b must be of the same type, but the actual type can be determined when the function is called." 
 
 # Naming Type Paramters 
-In most cases, type parameters have descriptive names, such as **Key** and **Valule** in **Dictonary<Key, Value>** and **Element** in **Array<Element>**, which tells the reader about the relationshiops between the type parameter and the generic type or function it's used in. 
+In most cases, type parameters have descriptive names, such as **Key** and **Value** in **Dictonary<Key, Value>** and **Element** in **Array<Element>**, which tells the reader about the relationships between the type parameter and the generic type or function it's used in. 
 
 # Generic Types 
 In addition to generic functions, Swift enables you to define your own **generic types**. 
@@ -41,7 +41,7 @@ In addition to generic functions, Swift enables you to define your own **generic
 - and enumerations that can work with **any type** similar to **Array** and **Dictionary** 
 
 ## This stack will only accept Ints: 
-``` swift
+``` Swift
 // nongeneric stack
 struct IntStack {
     var collection = [Int]()
@@ -66,7 +66,7 @@ let limitedStack = {
 ``` 
 
 ## This stack can work with any type: 
-``` swift 
+``` Swift 
 // generic stack
 public struct GenericStack<T> {
     var collection = [T]()
@@ -85,7 +85,7 @@ public struct GenericStack<T> {
 
 // generic stack with Ints
 let intStack = {
-    var stack = GenericStack<Int>()    // notice initialzing the type <Int>
+    var stack = GenericStack<Int>()    // notice initializing the type <Int>
     stack.push(10)
     stack.pop()
     stack.push(9)
