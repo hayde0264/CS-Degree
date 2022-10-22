@@ -6,8 +6,8 @@ In the first iteration, you'd take a **quarter of the requirements** and complet
 
 It can be common for iteration's code to become very buggy, but within this process **, that's okay. It will be "cleaned up"** at the end. 
 
-##
-![iterative-model](https://user-images.githubusercontent.com/109105989/197311295-fd9fbd9b-43ac-4b57-bac5-b88dca9133a9.png)
+## Visually 
+<img align="center" src="https://user-images.githubusercontent.com/109105989/197311295-fd9fbd9b-43ac-4b57-bac5-b88dca9133a9.png> 
 
 
 # References 
