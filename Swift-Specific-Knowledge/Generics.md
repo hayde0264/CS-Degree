@@ -42,7 +42,7 @@ In addition to generic functions, Swift enables you to define your own **generic
     
 # Creating a Stack 
     
-
+![generics](https://user-images.githubusercontent.com/109105989/197359472-85f4624a-43dd-440d-a7ba-98be43330ae8.png)
 
 ## This stack will only accept Ints: 
 ``` Swift
