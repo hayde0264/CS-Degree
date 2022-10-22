@@ -1,8 +1,8 @@
 # Object-Relational Mapping 
 
-Object relational mapping is the automated (and trasparent) persistence of objects from an application to tables in a relational database. 
+Object-relational mapping is the automated (and transparent) persistence of objects from an application to tables in a relational database. 
 
-ORM's achieve this by communicating **metadata** which describes the **mapping** between application objects and the database. 
+ORMs achieve this by communicating **metadata** which describes the **mapping** between application objects and the database. 
 
 ## ORM's contain: 
 - an API **for performing basic CRUD** operations on objects 
