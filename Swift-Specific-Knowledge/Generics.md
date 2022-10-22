@@ -1,6 +1,6 @@
 # Generics 
 
-Generic code enables you to write **flexible, reusable functions and types that can work with any type**, subject to requirements that you define. YOu can write code that **avoids duplication and expresses its intent in a clear, abstracted manner**. 
+Generic code enables you to write **flexible, reusable functions and types that can work with any type**, subject to requirements that you define. You can write code that **avoids duplication and expresses its intent in a clear, abstracted manner**. 
 
 Much of the Swift standard library is built with generic code. For example, Swift's **Array** and **Dictionary** types are both generic collections. 
 
