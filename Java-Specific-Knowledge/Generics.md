@@ -8,6 +8,8 @@ Type parameters provide a way for you to **re-use the same code with different i
 - stronger type checks at compile time. (Fixing compile-time errors is easier than fixing runtime errors). 
 - elimination of casts 
 
+![generics](https://user-images.githubusercontent.com/109105989/197355063-ba21bb46-0262-45d5-810b-0e0b2b9c5703.png)
+
 >"By using generics, a programmer may implement algorithms that work on collections of different types, can be customized, and are type safe while also creating easier-to-read code." 
 
 ## An example without generics: 
