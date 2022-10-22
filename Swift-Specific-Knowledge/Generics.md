@@ -41,8 +41,9 @@ In addition to generic functions, Swift enables you to define your own **generic
 - and enumerations that can work with **any type** similar to **Array** and **Dictionary** 
     
 # Creating a Stack 
+ 
+    ![generics](https://user-images.githubusercontent.com/109105989/197359595-bbc194e5-398c-4e82-bbeb-52a3c2eba8e4.jpg)
     
-
 ## This stack will only accept Ints: 
 ``` Swift
 // nongeneric stack
