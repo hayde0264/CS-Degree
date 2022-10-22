@@ -3,6 +3,10 @@
 ## If-Then Statement 
 The **if-then** statement is the most basic of all control flow statements. It tells your program to execute a certain section of code **only if a particular test evaluates to true**. For example, in the **Person**, you would only supply sunscreen **if you have fair skin**. 
 
+![if](https://user-images.githubusercontent.com/109105989/196064958-6986c6bf-ff4b-41c9-afcf-cb0e59f7d697.png)
+
+![expressionif](https://user-images.githubusercontent.com/109105989/196064959-d3c50ad7-98c2-4ba1-86c1-e8f9a0bac1d6.png)
+
 ``` java 
 class Person {
     private boolean hasFairSkin;
