@@ -1,6 +1,6 @@
 # Control Flow
 
-## If-Then Statement 
+## If-Else Statement 
 The **if-then** statement is the most basic of all control flow statements. It tells your program to execute a certain section of code **only if a particular test evaluates to true**. For example, in the **Person**, you would only supply sunscreen **if you have fair skin**. 
 
 ![if](https://user-images.githubusercontent.com/109105989/196064958-6986c6bf-ff4b-41c9-afcf-cb0e59f7d697.png)
@@ -31,7 +31,7 @@ class Person {
     }
 }
 ``` 
-## The If-Else Statement 
+
 The if-else statement provides a secondary path of execution when at **"if" clause evaluates to false**. So, in the **Person** class, if an object doesn't implement fair skin, we can return an expression. 
 
 ``` java 
