@@ -82,7 +82,6 @@ public struct GenericStack<T> {
 }
 
 
-
 // generic stack with Ints
 let intStack = {
     var stack = GenericStack<Int>()    // notice initializing the type <Int>
@@ -94,6 +93,7 @@ let intStack = {
     print(stack.collection)
  } 
 
+    
 // generic stack with Strings
 let strStack = {
     var stack = GenericStack<String>() // notice initialize the type <String>
@@ -105,7 +105,7 @@ let strStack = {
     print(stack.collection)
 } // Output when strStack() -> ["red", "yellow", "green"]
 
-
+    
 // generic stack with Characters
 let charStack = {
     var stack = GenericStack<Character>()  // notice initializing the type <Character>
