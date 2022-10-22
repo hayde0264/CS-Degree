@@ -91,9 +91,12 @@ let intStack = {
     stack.push(9)
     stack.pop()
     stack.push(8)
-    print(stack.collection)Last login: Fri Oct 21 21:02:45 on ttys000
-haydenhowell@Haydens-Mac-mini ~ % cd Desktop/Code/CS-Degree 
-haydenhowell@Haydens-Mac-mini CS-Degree % clear
+    print(stack.collection)Last 
+ } 
+ ``` 
+ 
+ # References 
+    
 
 
 
