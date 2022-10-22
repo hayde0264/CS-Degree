@@ -5,7 +5,7 @@ Generics enable types (classes and interfaces) **to be parameters when defining 
 Type parameters provide a way for you to **re-use the same code with different inputs**. 
 
 # Why use generic code? 
--stronger type checks at compile time. (Fixing compile-time errors is easier than fixing runtime errors). 
+- stronger type checks at compile time. (Fixing compile-time errors is easier than fixing runtime errors). 
 - elimination of casts 
 
 >"By using generics, a programmer may implement algorithms that work on collections of different types, can be customized, and are type safe while also creating easier-to-read code." 
