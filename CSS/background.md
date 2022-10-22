@@ -1,6 +1,6 @@
 # Cascading Style Sheets 
 
-CSS is a style sheet language used styling documents written in HTML or XML. 
+CSS is a style sheet language used for styling documents written in HTML or XML. 
 
 CSS specifically works with: layouts, colors, and fonts. 
 
