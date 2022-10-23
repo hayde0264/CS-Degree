@@ -1,6 +1,9 @@
-# Implemement an algorithm to determine if a string has all unique characters. 
+# Is Unique? 
+
+Implemement an algorithm to determine if a string has all unique characters. 
 
 **Time**: O(n) where n == length of string. 
+
 **Space**: O(1) since the for loop will never iterate throuugh more than the 128 elements.
 
 1. Figure out if the string is a ASCII string or a Unicode string. 

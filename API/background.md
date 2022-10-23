@@ -11,7 +11,7 @@ One purpose of APIs is to **hide the interal details** of how a system works, ex
 - **Partner**: only specific business partners can use the API. 
 - **Public**: the API is available for use by the public. 
 
-
+![api](https://user-images.githubusercontent.com/109105989/197367683-b06894f3-8ebf-4896-a140-5db257b27250.png)
 
 # References 
 Red Hat. (2022, June 2). *What is an API?*. <https://www.redhat.com/en/topics/api/what-are-application-programming-interfaces> 
