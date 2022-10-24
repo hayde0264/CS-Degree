@@ -6,7 +6,7 @@ Dependencies exist between two elements **if changes within one class may cause 
 - one class sends a message to another 
 - one class has another as part of its data 
 - one class mentions another as a parameter to an operation 
-- 
+
 ![dependency](https://user-images.githubusercontent.com/109105989/197606021-b956851f-bba4-4cef-b6ab-e593dd9c240e.png)
 
 # References 
