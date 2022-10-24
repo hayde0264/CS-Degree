@@ -4,6 +4,8 @@ Relational databases **organize data among rows and columns**, which collectivel
 
 Relational database systems implement **SQL-based programming interfaces**.
 
+![relationalDatabases](https://user-images.githubusercontent.com/109105989/197427861-a9f57021-3afa-4bb8-a0b8-eddcf2c21695.png)
+
 ## Why use Relational Databases: 
 - They're **flexible** because you easily create, update, or delete data
 - They have **ACID compliance**, which stands for (Atomicity, Consistency, Isolation, Durability) data validity

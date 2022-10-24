@@ -2,7 +2,10 @@
 
 Database managment systems, or (DBMS), are "software systems that enable devleopers to **define, create, maintain, and control access to a database**. 
 
+![DBMS](https://user-images.githubusercontent.com/109105989/197428232-1192a1a7-0247-4b21-9c8a-29e57aae7c06.png)
+
 # Common DBMS include: 
+
 - MySQL 
 - PostgreSQL 
 - Microsoft SQL Server 
