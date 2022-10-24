@@ -9,7 +9,7 @@ Dependencies exist between two elements **if changes within one class may cause 
 
 ![dependency](https://user-images.githubusercontent.com/109105989/197606021-b956851f-bba4-4cef-b6ab-e593dd9c240e.png)
 
-## Notice how to implement: 
+## Notice implementation: 
 ![linesMeaning](https://user-images.githubusercontent.com/109105989/197606353-07735189-0cd1-4614-b396-e6b50df1a02e.png)
 
 # References 
