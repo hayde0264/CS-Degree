@@ -8,12 +8,9 @@ The difference between HTML and XML is that HTML was designed to **display data*
 # Business applications of XML? 
 XML, as mentioned above, **transfers data among databases and Web sites without losing crucial descriptive information**. 
 
-XML lets you **automatically** customize the presentation of data, rahter than **display the same page to all corners**. Thus, making **searches more efficeint because search engines can sort through precise tags rather than long pages of text**. 
+XML lets you **automatically** customize the presentation of data rather than **display the same page to all corners**. Thus, making **searches more efficient because search engines can sort through precise tags rather than long pages of text**. 
 
-## For instance: 
-When a company sells a good or service to another company, a great deal of information is exchanged - prices, terms, specifications, delivery schedules and so on. 
-
->"HTMLs one-size-fits-all nature makes such exchanges difficult, but with XML all the necessary information can be shared efficiently" 
+For instance, when a company sells a good or service to another company, a great deal of information is exchanged - prices, terms, specifications, delivery schedules, and so on. **HTML's one-size-fits-all nature** makes such exchanges difficult, but with XML, all the necessary information can be **shared efficiently**." 
 
 
 ## XML vs. HTML: 
