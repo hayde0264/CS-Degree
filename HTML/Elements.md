@@ -32,8 +32,6 @@ Notice how it has a start tag **<html>** and an end tag **</html**>
         </body> 
  ``` 
 
-The <body> element, as is implied, defines the body of the document. 
-
 ## Inside of the <body> element there are two more elements: 
 ``` html 
      <h1>A Heading</h1> 
