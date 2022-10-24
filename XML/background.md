@@ -8,7 +8,6 @@ The difference between HTML and XML is that HTML was designed to **display data*
 ## XML vs. HTML: 
 <img width="500" height="300" src="https://user-images.githubusercontent.com/109105989/197607694-5541c4e9-a4f9-48d4-bfd7-ca8443a3a66e.png"/> 
 
-## In Words: 
 ![differentBetweenXMLHTML](https://user-images.githubusercontent.com/109105989/197608274-bef1e499-c975-4785-87c9-ebd9c250e2f3.png)
 
 
