@@ -2,6 +2,8 @@
 
 Centralized databases are databases that operate **entirely within a single location**, which is the opposite of a traditional database (where data is stored in multiple files).
 
+![centralized](https://user-images.githubusercontent.com/109105989/197428016-d2eda0fa-1cc2-4e9c-bdd7-7592095d7844.png)
+
 # Where is it stored? 
 The database itself is located at a place called the "centralized database."
 
