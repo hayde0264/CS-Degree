@@ -5,7 +5,10 @@ XML is a markup language and file format for **storing, transmitting, and recons
 
 The difference between HTML and XML is that HTML was designed to **display data**, but XML was designed to **carry data**. Another major difference is that XML allows you to design tags specifically for certain needs. Thus creating a powerful way to store data in a format that can be **stored, searched, and shared**. 
 
-# Business applications of XML? 
+![xml](https://user-images.githubusercontent.com/109105989/197610595-756f2e83-bd16-411a-bc71-d59ce06dd6bc.png)
+
+
+## Business applications of XML? 
 XML, as mentioned above, **transfers data among databases and Web sites without losing crucial descriptive information**. 
 
 XML lets you **automatically** customize the presentation of data rather than **display the same page to all corners**. Thus, making **searches more efficient because search engines can sort through precise tags rather than long pages of text**. 
