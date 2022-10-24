@@ -52,7 +52,8 @@ The <br> tag referenes a ling break.
 ## For instance: 
 ``` html 
 <p>This is a <br> paragraph with a line break. </p> 
-
+``` 
+        
 # HTML is not case sensitive 
 This means that the paragraph tag <p> can also be noted as <P>. 
 
