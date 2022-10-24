@@ -1,9 +1,9 @@
-# eXtensible Market Langugae 
+# eXtensible Market Language 
 
 
-XML is a markup language and file format for **storing, transmitting, and reconstruction data**. 
+XML is a markup language and file format for **storing, transmitting, and reconstructing data**. 
 
-The difference between HTML and XML is that HTML was designed to **display data**, but XML was designed to **carry data**. Another major difference, is XML allows you to specifically design tags for certain needs. Thus creating a powerful way to sotre data in a format that can be **stored, searched, and shared**. 
+The difference between HTML and XML is that HTML was designed to **display data**, but XML was designed to **carry data**. Another major difference is that XML allows you to design tags specifically for certain needs. Thus creating a powerful way to store data in a format that can be **stored, searched, and shared**. 
  
 
 # References 
