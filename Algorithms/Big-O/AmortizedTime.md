@@ -17,4 +17,4 @@ Amortized analysis. (2022, October 10). *Wikipedia*. <https://en.wikipedia.org/w
 Amortized time complexity. (n.d.). *your basic*. <https://yourbasic.org/algorithms/amortized-time-complexity-analysis/> 
 
 Analysis of Algorithm | Set 5 (Amortized Analysis Introduction). (2022, July 13). Geeks For Geeks. <https://www.geeksforgeeks.org/analysis-algorithm-set-5-amortized-analysis-introduction/> 
-# Amortized Time 
+
