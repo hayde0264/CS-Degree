@@ -25,7 +25,7 @@ In this example the <html> element is the **root element** so it defines the who
 Notice how it has a start tag **<html>** and an end tag **</html**> 
 
 ## Inside of the <html> element ther is a body element: 
-``` html  
+ ``` html  
         <body> 
                 <h1>A Heading</h1> 
                 <p>A Paragraph</p> 
@@ -43,9 +43,6 @@ The <body> element, as is implied, defines the body of the document.
 The <h1> element defines a **heading**. 
 
 The <p> element deinfes a **paragraph**. 
-
-# Empty HTML Elements 
-HTML elements with **no content** are called empty elements. 
 
 The <br> tag referenes a ling break. 
 
