@@ -10,7 +10,7 @@ Amortized analysis is used for algorithms where an occasional operation is **ver
 - Disjoint Sets 
 - Splay Trees 
 
-![amortized](https://user-images.githubusercontent.com/109105989/197426800-87bf4120-935d-484d-978a-71e624dad943.png)
+![amortized](https://user-images.githubusercontent.com/109105989/197426883-96b5b66a-7dce-473b-a4a8-f8e7d48e2f84.png)
 
 # References 
 Amortized analysis. (2022, October 10). *Wikipedia*. <https://en.wikipedia.org/wiki/Amortized_analysis> 
