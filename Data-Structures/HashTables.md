@@ -38,8 +38,6 @@ These methods, such as linear probing, quadratic probing, and double hashing **,
 
 
 
-During a lookup, **the key becomes "hashed"**, thus indicating where the index of the corresponding value. 
-
 # References 
 Basics of Hash Tables. (n.d.). *hacker earth*. <https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/> 
 
