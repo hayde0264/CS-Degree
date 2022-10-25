@@ -7,7 +7,7 @@ own career, and aren't afraid to admit ignorance
 or error**. 
 
 We all make mistakes, but it's important to note 
-those around you rely on or you; and you should be 
+those around you rely on you, and you should be 
 able to rely on them. In a healthy environment 
 based on trust, you should safely speak your mind 
 and present your ideas, **and rely on team members 
