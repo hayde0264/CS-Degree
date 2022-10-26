@@ -62,5 +62,6 @@ The **title** attribute defines extra information about an element. The balue of
 - stick with **double quotes** rather than single 
 
 
-# References 
+# References  
+HTML Attributes. (2022). *W3 Schools*. <https://www.w3schools.com/html> 
 
