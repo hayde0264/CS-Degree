@@ -2,8 +2,10 @@
 
 An HTML element is **eveything inbetween the tags**. 
 
-For instance: 
+For instance:
+``` html 
 <tagname>Content</tagname> 
+``` 
 
 # Nested Elements 
 Elements can be nested which means **that elemetns can cotain other elements**. 
@@ -20,11 +22,11 @@ Every single HTML document consits of **nested elements**.
         </body> 
 </html> 
 ``` 
-In this example the <html> element is the **root element** so it defines the whole document. 
+In this example the **<html>** element is the **root element** so it defines the whole document. 
 
 Notice how it has a start tag **<html>** and an end tag **</html**> 
 
-## Inside of the <html> element ther is a body element: 
+## Inside of the **<html>** element ther is a body element: 
 ``` html  
         <body> 
                 <h1>A Heading</h1> 
@@ -32,22 +34,22 @@ Notice how it has a start tag **<html>** and an end tag **</html**>
         </body> 
  ``` 
 
-The <body> element, as is implied, defines the body of the document. 
+The **<body>** element, as is implied, defines the body of the document. 
 
-## Inside of the <body> element there are two more elements: 
+## Inside of the **<body>** element there are two more elements: 
 ``` html 
      <h1>A Heading</h1> 
      <p>A Paragraph</p>  
 ``` 
 
-The <h1> element defines a **heading**. 
+The **<h1>** element defines a **heading**. 
 
-The <p> element deinfes a **paragraph**. 
+The **<p>** element deinfes a **paragraph**. 
 
 # Empty HTML Elements 
 HTML elements with **no content** are called empty elements. 
 
-The <br> tag referenes a ling break. 
+The **<br>** tag referenes a ling break. 
 
 ## For instance: 
 ``` html 
