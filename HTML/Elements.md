@@ -46,11 +46,7 @@ The **<h1>** element defines a **heading**.
 
 The **<p>** element deinfes a **paragraph**. 
 
-# Empty HTML Elements 
-HTML elements with **no content** are called empty elements. 
-
 The **<br>** tag referenes a ling break. 
-
 
 ## For instance: 
 ``` html 
