@@ -63,5 +63,5 @@ The **title** attribute defines extra information about an element. The balue of
 
 
 # References  
-HTML Attributes. (2022). *W3 Schools*. <https://www.w3schools.com/html> 
+HTML Tutorial. (2022). *W3 Schools*. <https://www.w3schools.com/html> 
 
