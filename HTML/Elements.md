@@ -42,18 +42,6 @@ The **<body>** element, as is implied, defines the body of the document.
      <p>A Paragraph</p>  
 ``` 
 
-The **<h1>** element defines a **heading**. 
-
-The **<p>** element deinfes a **paragraph**. 
-
-The **<br>** tag referenes a ling break. 
-
-## For instance: 
-```html 
-<p>This is a <br> paragraph with a line break. </p> 
-``` 
- 
-
 # References 
 HTML Elements. (2022). *W3 Schools*. <https://www.w3schools.com/html/html_elements.asp> 
 
