@@ -1,8 +1,8 @@
 # Headings 
 
-HTML headings are **titles or subtitles** that you want displayed on your webpage. 
+HTML headings are **titles or subtitles** that you want to be displayed on your webpage. 
 
-HTML headings are defined from the (**<h1>**) to (**<h6>**) tag (growing smaller as the number increases). 
+HTML headings are defined from the (h1) to (h6>) tag (growing smaller as the number increases). 
 
 ## For example: 
 ```html 
@@ -16,5 +16,6 @@ HTML headings are defined from the (**<h1>**) to (**<h6>**) tag (growing smaller
 
 # Why are headings important? 
 Headings are important because search engines **use headings to index the structure and content** of your web pages. Also, users generally will skim a page and choose your page or not **based on the heading**. 
+
 
 
