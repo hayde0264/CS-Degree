@@ -27,7 +27,7 @@ In this example the **<html>** element is the **root element** so it defines the
 Notice how it has a start tag **<html>** and an end tag **</html**> 
 
 ## Inside of the <html> element ther is a body element: 
- ``` html  
+ ```html  
         <body> 
                 <h1>A Heading</h1> 
                 <p>A Paragraph</p> 
@@ -37,7 +37,7 @@ Notice how it has a start tag **<html>** and an end tag **</html**>
 The **<body>** element, as is implied, defines the body of the document. 
 
 ## Inside of the <body> element there are two more elements: 
-``` html 
+```html 
      <h1>A Heading</h1> 
      <p>A Paragraph</p>  
 ``` 
@@ -49,7 +49,7 @@ The **<p>** element deinfes a **paragraph**.
 The **<br>** tag referenes a ling break. 
 
 ## For instance: 
-``` html 
+```html 
 <p>This is a <br> paragraph with a line break. </p> 
 ``` 
  
