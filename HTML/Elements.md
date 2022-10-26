@@ -26,23 +26,7 @@ In this example the **<html>** element is the **root element** so it defines the
 
 Notice how it has a start tag **<html>** and an end tag **</html**> 
 
-## Inside of the <html> element ther is a body element: 
- ```html  
-        <body> 
-                <h1>A Heading</h1> 
-                <p>A Paragraph</p> 
-        </body> 
- ``` 
 
-The **<body>** element, as is implied, defines the body of the document. 
-
-## Inside of the **<body>** element there are two more elements: 
-```html 
-     <h1>A Heading</h1> 
-     <p>A Paragraph</p>  
-``` 
-        
-    
 
 # References 
 HTML Elements. (2022). *W3 Schools*. <https://www.w3schools.com/html/html_elements.asp> 
