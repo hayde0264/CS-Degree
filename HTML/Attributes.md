@@ -12,6 +12,9 @@ The **<a>** tag defines a **hyperlink**. The **href** attribute within the **<a>
 <a href="https://www.google.com">Visit Google</a> 
 ``` 
 
+![href](https://user-images.githubusercontent.com/109105989/197936169-63ecb29e-f167-4a9a-a9db-01f8a98137b6.png)
+
+  
 # The src Attribute 
 The **<img>** tag is used to **embed an image in an HTML page**. The **src** attribute **specifies the path to the image that will be displayed**. 
 
