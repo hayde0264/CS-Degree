@@ -31,7 +31,7 @@ The **<img>** tag should also contain the **width** and **height** attributes. T
 ``` html 
 <img src="jungle.png" width="300" height="600"> 
 ``` 
-![jungle](https://user-images.githubusercontent.com/109105989/197936510-96971a49-1dcc-4e50-bc93-c1f54dbcb7db.png)
+<img src="jungle.png" width="300" height="600"> 
 
 # The style Attribute 
 The **style** attribute is used to add styles to elements (colors, fonts, sizes, and more). 
