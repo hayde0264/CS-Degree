@@ -2,7 +2,7 @@
 
 All HTML elements can have **attributes**. 
 
-**attributes** - pro ide additional information about elements. They are always specified in the **start tag**, and they usually come in **name/value pairs** like: name="value". 
+**attributes** - pro ide additional information about elements. They are always specified in the **start tag**, and they usually come in **name/value pairs** like name="value." 
 
 # The href Attribute 
 The **<a>** tag defines a **hyperlink**. The **href** attribute within the **<a>** tag specifies the **URL link**. 
@@ -38,7 +38,7 @@ The **style** attribute is used to add styles to elements (colors, fonts, sizes,
 # The lang Attribute 
 The **lang** attribute declares the language of the webpage, and this **should always be included**. The lang attribute assists **search engines and browsers**. 
 
-## For example this specifies using the English language: 
+## For example, this specifies using the English language: 
 ```html 
 <!DOCTYPE html> 
 <html lang="en"> 
@@ -49,7 +49,7 @@ The **lang** attribute declares the language of the webpage, and this **should a
 ``` 
 
 # The title Attribute 
-The **title** attribute defines extra information about an element. The balue of the tile attributes is displayed when you hover over an element. 
+The **title** attribute defines extra information about an element. The value of the tile attributes is displayed when you hover over an element. 
 
 ## For example: 
 ```html 
@@ -59,9 +59,8 @@ The **title** attribute defines extra information about an element. The balue of
 # Good practices
 - always use **lowercase** attributes 
 - always **quote** attribute values 
-- stick with **double quotes** rather than single 
+- stick with **double-quotes** rather than single 
 
 
 # References  
 HTML Tutorial. (2022). *W3 Schools*. <https://www.w3schools.com/html> 
-
