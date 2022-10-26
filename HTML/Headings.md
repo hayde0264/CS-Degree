@@ -13,6 +13,7 @@ HTML headings are defined from the (h1) to (h6>) tag (growing smaller as the num
 <h5> heading <h5> 
 <h6>Smallest Heading<h6> 
 ``` 
+![headings](https://user-images.githubusercontent.com/109105989/197935671-93e1477a-977c-4d8f-bdc8-3a37bc1845e7.png)
 
 # Why are headings important? 
 Headings are important because search engines **use headings to index the structure and content** of your web pages. Also, users generally will skim a page and choose your page or not **based on the heading**. 
