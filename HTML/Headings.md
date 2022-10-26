@@ -2,7 +2,7 @@
 
 HTML headings are **titles or subtitles** that you want displayed on your webpage. 
 
-HTML headings are defined from the (<h1>) to (<h6>) tag (growing smaller as the number increases). 
+HTML headings are defined from the (**<h1>**) to (**<h6>**) tag (growing smaller as the number increases). 
 
 ## For example: 
 ```html 
