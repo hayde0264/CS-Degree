@@ -13,7 +13,7 @@ Elements can be nested which means **that elemetns can cotain other elements**.
 Every single HTML document consits of **nested elements**. 
 
 ## This example contains 4 elements: 
-``` html 
+```html 
 <!DOCTYPE html>
 <html> 
         <body> 
@@ -26,9 +26,6 @@ In this example the **<html>** element is the **root element** so it defines the
 
 Notice how it has a start tag **<html>** and an end tag **</html**> 
 
-## Inside of the **<html>** element ther is a body element: 
-``` html  
-=======
 ## Inside of the <html> element ther is a body element: 
  ``` html  
         <body> 
@@ -39,8 +36,6 @@ Notice how it has a start tag **<html>** and an end tag **</html**>
 
 The **<body>** element, as is implied, defines the body of the document. 
 
-## Inside of the **<body>** element there are two more elements: 
-=======
 ## Inside of the <body> element there are two more elements: 
 ``` html 
      <h1>A Heading</h1> 
