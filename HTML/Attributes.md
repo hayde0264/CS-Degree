@@ -20,15 +20,18 @@ The **<img>** tag is used to **embed an image in an HTML page**. The **src** att
 
 ## For instance: 
 ``` html 
-<img src="attributes.png"> 
+<img src="jungle.png"> 
 ``` 
+  ![jungle](https://user-images.githubusercontent.com/109105989/197936553-7688cbbf-4442-4b3b-964a-07622d1ea7a1.png)
+  
 # The width and height Attributes 
 The **<img>** tag should also contain the **width** and **height** attributes. The width and the height of an image are measured in **pixels**. 
 
 ## Example: 
 ``` html 
-<img src="attributes.png" width="300" height="600"> 
+<img src="jungle.png" width="300" height="600"> 
 ``` 
+![jungle](https://user-images.githubusercontent.com/109105989/197936510-96971a49-1dcc-4e50-bc93-c1f54dbcb7db.png)
 
 # The style Attribute 
 The **style** attribute is used to add styles to elements (colors, fonts, sizes, and more). 
