@@ -8,7 +8,7 @@ Concurrency cares about the **program's structure**.
 # Parallelism
 Parallelism cares about the **program's execution**.
 
-#Examples
+# Examples
 
 ## Real World References
 - railway stations (shared track)
