@@ -8,6 +8,7 @@ Parameters **can provide default values to simplify function calls and can be pa
 
 Every function in Swift has a type consisting of the function's parameter types and return type. You can use this type like any other type in Swift, **which makes it easy to pass functions as parameters to other functions and return functions from functions**. Functions can also be written within other functions to **encapsulate** useful functionality within a nested function scope. 
 
+<img width="600" height="300" src="https://user-images.githubusercontent.com/109105989/198848918-e4768b3f-6c80-4eea-bb63-71ae7f958809.png"/> 
 
 # Defining and Calling Functions 
 When you define a function, you can optionally define one or more named, typed values that the function takes as input, known as **parameters**. 
