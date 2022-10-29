@@ -2,8 +2,7 @@
 
 In UML, you use a **rectangle** to represent a class. 
 
-
-![umlClassDiagram](https://user-images.githubusercontent.com/109105989/198755504-e42c83b2-9c25-484b-b353-d57d38ee0b64.jpg)
+<img src="https://user-images.githubusercontent.com/109105989/198755504-e42c83b2-9c25-484b-b353-d57d38ee0b64.jpg" height="300" width="600"/>
 
 
 # References
