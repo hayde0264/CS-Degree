@@ -2,27 +2,27 @@
 
 **Functions** - are self-contained chunks of code that perform a specific task. You give a function a name that **identifies what it does**, and this name is used to "call" the function to perform its task when needed. 
 
-Swift's unified funciton syntax is flexible enought to express anything from a simple C-styel function with no parameter names **to a complex Objective-C style method with names and arguments labels for each parameter**. 
+Swift's unified function syntax is flexible enough to express anything from a simple C-style function with no parameter names **to a complex Objective-C style method with names and arguments labels for each parameter**. 
 
-Paramters **can provide default values to simplify function calls and can be passed as in-out parameters**, which modify a passed variables once the frunction has completed its execution. 
+Parameters **can provide default values to simplify function calls and can be passed as in-out parameters**, which modify passed variables once the function has completed its execution. 
 
-Every function in Swift has a type, consisting of the function's parameter types and return type. You can use this type like any other type in Swift, **which makes it easy to pass functions as parameters to toher functions, and return functions from functions**. Functions can also be written within other functions to **encapsulate** useful funcitonality within a nested function scope. 
+Every function in Swift has a type consisting of the function's parameter types and return type. You can use this type like any other type in Swift, **which makes it easy to pass functions as parameters to other functions and return functions from functions**. Functions can also be written within other functions to **encapsulate** useful functionality within a nested function scope. 
 
 
 # Defining and Calling Functions 
-When you define a fucntion, you can optionally define one or more named, typed values that the function takes as a input, known as **parameters**. 
+When you define a function, you can optionally define one or more named, typed values that the function takes as input, known as **parameters**. 
 
-You can also optionally define a type of value that the function will pass back as an **output** when it's done, this is known as it's **return type**. 
+You can also optionally define a type of value that the function will pass back as an **output** when it's done; this is known as its **return type**. 
 
-Every function has a **function name**, which describes the task that the function performs. To use a function, you "call" that function with its name and pass it input values (**aruguments**) that match the types of the function's parameters. A function's arguments must always be provided in the same order as the function's parameter list. 
+Every function has a **function name**, which describes the task that the function performs. To use a function, you "call" that function with its name and pass it input values (**arguments**) that match the types of the function's parameters. A function's arguments must always be provided in the same order as the function's parameter list. 
 
 # Function Parameters and Return Values 
-Funciton parameters and return values are extremely flexible in Swift. You can define anything from a single utility function with a single unnamed parameter to a complex function with expressive parameter names and different parameter options. 
+Function parameters and return values are extremely flexible in Swift. You can define anything from a single utility function with a single unnamed parameter to a complex function with expressive parameter names and different parameter options. 
 
 
 ## Functions without parameters
 
-Functions aren't required to define input parameters. Below is a function **with no** input parameters, which will always return the **same String mesage**. 
+Functions aren't required to define input parameters. Below is a function **with no** input parameters, which will always return the **same String message**. 
 
 ```swift  
 // functions without parameters
@@ -35,7 +35,7 @@ print(nameSomethingYouLove())
 */
 ``` 
 
-## Functions with single parameter single output 
+## Functions with single parameter and a single output 
 ```swift 
 // single input single output (String)
 func admitJob(job: String) -> String {
@@ -47,9 +47,9 @@ print(admitJob(job: "developer"))
 */
 ```
 
-## Functions with multiple inputs single output 
+## Functions with multiple inputs and a single output 
 
-Functions can have multiple input parameters, which are written with the **function's parenthesis**, seperated by **commas**. 
+Functions can have multiple input parameters, which are written with the **function's parenthesis**, separated by **commas**. 
 
 ``` swift
 // multiple inputs single output (String)
@@ -101,14 +101,14 @@ print(ageGap(arrayOfAges: [10, 22, 4, 59, 26, 87]))
 
 ## Functions with variadic parameters 
 
-**variadic parameters** - accept **zero or more** values of a specific type. 
+**Variadic parameters** - accept **zero or more** values of a specific type. 
 
-You can use a variadic parameter to specify that that the parameter can be passed **a varying number of input values** when the function is called. 
+You can use a variadic parameter to specify that the parameter can be passed **a varying number of input values** when the function is called. 
 
-You write variadic parameters by inserting three period characters (**...**) after the parameter's type name. 
+You write variadic parameters by inserting three-period characters (**...**) after the parameter's type name. 
 
 ```swift
-// variatic inputs  
+// variadic inputs  
 func findClassAverage(_ grades: Int...) -> String {
     var total = 0
     for scores in grades {
@@ -125,16 +125,16 @@ print(findClassAverage(87, 99, 96, 89))
 
 ## Functions with in-out parameters 
 
-Function parameters are **constants by default**. This means if you try to change the value of a function parameter within the body of the function, you'll receive a compile-time error. This also means, if you can't change the value of a parameter by mistake (thanks Swift). 
+Function parameters are **constants by default**. This means if you try to change the value of a function parameter within the body of the function, you'll receive a compile-time error. This also means that you can't change the value of a parameter by mistake (thanks, Swift). 
 
 If you want to modify a parameter's value, and you want those changes to persist after the function call has ended, define that parameter as an **in-out-parameter** instead. 
 
 You write an in-out parameter by placing the **inout** keyword right before a parameter's type. 
 
-An in-out paramter has a value that's pass **in** the function, is **modified** by the function, and is passed back **out** of the function to replace the original value. 
+An in-out parameter has a value that's passed **in** the function, is **modified** by the function, and is passed back **out** of the function to replace the original value. 
 
 ## Rules 
-- only variables can be passed as arguements 
+- only variables can be passed as arguments 
 - place an ampersand (&) before a variable's name when you pass it as an argument
 
 ``` swift 
