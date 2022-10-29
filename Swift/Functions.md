@@ -16,7 +16,7 @@ When you define a function, you can optionally define one or more named, typed v
 You can also optionally define a type of value that the function will pass back as an **output** when it's done; this is known as its **return type**. 
 
 Every function has a **function name**, which describes the task that the function performs. To use a function, you "call" that function with its name and pass it input values (**arguments**) that match the types of the function's parameters. A function's arguments must always be provided in the same order as the function's parameter list. 
-<img width="600" height="300" src="https://user-images.githubusercontent.com/109105989/198849028-fafc2402-9fc7-4ebb-8617-31aae9db47d3.png"/> 
+<img width="800" height="300" src="https://user-images.githubusercontent.com/109105989/198849028-fafc2402-9fc7-4ebb-8617-31aae9db47d3.png"/> 
 
 # Function Parameters and Return Values 
 Function parameters and return values are extremely flexible in Swift. You can define anything from a single utility function with a single unnamed parameter to a complex function with expressive parameter names and different parameter options. 
