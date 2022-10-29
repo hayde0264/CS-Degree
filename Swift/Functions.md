@@ -21,7 +21,7 @@ Function parameters and return values are extremely flexible in Swift. You can d
 
 <img width="800" height="300" src="https://user-images.githubusercontent.com/109105989/198849028-fafc2402-9fc7-4ebb-8617-31aae9db47d3.png"/> 
 
-# Function Examples 
+# Function Examples:
 
 ## Functions without parameters
 
