@@ -4,6 +4,7 @@ Concurrency allows programs **to operate on multiple tasks at once**.
 
 # Concurrency
 Concurrency cares about the **program's structure**.
+![concurrency](https://user-images.githubusercontent.com/109105989/198755355-300346fc-66a1-4b5a-870f-85e6e37219c7.png)
 
 # Parallelism
 Parallelism cares about the **program's execution**.
