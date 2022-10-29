@@ -3,10 +3,13 @@ Concurrency allows programs **to operate on multiple tasks at once**.
 
 
 # Concurrency
-
 ![concurrency](https://user-images.githubusercontent.com/109105989/198755355-300346fc-66a1-4b5a-870f-85e6e37219c7.png)
 
 # Parallelism
+![parallelVSConcurrency1](https://user-images.githubusercontent.com/109105989/198755423-112984d2-d345-4c34-a6fe-6df345a344a8.png)
+
+# Sequentail, Concurrent, Parallel
+![concurrent-parallel-sequencial](https://user-images.githubusercontent.com/109105989/198755459-e245fbab-eb1a-4e03-9252-cd940b7d4c62.png)
 
 
 # Examples
