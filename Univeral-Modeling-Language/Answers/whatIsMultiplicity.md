@@ -2,7 +2,7 @@
 
 Multiplicity indicates the number of objects of one class **that relate to one object of an associated class**. 
 
-<img width="600" height="300" src="https://user-images.githubusercontent.com/109105989/198755615-a1ee18ef-e902-4887-a962-917c8ee33843.png" /> 
+<img width="600" height="300" src="https://user-images.githubusercontent.com/109105989/198755647-0b9433e6-724b-4998-9f4e-d009e0e91ea6.png" />
 
 
 # References
