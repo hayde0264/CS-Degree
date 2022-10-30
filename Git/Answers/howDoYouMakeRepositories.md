@@ -12,11 +12,9 @@ to reinitialize exsisting ones. With this command, a .git subdirectory
 is creted, which includes metadata, like subdirectories for files. 
 
 ## How do you use git init? 
-*git init* - creates a working git repository. To get started with this command, 
+**git init** - creates a working git repository. To get started with this command, 
 	     use the *cd* command into your created project directory and enter 
 	     "git init". 
 	     
-Git init initializes a git repository with a specified directory. 
-
 # References 
 W3 Docs. (n.d) *Git init*. <https://www.w3docs.com/learn-git/git-add.html>

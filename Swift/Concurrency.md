@@ -60,3 +60,7 @@ To understand the concurrent nature of the example above, here's one possible or
 1. The code starts running form the first line and runs up to the first **await**. It calls the **listPhotos(inGallery:)** function and **supends execution while it waits for a function to return**. 
 2. While this code's execution is suspended, **some other concurrent code in the same program runs**. For example, maybe a long-running backgorund task continues updates a list of new photo galleries. That code **also runs until the next suspention point**, marked by **await**, or until it completes. 
 3. After **listPhotos(inGallery:)** returns, this code **continues execution starting at that point**. It assigns the value that was returned to **photoNames**.   
+
+
+# References 
+Apple. (2022). The Swift Programming Language (5.7 Edition).
