@@ -1,6 +1,6 @@
 # RESTful APIs
 
-A REST API (or RESTful API) conforms to the constraints of a REST architecture style, which allows interactions between web services. 
+Short for Represental State Transfer, REST (or RESTful API) conforms to the constraints of a REST architecture style, allow software services **to communicate with each other**. 
 
 # How do they work? 
 REST APIs communicate through HTTP requests which perform standard database functions such as **creating, reading, updating, and deleting** records (these are known as CRUD operations). 
