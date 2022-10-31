@@ -5,6 +5,8 @@
  During the **analysis** operations implied by the source program **are determined and sent to a hierarchal structure** called a "tree."
                                                                    
  **Synthesis** constructs the desired target program **from the immediate representation**.     
+ 
+ ## Visually: 
 <img width="600" height="300" src="https://user-images.githubusercontent.com/109105989/199131019-6fd7b417-860f-4fd0-89a8-b42b0aeafb30.png"/> 
 
 
