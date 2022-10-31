@@ -3,7 +3,7 @@
  **Interpreters** produce a target program as a **translation**. This means the interpreter will perform the operations implied **by the source program**.
   
   ## How are interpreters different from compilers? 
-<img width="600" height="300" src=https://user-images.githubusercontent.com/109105989/199130558-94dee8c1-b698-49f9-af6d-9998e868081e.png/> 
+<img width="600" height="300" src="https://user-images.githubusercontent.com/109105989/199130558-94dee8c1-b698-49f9-af6d-9998e868081e.png"/> 
 
   
  # References 
