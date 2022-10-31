@@ -2,7 +2,6 @@
   
  **Structure editors** are responsible for receiving inputs of sequences that build a source program.
 
-## Structure editors can: 
 <img width="600" height="300" src="https://user-images.githubusercontent.com/109105989/199130840-eeaea6e6-027b-477c-89a7-6a5289b6f472.png"/>
 
 
