@@ -2,6 +2,7 @@
 
   A compiler is a program that reads a program written in one language, **known as the source language**, and then translates it to an equivalent language **known as the target language**. The compiler is responsible for **reporting errors** within the source language.  
   
+ ## Visually: 
 <img width="600" height="300" src="https://user-images.githubusercontent.com/109105989/199131202-46ff332e-48eb-4f16-8efa-1944b9aebe93.png"/> 
 
   
