@@ -7,9 +7,11 @@
  cout << "This is an example of an output sequence using the insertion operator. \n";
  int a = 4;           
  cout << "The number you chose is " << a << " . \n"; 
+ 
+ 
  // Outputs         
- * This is an example of an output sequence using the insertion operator. 
- * The number you chose is 4. 
+ This is an example of an output sequence using the insertion operator. 
+ The number you chose is 4. 
  ```           
  # References 
  C++ Language. (n.d.). *cplusplus*. <https://cplusplus.com/doc/tutorial>
