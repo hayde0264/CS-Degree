@@ -6,7 +6,7 @@
  ```cpp 
  cout << "This is an example of an output sequence using the insertion operator. \n";
  int a = 4;           
- cout << "The number you chose is " << a << " . \n"; 
+ cout << "The number you chose is " << a << ". \n"; 
  
  
  /* Outputs         
