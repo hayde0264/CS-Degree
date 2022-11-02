@@ -8,9 +8,8 @@
   
  ## One-To-Many: 
  Subject = One
+ 
  Observers = Many
-  
- # References 
   
 
   
