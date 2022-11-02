@@ -4,7 +4,7 @@
  by the (.java) extension.
   
   
-  ![namingConventions](https://user-images.githubusercontent.com/109105989/199370425-f3fc87a4-f88e-46a6-bf75-a55694f8ef6b.png)
+ ![namingConventions](https://user-images.githubusercontent.com/109105989/199370481-f2c5b6c2-8afe-4a91-b052-bdabc849553a.jpg)
 
   
  # References 
