@@ -1,2 +1,0 @@
-# Prototype Design Pattern
- 

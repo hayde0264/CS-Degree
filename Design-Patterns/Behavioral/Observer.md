@@ -1,3 +1,0 @@
-# Oberserver Design Pattern 
-
-
