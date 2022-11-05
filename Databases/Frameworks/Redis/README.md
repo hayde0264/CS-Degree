@@ -12,7 +12,7 @@ Redis provides data structures such as **strings, hashes, lists, sets, and sorte
 
 Redis allows you to run **atomic operations** on such data structures such as: **appending to a string, incrementing the value in a hash, pushing an element to a list, computer set intersection, union, and difference, or even getting the members with the highest ranking in a sorted set**. 
 
-## For great performance, Redis implements the *in-memory database** 
+For great performance, Redis implements the **in-memory database** 
 
 
 # References 
