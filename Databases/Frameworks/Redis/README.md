@@ -14,6 +14,9 @@ Redis allows you to run **atomic operations** on such data structures such as: *
 
 For great performance, Redis implements the **in-memory database** 
 
+![redis](https://user-images.githubusercontent.com/109105989/200141734-99913bb4-c577-4f99-b70e-241b22c895b7.png)
+
+
 
 # References 
 Redis Ltd. (2022). *Getting started with Redis*. <https://redis.io/docs/getting-started>
