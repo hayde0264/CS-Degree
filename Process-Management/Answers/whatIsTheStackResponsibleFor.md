@@ -1,9 +1,9 @@
 
 # What is the stack responsible for? 
 
-The stack holds **temporary data such as function parameters, return addresses, and local/global variables**. 
+The stack holds **temporary data such as function parameters, return addresses, and localvariables**. 
 
-
+## Visually:
 ![stack](https://user-images.githubusercontent.com/109105989/200185094-1c6c040f-a81f-4532-9999-7119b884ed4f.png)
 
 
