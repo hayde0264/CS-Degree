@@ -9,8 +9,10 @@ operand points**.
 using namespace std; 
 
 int main() { 
-int a = 1; 
-int *aPtr = &a;  
+int a; 
+int *aPtr 
+
+*aPtr = &a
 
 cout << *aPtr << endl; 
 cout << a << endl; 
