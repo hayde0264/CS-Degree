@@ -1,6 +1,6 @@
 # What are pointers? 
 
-Pointers all programs to pass values by **reference** rather than by **value**. Variables (value types) are copied and given their own space within memory, but pointers (reference types) point to variables. 
+Pointers allow programs to pass values by **reference** rather than by **value**. Variables (value types) are copied and given their own space within memory, but pointers (reference types) point to variables. 
 
 ## Check this out: 
 ![pointerVsVar](https://user-images.githubusercontent.com/109105989/200147659-6a7634c8-f0dc-4d52-b7b9-03d6543eeb84.jpg)
