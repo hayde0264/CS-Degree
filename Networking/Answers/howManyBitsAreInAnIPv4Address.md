@@ -1,6 +1,6 @@
 # How many bits are in an IP address? 
 
-IP addresses are **32 bits long**. 
+IPv4 addresses are **32 bits long**. 
 
 ## Visually: 
 
