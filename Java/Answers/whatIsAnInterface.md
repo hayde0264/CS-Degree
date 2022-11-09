@@ -2,7 +2,7 @@
 
 An interface is a **collection of method declarations**, but these declarations contain **no data and no bodies**. Which means interfaces contain only **method signatures**. Interfaces require implementing classes **to implement all of the methods declared within the interface**. 
 
-## For example: 
+## Implementing Single Interfaces: 
 ```java 
   
   interface Sellable { // interface for objects that can be sold
@@ -33,6 +33,7 @@ An interface is a **collection of method declarations**, but these declarations 
     public String shirtSize() { return size; }
   } 
 ``` 
+
 
 
 # References 
