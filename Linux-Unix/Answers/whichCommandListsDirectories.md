@@ -1,4 +1,4 @@
-# What command lists directories?
+# Which command lists directories?
 
 **ls** - will list directories 
 
