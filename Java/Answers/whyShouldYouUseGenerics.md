@@ -3,7 +3,7 @@
 Use generics because they create **abstract types which avoid explicit casts** a generics type is not defined at compile time but rather at **run time**. 
 
 
-## Notice the polymorphism: 
+## Notice the flexibility: 
 ```java 
   import java.util.ArrayList;
   import java.util.Arrays;
