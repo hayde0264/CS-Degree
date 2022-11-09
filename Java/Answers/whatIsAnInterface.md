@@ -35,11 +35,6 @@ An interface is a **collection of method declarations**, but these declarations 
 ``` 
 ## Implementing Multiple Interfaces: 
 ```java 
-
->>public class IntefaceDemo {
-    public static void main(String[] args) { }
-  }
-  
   
   interface Sellable { // interface for objects that can be sold
   
