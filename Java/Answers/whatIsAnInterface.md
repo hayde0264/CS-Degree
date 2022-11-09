@@ -34,6 +34,10 @@ An interface is a **collection of method declarations**, but these declarations 
   } 
 ``` 
 ## Implementing Multiple Interfaces: 
+In java, multiple inheritance is allowed for interfaces **but not for classes**. 
+
+Notice the **Insurable** inteface. 
+
 ```java 
   
   interface Sellable { // interface for objects that can be sold
