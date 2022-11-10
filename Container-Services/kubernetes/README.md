@@ -1,4 +1,4 @@
-# kubernetes
+# Kubernetes
 
 Kubernetes is a **portable, extensible, open-source platform** for managing **containerized workflows**. 
 
