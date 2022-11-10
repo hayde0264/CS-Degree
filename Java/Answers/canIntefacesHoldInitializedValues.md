@@ -13,14 +13,6 @@ Since any fields placed within an interface are automatically **static and final
           printMonth(MonthsAsString.JANUARY); // Prints - We're in month January.
           printMonth(MonthsAsString.FEBUARY); // Prints - We're in month February.
           printMonth(MonthsAsString.MARCH); // Prints - We're in month March.
-          printMonth(MonthsAsString.APRIL); // Prints - We're in month April.
-          printMonth(MonthsAsString.MAY); // Prints - We're in month May.
-          printMonth(MonthsAsString.JUNE); // Prints - We're in month June.
-          printMonth(MonthsAsString.JULY); // Prints - We're in month July.
-          printMonth(MonthsAsString.AUGUST); // Prints - We're in month August.
-          printMonth(MonthsAsString.SEPTEMBER); // Prints - We're in month September.
-          printMonth(MonthsAsString.NOVEMBER); // Prints - We're in month Novemeber.
-          printMonth(MonthsAsString.DECEMBER); // Prints - We're in month December.
         }
       }
   
