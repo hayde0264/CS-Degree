@@ -1,4 +1,4 @@
-# What is the use statement? 
+# What is the Use statement? 
 
 The use statement **identifies the name of the database** where statements belong. 
 
