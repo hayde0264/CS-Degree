@@ -1,4 +1,4 @@
-# What does the delete statement do? 
+# What is the delete statement? 
 
 The delete statement **deletes one or more rows from a table**. 
 
