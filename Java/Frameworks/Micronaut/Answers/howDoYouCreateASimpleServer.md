@@ -23,4 +23,12 @@ In order to create a microserver that responds to a user's requests we need a **
 ```bash 
 simpleserver/src/main/java/com/hayde/SimpleContrller.java
 ```
+## Initialize Controller 
+![initializedController md](https://user-images.githubusercontent.com/109105989/201496230-37350555-9b66-4d94-b06f-4376f1b80b36.png)
+
+1. The annotation tells us this class is defined as a **@Controller** mapped to the path /ping 
+2. The **@Get** annotation maps the **index method** to the **GET** request from /ping
+3. By default, Micronaut responses uses appllication/json as **Content-Type**, but we are returning a String, **not a JSON object**, so we set
+  the media type to text/plain
+4. 
 
