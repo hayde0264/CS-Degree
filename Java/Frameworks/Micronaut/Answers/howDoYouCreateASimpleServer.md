@@ -20,7 +20,7 @@ You must specify the **--build arguement** as well as the **--lang** arguement. 
 In order to create a microserver that responds to a user's requests we need a **controller**. 
 
 ## Create Controller 
-```command
+```bash 
 simpleserver/src/main/java/com/hayde/SimpleContrller.java
 ```
 ## Initialize Controller 
@@ -30,5 +30,8 @@ simpleserver/src/main/java/com/hayde/SimpleContrller.java
 2. The **@Get** annotation maps the **index method** to the **GET** request from /ping
 3. By default, Micronaut responses uses appllication/json as **Content-Type**, but we are returning a String, **not a JSON object**, so we set
   the media type to text/plain
-4. 
+4. Returns the String PONG
+
+# 3 - Run the application 
+
 
