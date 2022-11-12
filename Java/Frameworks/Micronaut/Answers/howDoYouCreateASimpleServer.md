@@ -20,7 +20,7 @@ You must specify the **--build arguement** as well as the **--lang** arguement. 
 In order to create a microserver that responds to a user's requests we need a **controller**. 
 
 ## Create Controller 
-```console 
+```bash 
 simpleserver/src/main/java/com/hayde/SimpleContrller.java
 ```
 
