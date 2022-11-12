@@ -19,11 +19,11 @@ You must specify the **--build arguement** as well as the **--lang** arguement. 
 # 2 - Creating Controller 
 In order to create a microserver that responds to a user's requests we need a **controller**. 
 
-## Create Controller 
+## Create Controller: 
 ```bash 
 simpleserver/src/main/java/com/hayde/SimpleContrller.java
 ```
-## Initialize Controller 
+## Initialize Controller: 
 ![initializedController md](https://user-images.githubusercontent.com/109105989/201496230-37350555-9b66-4d94-b06f-4376f1b80b36.png)
 
 1. The annotation tells us this class is defined as a **@Controller** mapped to the path /ping 
@@ -33,5 +33,13 @@ simpleserver/src/main/java/com/hayde/SimpleContrller.java
 4. Returns the String PONG
 
 # 3 - Run the application 
+
+## Command: 
+![runmnApp](https://user-images.githubusercontent.com/109105989/201496482-1749199d-04b0-47fe-a67e-74e1a3eae279.png)
+## If sucsessfully:  
+![running](https://user-images.githubusercontent.com/109105989/201496514-8cd61b0b-4725-43fa-a8ec-26f915cbc4e3.png)
+compiled you should receive: 
+## Check localhost8080/ping: 
+![PONG](https://user-images.githubusercontent.com/109105989/201496530-a70f1d3b-4e87-490d-97b7-fc1433e4a87a.png)
 
 
