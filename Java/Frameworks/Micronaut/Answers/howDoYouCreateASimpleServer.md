@@ -39,7 +39,7 @@ simpleserver/src/main/java/com/hayde/SimpleContrller.java
 ## If sucsessfully:  
 ![running](https://user-images.githubusercontent.com/109105989/201496514-8cd61b0b-4725-43fa-a8ec-26f915cbc4e3.png)
 compiled you should receive: 
-## Check localhost8080/ping: 
+## Check localhost: 
 ![PONG](https://user-images.githubusercontent.com/109105989/201496530-a70f1d3b-4e87-490d-97b7-fc1433e4a87a.png)
 
 
