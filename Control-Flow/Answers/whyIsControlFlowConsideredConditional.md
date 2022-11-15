@@ -1,6 +1,6 @@
  # Why is control flow considered conditional?
 
- Control flow is considered "conditional" because, as with all control flow paradigms, code is executed **only if certain criteria are met**. This usually refers to when a certain boolean **is evaluated to true**.
+ Control flow is considered "conditional" because, as with all control flow paradigms, code is executed **only if certain criteria are met**. In order words, when a certain boolean **is evaluated as true or false**.
 
 
 
