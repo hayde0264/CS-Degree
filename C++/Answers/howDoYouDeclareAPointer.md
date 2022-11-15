@@ -1,11 +1,12 @@
 # How do you declare a pointer? 
+An asterisk (*) indicates that a variable is a pointer. Remember, pointers **can be declared to point to any type of object**. 
+
 
 ```cpp  
 int *ptr1, int1; // Is read "ptr1 points to an object of type int" "int1 is declared as an int" 
 // or simply
 int *ptr2; 
 ``` 
-An asterisk (*) indicates that a variable is a pointer. Remember, pointers **can be declared to point to any type of object**. 
 
 
 
