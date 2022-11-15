@@ -1,4 +1,4 @@
-# What is an address operator? 
+# How does the address operator work? 
 
 An address operator (**&**) is an operator that returns the **memory addres of its operand**. 
 
