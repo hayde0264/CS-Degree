@@ -5,17 +5,16 @@ To make a function in C++, you must specify the **return type, the name of the f
 ```cpp 
 int returnInt(void); // prototype (can omit argument identifiers) 
 int returnArguement(int); // prototype 
-int addInts(int, int); // function prototype 
+int addInts(int, int); // prototype 
 
-int returnInt(void) { 
+
+int returnInt(void) { // initialization 
   return 4; 
 }
- 
-int returnArgument(int a) { 
+int returnArgument(int a) { // initialization 
     return a; 
 }
-
-int addInts(int a, int b) { // function initialization 
+int addInts(int a, int b) { // initialization 
   return a + b; 
 }
 
