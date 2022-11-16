@@ -16,8 +16,8 @@ public class isOdd {
               boolean test1 = isOdd1(2); 
               boolean test2 = isOdd2(3); 
               
-              System.out.printf("%s ", test1); 
-              System.out.printf("%s ", test2); 
+              System.out.printf("%s ", test1); // Prints - false 
+              System.out.printf("%s ", test2); // Prints - true 
       } 
  } 
  ``` 
