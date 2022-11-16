@@ -9,12 +9,12 @@ public class isOdd {
       
       // slightly more efficient with bitwise AND (&) 
       private static boolean isOdd2(int i) { 
-              return (i & 1) = 0; 
+              return (i & 1) != 0; 
       } 
       
       public static void main(String[] args) { 
               boolean test1 = isOdd1(2); 
-              boolean test2 = isOdd(3); 
+              boolean test2 = isOdd2(3); 
               
               System.out.printf("%s ", test1); 
               System.out.printf("%s ", test2); 
