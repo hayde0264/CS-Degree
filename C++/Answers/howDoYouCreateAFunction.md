@@ -3,11 +3,22 @@
 To make a function in C++, you must specify the **return type, the name of the function, and parameters** (if they take arguments). 
 
 ```cpp 
-int addInts(int, int); // function prototype (can omit argument identifiers) 
+int returnInt(void); // prototype (can omit argument identifiers) 
+int returnArguement(int); // prototype 
+int addInts(int, int); // function prototype 
 
-int addInts(int a, int b) { // function initialization (notice int a & int b)  
+int returnInt(void) { 
+  return 4; 
+}
+ 
+int returnArgument(int a) { 
+    return a; 
+}
+
+int addInts(int a, int b) { // function initialization 
   return a + b; 
- }
+}
+
  ``` 
  
 
