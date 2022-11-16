@@ -1,4 +1,4 @@
-# Which command prints the working directory? 
+# What is the pwd command? 
 
 **pwd** - prints the working directory 
 
