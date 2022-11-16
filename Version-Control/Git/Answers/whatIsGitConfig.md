@@ -1,4 +1,4 @@
-# What is Git config?
+# What is git config?
 
 You can configure Git on your operating system by using the commands: 
 > git config -global user.name "[name]" 
