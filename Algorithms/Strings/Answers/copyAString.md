@@ -1,6 +1,7 @@
 # Copy a string 
 
 I - **Time** == O(m) **Space** == O(1) *where m is length of string1* 
+
 R - **Time** == O(m) **Space** == O(1) *where m is length of string1*
 
 
