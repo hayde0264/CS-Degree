@@ -10,8 +10,25 @@
 >
 >top(); returns the top element of the stack **without removing it** and will throw an error if the stack is empty 
 
-## In an image: 
+## In Java: 
+```java 
+  import java.util.EmptyStackException;
+  
+  public interface Stack<E> {
+          public int size(); 
+                            
+          public boolean isEmpty();
+                                   
+          public E top() throws EmptyStackException;
+              
+          public void push(E element);
+                                      
+          public E pop() throws EmptyStackException;
+  }                                                 
+``` 
 
+
+## In an image: 
 ![stack](https://user-images.githubusercontent.com/109105989/202868836-b55566bc-7edb-4d8f-bd80-f9bbb90f9875.png)
 
 
