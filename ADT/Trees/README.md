@@ -16,10 +16,7 @@ jargon for hierarchies include things such as **"parent," "child," "ancestor," a
 
 ## In an image: 
 
-![tree](https://user-images.githubusercontent.com/109105989/202873356-2ee4c668-2690-4867-b66a-16aff8ffb032.gif)
-
-
-
+![tree](https://user-images.githubusercontent.com/109105989/202873378-77fcfce5-7694-455d-9418-e0955266b43d.png)
 
 
 
