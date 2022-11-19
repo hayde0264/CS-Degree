@@ -17,16 +17,16 @@ container, which **"pops"** the top-most candy as the dispenser is lifted.
   import java.util.EmptyStackException;
   
   public interface Stack<E> {
-          public int size(); 
-                            
-          public boolean isEmpty();
-                                   
-          public E top() throws EmptyStackException;
-              
-          public void push(E element);
-                                      
-          public E pop() throws EmptyStackException;
-  }                                                 
+          public int size(); // returns number of elements in Stack 
+  
+          public boolean isEmpty(); // returns a boolean indicating if the Stack is empty 
+  
+          public E top() throws EmptyStackException; // returns the top element of the stack, and throws error if Stack is empty   
+          
+          public void push(E element); // inserts the element E to the top of the Stack
+  
+          public E pop() throws EmptyStackException; // removes and returns top element of Stack, and throws error if Stack is emtpy                                                                                                                                                       
+  }                                                
 ``` 
 
 
