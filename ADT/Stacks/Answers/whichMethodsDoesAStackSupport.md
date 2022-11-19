@@ -5,15 +5,6 @@
 - **isEmpty()** - returns a boolean indicating if the stack is empty 
 0 **top()** - returns the top element of the stack **without removing it** and will throw an error if the stack is empty 
 
-## In Java: 
-```java 
-// where Stack<E>
- public int size(); 
- public boolean isEmpty();
- public E top() throws EmptyStackException;
- public void push(E element);
- public E pop() throws EmptyStackException;                                             
-``` 
 
 
 ## In an image: 
