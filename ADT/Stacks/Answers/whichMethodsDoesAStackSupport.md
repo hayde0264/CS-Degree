@@ -1,5 +1,5 @@
 # Which methods does a Stack support? 
-- **push(e)** - inserts element e, to the **top** of the stack 
+- **push()** - inserts element e, to the **top** of the stack 
 - **pop()** - removes and returns the **top** element of the stack and will throw an error if the stack is empty 
 - **size()** - returns the number of elements in the stack 
 - **isEmpty()** - returns a boolean indicating if the stack is empty 
