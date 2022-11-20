@@ -4,10 +4,8 @@
 bin is short for **"binary"**, the bin is known as holding **useful software tools**. 
 
 ## Where is it located? 
-![Screen Shot 2022-11-20 at 6 27 02 PM](https://user-images.githubusercontent.com/109105989/202932278-6b310245-d059-4c21-9152-8ef15c9b059b.png)
-![Screen Shot 2022-11-20 at 6 28 45 PM](https://user-images.githubusercontent.com/109105989/202932366-7bedba2f-e953-4477-bdca-cc3277db7f19.png)
-
-
+![bin](https://user-images.githubusercontent.com/109105989/202932737-499aacab-96ae-4ddc-8c53-133e4c336800.png)
+![rootDir](https://user-images.githubusercontent.com/109105989/202932860-72915cba-2d05-4fff-825c-c1c062a4fc3a.png)
 
 
 # References 
