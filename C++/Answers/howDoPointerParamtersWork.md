@@ -1,7 +1,7 @@
-# How do pointer paramters work? 
+# How do pointer parameters work? 
 
-If a paramter is a pointer, the pointer is **copied**, just like all other **nonreference types**. So, if the 
-function assigned a new pointer value to a paramter, the calling pointer value **remains unchanged**. 
+If a parameter is a pointer, the pointer is **copied**, just like all other **non-reference types**. So, if the 
+the function is assigned a new pointer value, the calling pointer value **remains unchanged**. 
 
 
 ## For instance: 
@@ -29,4 +29,5 @@ function assigned a new pointer value to a paramter, the calling pointer value *
           return 0;                          
   } 
   ``` 
-  
+# References 
+Lippman, S., Lajoie, J., Moo, B. (2005). *C++ Primer* (4th ed.). <https://www.amazon.com/C-primer-fourth-Stanley-Lippman-ebook/dp/B0BKLV6F72/ref=sr_1_4?crid=HOJ0F3EYMPPV&keywords=c%2B%2B+primer&qid=1668976869&sprefix=c%2B%2B+primer%2Caps%2C87&sr=8-4> 
