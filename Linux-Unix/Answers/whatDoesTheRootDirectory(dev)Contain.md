@@ -6,8 +6,7 @@ needed to operate devices such as **terminals** and **printers**.
 
 ## Where is it located? 
 ![Screen Shot 2022-11-20 at 6 44 01 PM](https://user-images.githubusercontent.com/109105989/202933025-22fe15b5-be48-41c3-8976-339198408ac9.png)
-![rootDir](https://user-images.githubusercontent.com/109105989/202933028-b76b1e23-ab84-4024-81a6-f81e26ffde46.png)
-
+![root](https://user-images.githubusercontent.com/109105989/202933213-83181a92-318f-433f-b796-5784a4d64754.png)
 
 
 
