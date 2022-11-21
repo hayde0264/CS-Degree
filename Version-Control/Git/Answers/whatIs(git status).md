@@ -2,6 +2,9 @@
 
 **git status** - will show which branch you're on as well as the state of files in your directory
 
+## Syntax
+> git init 
+
 ## For instance: 
 ![Screen Shot 2022-11-20 at 8 12 58 PM](https://user-images.githubusercontent.com/109105989/202938093-467d7d0a-b226-4650-9309-e65b6155cbed.png)
 ## Or: 
