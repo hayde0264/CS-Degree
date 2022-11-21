@@ -2,7 +2,6 @@
 
 **git status** - will show which branch you're on as well as the state of files in your directory
 
-- make sure your in a directory that contains a git repository (git init)
 
 ## Syntax
 > git status
