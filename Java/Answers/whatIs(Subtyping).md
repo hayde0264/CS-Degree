@@ -8,9 +8,7 @@ In Java, a single type is considered a **" subtype** of another if they by **ext
 - **ArrayList<E>** is a subtype of **List<E>** 
 - **Collection<E>** is a subtype of **Iterable<E>** 
  
-## 
-In the example below, if we have a collection of numbers, I can add an **integer or a double**since both 
-  are subtypes of **Number** 
+In the example below, if we have a collection of numbers, I can add an **integer or a double**since both are subtypes of **Number** 
   
   ## 
   ```Java 
