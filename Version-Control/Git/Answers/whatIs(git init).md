@@ -1,7 +1,8 @@
 # What is git init? 
 
-Git init is the command used **to create a new repository**. 
+Git init - is the command used **to create a new repository**. 
 
+## Syntax
 > git init [repository name] 
 
 ## Before 
