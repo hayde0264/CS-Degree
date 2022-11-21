@@ -1,6 +1,8 @@
 # What is git config?
 
-You can configure Git on your operating system by using the commands: 
+**git config** - is a command used to configure Git on your operating system 
+
+## Syntax
 > git config -global user.name "[name]" 
 
 > git config -global user.email "[email address]" 
