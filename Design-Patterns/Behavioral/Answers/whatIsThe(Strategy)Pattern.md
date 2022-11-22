@@ -2,4 +2,8 @@
 
 **Strategy pattern** - is a behavioral design pattern that **creates a group of algorithms, encapsulates each one, and makes them interchangeable**. 
 
-The strategy design pattern allows developers to create **algorithms** which suit their clients best. 
+## Classes: 
+- **Abstract Class with reference to Inteface** 
+- **Concrete Classes (that extent the abstract class) and implement Interface algorithms**
+- **Interfaces for different concrete classes**
+
