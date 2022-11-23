@@ -2,11 +2,11 @@
 Pointers hold the addresses of objects. You can initialize a pointer with the **"asterisk"** and an **rval that has the (&) address of operator** 
 
 ```cpp 
- char* ptr1; // pointer to an char  
-  int** ptr2; // pointer to a pointer to int 
-  int* arrayOfPointers[20]; // array of 20 pointers to ints 
-  int (*functionparameter) (char*) // pointer to a function taking a char* argument; returns an int 
-  int* f (char*); // function taking a char* argument; returns a pointer to an int;  
+char* ptr1; // pointer to an char  
+int** ptr2; // pointer to a pointer to int 
+int* arrayOfPointers[20]; // array of 20 pointers to ints 
+int (*functionparameter) (char*) // pointer to a function taking a char* argument; returns an int 
+int* f (char*); // function taking a char* argument; returns a pointer to an int;  
 ``` 
 
 
