@@ -1,9 +1,9 @@
 # Which methods does List support? 
 
 ## List methods include: 
-- **insert(p, x) 
-- **insert(p, n, x) 
-- **insert(p, first, last) 
+- **insert(p, x)**
+- **insert(p, n, x)**
+- **insert(p, first, last)**
 - **erase(p)** 
 - **erase(first, last)** 
 - **clear()**
