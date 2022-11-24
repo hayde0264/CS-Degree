@@ -33,5 +33,10 @@ pointers allow you **read** objects that are pointed to, but not **write** value
 Here ptr points to a variable. However, the pointer (since it's constant) will **read the value pointed to** but cannot **change the value**. In this 
 example the type of (&b), respectively, is **(int*)**, but is assigned to a pointer of **(const int*)**. Something to note here is a **pointer to a non-const** can implicitly convert **pointer to a constant**; however, **pointers to const** are not implicitly convertible to **pointers to non-const**. 
 
+## Visually: 
+
+![pointerEx](https://user-images.githubusercontent.com/109105989/203875139-55d35463-8ab7-418a-8f3b-25403621f380.png)
+
+
 # References 
 Reference. (2022). *cplusplus*. <https://cplusplus.com/reference> 
