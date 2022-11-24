@@ -2,9 +2,13 @@
 
 A singly linked list is a **data structure** which consists of nodes **that represent a sequence**. Each Node contains data as well as a **reference or link to the next Node in the sequence**. 
 
+## What are the first and last elements? 
+
 Within a singly linked list, the first Node is called the **"head"**, and the last Node is called the **tail**. So, when the tail is 
 reached, we consider the next reference **null**. 
 
+
+## How do they compare to arrays? 
 Like an array, singly linked lists keep elements in a particular order. This order is determined by the chain or next links between nodes. Unlike an array, a singly linked list does **not have a predetermined size and will use space proportionally to its number of elements**. So, when 
 working with singly linked **, we do not keep track of any indices for the nodes within the list**. 
 
