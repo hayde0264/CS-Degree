@@ -1,8 +1,10 @@
-# When should you choose a linked list over an array? 
+# Linked list vs Array 
 
-## Opt for linked list over an array when: 
-- **inserting elements** 
-- **deleting elements** 
+
+
+## 
+
+![llvsar](https://user-images.githubusercontent.com/109105989/203698493-279503cf-5c34-4f32-a31b-0ad967c9d3b2.png)
 
 
 # References 
