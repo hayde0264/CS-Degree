@@ -7,12 +7,18 @@ A singly linked list is a **data structure** which consists of nodes **that repr
 Within a singly linked list, the first Node is called the **"head"**, and the last Node is called the **tail**. So, when the tail is 
 reached, we consider the next reference **null**. 
 
+![headAndTail](https://user-images.githubusercontent.com/109105989/203698054-41ecae03-3f28-4dd9-b066-b463f9581efa.png)
+
+
 
 ## How do they compare to arrays? 
 Like an array, singly linked lists keep elements in a particular order. This order is determined by the chain or next links between nodes. Unlike an array, a singly linked list does **not have a predetermined size and will use space proportionally to its number of elements**. So, when 
 working with singly linked **, we do not keep track of any indices for the nodes within the list**. 
 
-A singly linked list needs a node class. 
+![arrayVsLinkedList](https://user-images.githubusercontent.com/109105989/203697887-b40b6023-2f18-41d6-8c70-036373dcdaf3.png)
+
+# Is that it? 
+No, a singly linked list needs a node class. 
 
 ## For instance 
 ```java 
@@ -39,10 +45,6 @@ A singly linked list needs a node class.
           }       
   }  
 ``` 
-
-## Visually: 
-
-![linkedList](https://user-images.githubusercontent.com/109105989/201410732-994627f1-3eec-4fb7-a746-9bfee84afe25.png)
 
 
 
