@@ -7,8 +7,7 @@ Which methods do Strings support?
 String a = "hayden";
   
 char test = s.charAt(3);
-System.out.println(test);
-// Prints - d 
+System.out.println(test);  // Prints - d 
 ``` 
 - **compareTo()** - compares a string to another string
 ```java 
@@ -16,8 +15,7 @@ String a = "hayden";
 String b = "hayde";
   
 int test = a.compareTo(b);
-System.out.println(test);
-// Prints - 0 (false) 
+System.out.println(test);  // Prints - 0 (false) 
  ``` 
 
 - **concat()** - concatenates a string with another string 
@@ -26,8 +24,7 @@ String a = "hayden";
 String b = " howell";
   
 String test = a.concat(b);
-System.out.println(test);
-// Prints - hayden howell
+System.out.println(test);  // Prints - hayden howell
 ``` 
 
 - **contains()** - checks whether the string contains another string 
@@ -35,8 +32,7 @@ System.out.println(test);
 String a = "hayden";
   
 boolean test = a.contains("den");
-System.out.println(test);
-// Prints - true 
+System.out.println(test);  // Prints - true 
  ``` 
  
 - **copyValueOf()** - returns a string equivalent to the specified character array  
@@ -46,8 +42,7 @@ char b[] = {'a', 'b', 'c'};
   
   
 String test = a.copyValueOf(b);
-System.out.println(test);
-// Prints - abc  
+System.out.println(test);  // Prints - abc  
 ```          
 
 - **endsWith()** - checks whether the string ends with a specified suffix 
@@ -55,8 +50,7 @@ System.out.println(test);
 String a = "hayden";
   
 boolean test = a.endsWith("ay");
-System.out.println(test);
-// Prints - false 
+System.out.println(test);  // Prints - false 
  ``` 
  
 - **equals()** - compares a string to another string 
@@ -65,18 +59,16 @@ String a = "hayden";
 String b = "hayden";
   
 boolean test = a.equals(b);
-System.out.println(test);
-// Prints - true  
+System.out.println(test);  // Prints - true  
 ``` 
 
 - **equalsIgnoreCase()** - compares a string with another string; ignoring the case 
 ```java 
-                  String a = "hayden";
-                  String b = "HaYden";
+String a = "hayden";
+String b = "HaYden";
   
-                  boolean test = a.equalsIgnoreCase(b);
-                  System.out.println(test);
-                  // Prints - true
+boolean test = a.equalsIgnoreCase(b);
+System.out.println(test);  // Prints - true
 ``` 
 
 - **getBytes()** - copies characters from a string into a byte array 
@@ -84,8 +76,7 @@ System.out.println(test);
 String a = "hayden";
   
 byte[] test = a.getBytes();
-System.out.println(test);
-// Prints - [B@7e0e6aa2 
+System.out.println(test);  // Prints - [B@7e0e6aa2 
 ``` 
 
 - **hashCode()** - returns a hashcode for a string 
@@ -93,8 +84,7 @@ System.out.println(test);
 String a = "hayden";
   
 int test = a.hashCode();
-System.out.println(test);
-// Prints - -1224250003 
+System.out.println(test);  // Prints - -1224250003 
 ``` 
 
 - **indexOf()** - searches for the first occurrence of a character or substring in a string 
@@ -102,8 +92,7 @@ System.out.println(test);
 String a = "hayden";
   
 int test = a.indexOf('h');
-System.out.println(test);
-// Prints - 0 
+System.out.println(test);  // Prints - 0 
 ``` 
 
 - **intern()** - fetches a unique instance of the string from a global shared-string pool 
@@ -111,8 +100,7 @@ System.out.println(test);
 String a = "hayden";
 
 String test = a.intern();
-System.out.println(test); 
-// Prints - hayden (returns canonical representation of a)
+System.out.println(test);  // Prints - hayden (returns canonical representation of a)
 ``` 
 
 - **isEmpty()** - returns true if the string is empty 
@@ -120,8 +108,7 @@ System.out.println(test);
 String a = "    ";
   
 boolean test = a.isEmpty();
-System.out.println(test);
-// Prints - false
+System.out.println(test);  // Prints - false
 ``` 
 
 - **lastIndexOf()** - searches for the last occurrence of a character or substring in a string 
@@ -129,8 +116,7 @@ System.out.println(test);
 String a = "hayden";
   
 int test = a.lastIndexOf('y');
-System.out.println(test);
-// Prints - 2 
+System.out.println(test);  // Prints - 2 
 ``` 
 
 - **length()** - returns the length of a string 
@@ -138,8 +124,7 @@ System.out.println(test);
 String a = "hayden";
 
 int test = a.length();
-System.out.println(test);
-// Prints - 6
+System.out.println(test);  // Prints - 6
 ``` 
 
 - **matches()** - determines if the whole string matches a regular expression pattern 
@@ -153,16 +138,14 @@ System.out.println(test);
 String a = "hayden";
   
 boolean test = a.startsWith("H");
-System.out.println(test);
-// Prints - false
+System.out.println(test);  // Prints - false
 ``` 
 - **substring()** - returns a substring from the string 
 ```java 
 String a = "hayden";
   
 String test = a.substring(3, 5);
-System.out.println(test);
-// Prints - de  
+System.out.println(test);  // Prints - de  
 ``` 
 
 - **toCharArray()** - returns the array of characters from the string 
@@ -170,35 +153,32 @@ System.out.println(test);
   String a = "hayden";
           
 char[] test = a.toCharArray();
-System.out.println(test);
-// Prints - hayden (type is now char[])
+System.out.println(test);  // Prints - hayden (type is now char[])
 ``` 
 
 - **toLowerCase()** - converts the string to lowercase 
 ```java 
 String a = "HAYDEN";
   
- String test = a.toLowerCase();
- System.out.println(test);
- // Prints - hayden 
+String test = a.toLowerCase();
+System.out.println(test);  // Prints - hayden 
  ``` 
+ 
 - **toString()** - returns the string value of an object 
 ```java 
 StringBuilder str = new StringBuilder("hay");
 String a = "den";
 str.append(a);
 
-System.out.println(str.toString());
-// Prints - hayden
+System.out.println(str.toString());  // Prints - hayden
 ``` 
 
 - **toUpperCase()** - converts the string to uppercase 
 ```java 
-          String a = "hayden";
+String a = "hayden";
   
-          String test = a.toUpperCase();
-          System.out.println(test);
-          // Prints - hayden
+String test = a.toUpperCase();
+System.out.println(test);  // Prints - hayden
 ``` 
 
 - **trim()** - removes leading and trailing whitespace from the string 
@@ -206,16 +186,15 @@ System.out.println(str.toString());
 String a = "     hayden";
   
 String test = a.trim();
-System.out.println(test);
-// Prints - hayden
+System.out.println(test);  // Prints - hayden
 ``` 
+
 - **(valueOf()** - returns a string representation of a value 
 ```java 
 String a = "hayden";
   
 String test = a.valueOf(Integer.MAX_VALUE);
-System.out.println(test);
-// Prints - 2147483647 
+System.out.println(test);  // Prints - 2147483647 
 ``` 
 
 
