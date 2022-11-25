@@ -18,7 +18,7 @@ An address operator (**&**) is an operator that returns the **memory address of 
           int* ptr = &a;
   
           cout << ptr << endl; // Prints - "the address of a" (0x16f953698)
-          cout << &a << endl; // Prints - just like above example (0x16f953698)
+          cout << &a << endl; // Prints - (0x16f953698) notice its the same as (ptr)
           cout << *ptr; // Prints - "the value stored in variable a" (4)
   
           return 0;
