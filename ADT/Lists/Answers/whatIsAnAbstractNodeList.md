@@ -10,10 +10,10 @@ providing **significant** speedups compared to index-based methods.
 ## What's needed? 
 To make this work, we'll need two interfaces: a Position and PositonList interface. 
 
-The position interface will contain: 
+## The position interface will contain: 
 - **element()** - its job is to return the element at a stored position 
 
-The position list interface will contain: 
+## The position list interface will contain: 
 - **size()** - returns the number of elements within the list 
 - **isEmpty()** - returns whether a list is empty or not 
 - **first()** - returns the first node 
