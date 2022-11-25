@@ -1,29 +1,38 @@
-# What is the address-of operator? 
 
-The address of an object can be referenced to with the ampersand (&) sign which create**references to objects**. So if they are updated, the object they are **referenced** to do as well. 
+  # What is the address-of operator? 
 
+The address-of operator **(&)** will **return the address of an element as it's stored in memory**. To use the address-of operator, prefix an identifier 
+name with **"&"**, this will notify the compiler. 
 
-## For instance: 
 ```cpp 
   #include <iostream>
+  #include <string>
+  #include <vector>
+  
   
   using namespace std;
   
+  
   int main() {
-          int i = 1;
-          int& j = i;
   
-          cout << "i = " << i << endl; // Prints - i = 1 
-          // change j which changes i             
-          j = 2;                                  
-          cout << "i = " << i; // Prints - i = 2
+          int a = 1;
+          long b = 7658978;
+          bool c = true;
+  
+  
+  
+          cout << "a: " << &a << "\n"; // Prints - a: 0x16eec7698
+          cout << "b: " << &b << "\n"; // Prints - b: 0x16eec7690
+          cout << "c: " << &c; // Prints - c: 0x16eec768
+                                          
+          return 0;            
   } 
-```
-
-
+  ``` 
+  
+  ## Visually: 
+  ![memAddress](https://user-images.githubusercontent.com/109105989/203900052-410a403f-db03-42fd-8fa0-48c1bb9483a7.png)
 
   
-
+  
 # References 
-Stroustrup, B. (2000, February 11). *The C++ Programming Language* (3rd ed.). Addison-Wesley Professional. <https://www.amazon.com/Programming-Language-Special-3rd/dp/0201700735/ref=sr_1_1?crid=2LYS15FV29TAV&keywords=c%2B%2B+programming+third+edition&qid=1669162342&sprefix=c%2B%2B+programming+third+edition+%2Caps%2C72&sr=8-1> 
-
+Eckel, B. (2000, March 25). *Thinking in C++* (2nd. ed). Prentice Hall. <https://www.amazon.com/Thinking-Vol-Introduction-Standard-2nd/dp/0139798099/ref=sr_1_1?crid=OG7ZT44E93J4&keywords=thinking+in+c%2B%2B&qid=1668919926&sprefix=thinking+in+c%2B%2B%2Caps%2C86&sr=8-1>
