@@ -1,7 +1,7 @@
 # What is a constant pointer? 
 
-Since pointers are used to access variables by their address, when **non-constant**, pointers may **modify** the value pointed to. Constant 
-pointers allow you **read** objects that are pointed to, but not **write** values. 
+**Non-constant** pointers can **modify, or write,** the values they pointed to. Constant 
+pointers allow you **read** the object pointed to, but not **write** values to that particular object. 
 
 ## For example: 
 ```cpp 
