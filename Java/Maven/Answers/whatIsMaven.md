@@ -3,6 +3,7 @@
 Maven, which is Yiddish for **"accumulator of knowledge**, is a tool that is used for **building and managing** Java projects. 
 
 
+
 ## Objectives include: 
 - **simplifying the build process** 
 - **creating a uniform build system** 
