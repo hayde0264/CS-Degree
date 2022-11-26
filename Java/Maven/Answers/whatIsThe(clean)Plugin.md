@@ -2,11 +2,6 @@
 
 The clean plugin **tries to clean the files and directories generated** during a build. 
 
-## Use cases: 
-- **deleing additional files outside of default directories** 
-- **ignoring clean errors** 
-- **skipping clean execution** 
-
 
 
 ## Before: 
