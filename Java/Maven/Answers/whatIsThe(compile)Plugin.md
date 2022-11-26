@@ -5,6 +5,15 @@ The compile plugin allows you to compile your sources, which tell Maven **which 
 **compiler:compile** - is bound to the compile phase with the main source files 
 **compiler:testCompile** - is bound to the test-compile phase with the test source files 
 
+## Use cases: 
+- **compile using a different JDK** 
+- **compile using -source and -target javac Options** 
+- **compile using the --release javac option** 
+- **compile using memory allocation enhancement** 
+- **passing compiler arguments**
+
+
+
 ## Before: 
 ```zsh 
 mvn compile 
