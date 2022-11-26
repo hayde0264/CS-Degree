@@ -2,8 +2,8 @@
 
 The clean plugin **tries to clean the files and directories generated** during a build. 
 
-#Before: 
-```zsh 
+## Before: 
+```terminal 
 mvn clean 
 ```
 
