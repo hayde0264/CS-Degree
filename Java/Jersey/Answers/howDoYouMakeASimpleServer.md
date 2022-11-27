@@ -40,7 +40,7 @@ My POJO exists at: **(src/main/java/com/example/hayde/MyResource.java)**
 ## Let's customize: 
 ![Screen Shot 2022-11-26 at 7 48 52 PM](https://user-images.githubusercontent.com/109105989/204114311-0de99a28-1b3c-4c01-8cb2-a2c0750d4028.png)
 
-## Must update (src/test/java/com/example/hayde/MyResourceTest.java): 
+## Update (src/test/java/com/example/hayde/MyResourceTest.java): 
 ## From: 
 ![Screen Shot 2022-11-26 at 7 57 23 PM](https://user-images.githubusercontent.com/109105989/204114512-1f11c9cd-0d3a-4e00-bbf1-dacdcf291202.png)
 ## To: 
