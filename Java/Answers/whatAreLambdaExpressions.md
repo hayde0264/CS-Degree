@@ -5,7 +5,9 @@ a body, return type and even can throw exceptions**.
 
 ## Syntax: 
 > (parameters) -> expression 
+> 
 > or 
+> 
 > (parameters) -> { statements; } 
 
 ## Visually: 
