@@ -1,4 +1,8 @@
-# What is the predicate functional interface? 
+# What is the Predicate functional interface? 
+
+The Predicate functional interface defines a single abstract method, **test**, which accepts an object of generic type **T** 
+and returns a **boolean**. 
+
 
 ```java
 @FunctionalInterface
