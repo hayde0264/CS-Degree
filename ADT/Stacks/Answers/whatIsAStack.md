@@ -33,7 +33,6 @@ container, which **"pops"** the top-most candy as the dispenser is lifted.
 ```cpp 
   #include <iostream>
   
-  
   using namespace std;
   
   template<class E>
