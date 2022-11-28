@@ -41,7 +41,7 @@
   }
 ``` 
 
-## Sub and Super Classes: 
+## 
 ![list](https://user-images.githubusercontent.com/109105989/204170243-a60857e3-e4a6-4045-b98a-51aa91638220.png)
 
 
