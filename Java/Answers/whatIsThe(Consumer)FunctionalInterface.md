@@ -1,5 +1,6 @@
 # What is the Consumer functional interface? 
 
+The Consumer functional interface defines a single abstract method, **accept**, which takes of generic object **T** and returns no result (void). 
 
 ```java 
 @FunctionalInterface 
