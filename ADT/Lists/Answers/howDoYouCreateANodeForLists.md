@@ -1,13 +1,13 @@
-# How do you create a List node? 
+# How do you create a Node for lists?  
 
 A List node should have two properties. The first **a current field**and **next** which points to the next node in the list. 
 
 
 ## For example: 
 ```java 
- public class ListNode<E> {
+ public class Node<E> {
           public E current;
-          public ListNode<E> next;
+          public Node<E> next;
   }
  ``` 
  
