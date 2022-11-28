@@ -29,6 +29,28 @@ container, which **"pops"** the top-most candy as the dispenser is lifted.
   }                                                
 ``` 
 
+## In C++: 
+```cpp 
+  #include <iostream>
+  
+  
+  using namespace std;
+  
+  template<class E>
+  class Stack {   
+          public:
+                  virtual void initialize() = 0;                                          
+                                                                                          
+                  virtual bool isEmpty() const = 0;                                       
+                                                                                          
+                  virtual E top() const = 0;                                              
+                                                                                          
+                  virtual void push(const E& element) = 0;
+  
+                  virtual void pop() = 0; 
+  };     
+```
+
 
 # References 
 Goodrich, M. & Tamassia, R. (1994, January 1). *Data Structures and Algorithms in Java* (4th. ed.). <https://www.amazon.com/Michael-T-Goodrich-Structures-Algorithms/dp/B008UYJYF0/ref=sr_1_1?crid=23VA1V4BICEID&keywords=data+structures+and+algorithms+in+java+4th+edition&qid=1668886907&sprefix=data+structures+and+algorithms+in+java+4th+edition+%2Caps%2C61&sr=8-1>
