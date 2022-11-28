@@ -1,4 +1,4 @@
-# What is the time complexity for inserting? 
+# What is the time complexity for push? 
 
 **push** - O(1) 
 
