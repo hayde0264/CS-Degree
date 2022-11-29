@@ -1,6 +1,6 @@
 # What are hash tables? 
 
-Hash tables are data structures that store objects **according to their key field in an array**. Such objects are stored within array locations **"slots"** based on the **"hash code"** of their key**. 
+Hash tables are data structures that store objects **according to their key field in an array**. Such objects are stored within array locations **"slots"** based on the **"hash code"** of their key. 
 
 
 ## Visually: 
