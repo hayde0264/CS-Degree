@@ -2,25 +2,9 @@
 
 An array, which must have **constant bounds**, is different from a vector. A vector uses **variable bounds**. 
 
-## For instance: 
-```cpp 
-  #include <iostream>
-  #include <vector>
-  
-  using namespace std;
-  
-  
-  void vectorEx(int i) {
-          /*
-          int array1[i];
-         
-          This will create an error because the array size IS NOT a constant expression.         
-          */                                                                                    
-                                                                                                
-                                                                                                
-          vector<int> vectorEx(i); // this works!
-  }      
-  ``` 
+## Visually: 
+![vector](https://user-images.githubusercontent.com/109105989/204689528-0bbed961-ec9b-402d-9240-b445d5a3cc51.png)
+
   
   
 
