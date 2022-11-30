@@ -1,0 +1,14 @@
+# How do you free memory? 
+
+You free members by using the keyword **delete** on a specified pointer. This returns memory to the free store. 
+
+## For instance: 
+```cpp 
+int* ptr = new int; // allocate (create) memory 
+delete ptr;         // delete (free) memory
+``` 
+``` 
+
+
+# References 
+Jones, B., Libert, J., Rao, Siddhartha. (2008, January 1). *Sams Teach Yourself C++ in One Hour a Day* (6th ed.). Sams. <https://www.amazon.com/Sams-Teach-Yourself-One-Hour/dp/0672329417/ref=sr_1_4?crid=2RB86BRDXC98Z&keywords=sams+teach+yourself+c%2B%2B+in+one+hour+a+day&qid=1669771498&sprefix=sams+teach+yourself+c%2B%2B+in+one+hour+a+day+%2Caps%2C72&sr=8-4> 
