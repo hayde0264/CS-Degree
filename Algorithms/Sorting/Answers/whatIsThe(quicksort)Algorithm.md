@@ -46,7 +46,6 @@
 ```java 
   public class Algorithms {
   
-  
           void quickSort(int[] array, int left, int right) {
                   int index = partition(array, left, right);
                   if (left < index - 1) { // sort left half
