@@ -44,41 +44,44 @@
 
 ## In Java: 
 ```java 
-
-void quickSort(int[] array, int left, int right) {
-    int index = partition(array, left, right);
-    if (left < index - 1) { // sort left half
-           quickSort(array, left, index - 1);
-     }
-     if (index < right) { // sort right half
-           quickSort(array, index, right);
-     }
-}
+  public class Algorithms {
   
   
-int partition(int[] array, int left, int right) {
-     int pivot = array[(left + right) / 2];
-     while (left <= right) {
-            // find left element that should be moved right
-            while (array[left] < pivot) left++;
-            // find right element that should be moved left
-            while (array[right] > pivot) right--;
+          void quickSort(int[] array, int left, int right) {
+                  int index = partition(array, left, right);
+                  if (left < index - 1) { // sort left half
+                          quickSort(array, left, index - 1);
+                  }
+                  if (index < right) { // sort right half
+                  quickSort(array, index, right);
+                  }
+          }
   
-            // swap
-            if (left <= right) {
-                 swap(array, left, right);
-                 left++;
-                 right--;
-             }
-      }
-   return left;
- }
   
-void swap(int[] array, int left, int right) {
-      int temp = array[left];
-      array[left] = array[right];
-      array[right] = temp;
- }
+          int partition(int[] array, int left, int right) {
+                  int pivot = array[(left + right) / 2];
+                  while (left <= right) {
+                          // find left element that should be moved right
+                          while (array[left] < pivot) left++;
+                          // find right element that should be moved left
+                          while (array[right] > pivot) right--;
+  
+                          // swap
+                          if (left <= right) {
+                                  swap(array, left, right);
+                                  left++;
+                                  right--;
+                          }
+                  }
+                  return left;
+          }
+  
+          void swap(int[] array, int left, int right) {
+                  int temp = array[left];
+                  array[left] = array[right];
+                  array[right] = temp;
+          }
+  }
   ```
   
   
