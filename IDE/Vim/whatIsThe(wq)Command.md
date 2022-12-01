@@ -1,4 +1,4 @@
- # How do you save and exit a file?
+ # What is the wq command? 
 
  To save and exit a file, first, make sure you are in normal mode, then use **wq**. This stands for "write quit."
 
