@@ -1,5 +1,5 @@
 
- # How can you jump to the start of a file?
+ # What is the gg command? 
 
  When in normal mode, you can jump to the begging of a file using **gg**.
 
