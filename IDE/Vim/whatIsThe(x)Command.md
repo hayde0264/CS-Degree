@@ -1,4 +1,4 @@
- # How do you delete an unwanted character?
+ # What is the x command? 
 
  In vim, while in normal mode, you can delete an unwanted character using **x**.
 
