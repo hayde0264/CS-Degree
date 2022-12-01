@@ -1,4 +1,4 @@
- # How can you jump to the end of a line?
+ # What is the A command? 
 
  When in normal mode, you can jump to the end of a line using **A**.
 
