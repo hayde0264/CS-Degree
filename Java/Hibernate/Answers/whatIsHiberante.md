@@ -9,8 +9,7 @@ Hibernate **"sits between"** a Java application and the data access layer and th
 
 # How does Hibernate interact with Java? 
 Java relies on the Hibernate API to **load, store, and query its data**. 
-
-![hiber](https://user-images.githubusercontent.com/109105989/205374966-aa0ad02e-05e9-44b4-90ab-eabd754b72c6.png)
+![hiber](https://user-images.githubusercontent.com/109105989/205375009-82b4b3c3-b0f0-41a8-8cb1-77d46e404c97.png)
 
 
 
