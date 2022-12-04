@@ -11,8 +11,8 @@ public static class BinaryTreeNode<T> {
 }       
 ``` 
 ## Visually: 
-![bTree](https://user-images.githubusercontent.com/109105989/205519441-9e762df1-2fe5-4e40-9233-9a8eb5183a71.png)
 
-# References 
+![bTree](https://user-images.githubusercontent.com/109105989/205519582-a248dd52-9d0b-4f10-b5de-702b407e4367.png)
+
 # References 
 Aziz, A. Lee, T. Prakash, A. (2015). *Elements of Programming Interviews in Java* (1st ed.). <https://www.amazon.com/Elements-Programming-Interviews-Questions-Tsung-Hsien/dp/B00C7F0V3W/ref=sr_1_1?crid=SU7GU68QNL5N&keywords=elements+of+programming+interviews+in+java+1st+edition&qid=1669594847&sprefix=elements+of+programming+interviews+in+java+1st+edition+%2Caps%2C72&sr=8-1> 
