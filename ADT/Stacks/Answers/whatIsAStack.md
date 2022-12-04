@@ -15,18 +15,37 @@ container, which **"pops"** the top-most candy as the dispenser is lifted.
 ## In Java: 
 ```java 
   import java.util.EmptyStackException;
+
+    public class GeneralStack<T> {
+          private static calss StackNode<T> {
+                  private T data;
+                  private StackNode<T> next;
   
-  public interface Stack<E> {
-          public int size(); // returns number of elements in Stack 
+                  public StackNode(T data) { this.data = data; }
+          }
   
-          public boolean isEmpty(); // returns a boolean indicating if the Stack is empty 
+          private StackNode<T> top;
   
-          public E top() throws EmptyStackException; // returns the top element of the stack, and throws error if Stack is empty   
-          
-          public void push(E element); // inserts the element E to the top of the Stack
   
-          public E pop() throws EmptyStackException; // removes and returns top element of Stack, and throws error if Stack is emtpy                                                                                                                                                       
-  }                                                
+          public T pop() {
+                  if (top == null) throw new EmptyStackException();
+                  T item = top.data;
+                  top = top.next;
+                  return item;
+          }
+          public void push(T item) {
+                  StackNode<T> t = new StackNode<T>(item);
+                  t.next = top;
+                  top = t;
+          }
+          public T peek() {
+                  if (top == null) throw new EmptyStackException();
+                  return top.data;
+          }
+          public boolean isEmpty() {
+                  return top == null;
+          }
+  }
 ``` 
 
 ## In C++: 
