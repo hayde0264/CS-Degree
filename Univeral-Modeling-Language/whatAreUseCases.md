@@ -1,4 +1,4 @@
-# Use Cases 
+# What are use cases? 
 
 Use cases may include stories or scenarios of **how users will interact with the application**.
  
