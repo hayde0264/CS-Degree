@@ -15,4 +15,3 @@ Use cases contain **actors** and **scenarios**.
 # Use-Case Models 
 **Use-Case Models** provide diagrams to show the **names of use cases, actors, a
 and their relationships**.
-
