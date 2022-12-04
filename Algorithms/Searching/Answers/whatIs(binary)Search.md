@@ -59,7 +59,7 @@
   
                   int test = binarySearch(arr, key);
   
-                  System.out.printf("%d\n", test);
+                  System.out.printf("%d\n", test); // Prints - 1
           }
   }
  ```
