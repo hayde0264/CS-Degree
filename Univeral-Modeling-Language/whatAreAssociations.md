@@ -1,4 +1,4 @@
-# Associations 
+# What are associations? 
 
 Associations in UML can be noted by **a solid line between two classes**. 
 
