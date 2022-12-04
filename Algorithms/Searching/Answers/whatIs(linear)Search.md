@@ -3,15 +3,19 @@
 
 ## In C++:
 ```cpp 
+  #include <cstddef>
   #include <iostream>
+  #include <vector>
+  
   
   using namespace std;
   
-  int linearSearch(int arr[], int start, int end, int key) {
-          for (int i = start; i < end; ++i) {
-                  if (arr[i] == key) {
+  
+  
+  static int linearSearch(vector<int> vec, int key) {
+          for (int i = 0; i < vec.size() ; i++) {
+                  if (vec[i] == key)
                           return i;
-                  }
           }
           return -1;
   }
@@ -19,16 +23,16 @@
   
   int main() {
   
-          int arr[] = {2, 4, 11, 25, 91};
-          int arraySize = sizeof(arr)/sizeof(*arr);
+          vector<int> vec = {1, 2, 3, 4};
+          int key = 4;
   
-          int key = 11;
-          int test = linearSearch(arr, 0, arraySize - 1, key);
+          int test = linearSearch(vec, key);
   
-          test != -1 ? cout << "value found at index " << test : cout << "element not found";
-  
-          return 0;
-  }
+          test != -1 ? cout << "element located at index " << test : cout << "element not found"; // Prints - element located at index 3  
+                                                                                                                                
+          return 0;                                                                                                                             
+  }                                                                                                                                             
+~       
 ```
 
 
