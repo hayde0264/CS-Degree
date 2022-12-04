@@ -4,34 +4,34 @@
 
 ## In Java: 
 ```java 
-  public class Test {
-          public static int binarySearch(int[] arr, int key) {
-                  int first = 0;
-                  int last = arr.length - 1;
-                  int middle;
-                  while (first <= last) {
-                          middle = 1 + (last - first) / 2;
-                          if (arr[middle] == key) {
-                                  return middle;
-                          } if (arr[middle] < key) {
-                                  last = middle + 1;
-                          } else {
-                                  last = middle - 1;
-                          }
-                  }
-                  return -1;
-          }
+    public class Test {
+            public static int binarySearch(int[] arr, int key) {
+                    int first = 0;
+                    int last = arr.length - 1;
+                    int middle;
+                    while (first <= last) {
+                            middle = first + (last - first) / 2;
+                            if (arr[middle] == key) {
+                                    return middle;
+                            } if (arr[middle] < key) {
+                                    last = middle + 1;
+                            } else {
+                                    last = middle - 1;
+                            }
+                    }
+                    return -1;
+            }
   
   
-          public static void main(String[] args) {
-                  int[] arr = {1, 2, 4, 2};
-                  int key = 2;
+            public static void main(String[] args) {
+                    int[] arr = {1, 2, 4, 2};
+                    int key = 2;
   
-                  int test = binarySearch(arr, key);
+                    int test = binarySearch(arr, key);
   
-                  System.out.printf("%d\n", test); // Prints - 1
-          }
-  }
+                    System.out.printf("%d\n", test); // Prints - 1
+            }
+    }        
  ```
  ## In C++:
  ```cpp
@@ -46,7 +46,7 @@
           int last = vec.size() - 1;
           int middle;
           while (first <= last) {
-                  middle = 1 + (last - first) / 2;
+                  middle = last + (last - first) / 2;
                   if (vec[middle] == key) {
                           return middle;
                   } else if (vec[middle] < key) {
