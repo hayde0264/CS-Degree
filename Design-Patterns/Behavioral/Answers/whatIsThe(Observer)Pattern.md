@@ -1,4 +1,5 @@
- # Explain the Observer Pattern 
+# What is the Observer pattern? 
+
   
 
 ## Visually: 
