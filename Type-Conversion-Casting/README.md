@@ -3,7 +3,7 @@
 Both type casting, as well as type conversion are different ways to change an expression from one data type to another. This can happen **explicitly**, which is known as type casting, or **implicitly**, also known as type conversion. 
 
 # Casting 
-**type casting** - also known as a **"narrowing conversion"** since the **destination type is always smaller than the source type** (for instance, int -> byte won't be performed automatically because a byte is smaller than an int)
+**type casting** - also known as a **"narrowing conversion"** since the **destination type is always smaller than the source type** (for instance, int to byte won't be performed automatically because a byte is smaller than an int)
 
 ## For instance: 
 ```java 
@@ -41,7 +41,7 @@ Both type casting, as well as type conversion are different ways to change an ex
   ``` 
   ## Conversion 
 **type conversion** - is also known as a **"widening conversion"** since the **destination type is 
-larger than the **source type** (for instance byte -> int can be done automaticlly)
+larger than the **source type** (for instance byte to int can be done automaticlly)
 
 ## For instance: 
 ```java 
