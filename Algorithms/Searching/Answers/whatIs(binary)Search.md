@@ -4,73 +4,45 @@
 
 ## In Java: 
 ```java 
-    public class Test {
-            public static int binarySearch(int[] arr, int key) {
-                    int first = 0;
-                    int last = arr.length - 1;
-                    int middle;
-                    while (first <= last) {
-                            middle = first + (last - first) / 2;
-                            if (arr[middle] == key) {
-                                    return middle;
-                            } if (arr[middle] < key) {
-                                    last = middle + 1;
-                            } else {
-                                    last = middle - 1;
-                            }
-                    }
-                    return -1;
-            }
-  
-  
-            public static void main(String[] args) {
-                    int[] arr = {1, 2, 4, 2};
-                    int key = 2;
-  
-                    int test = binarySearch(arr, key);
-  
-                    System.out.printf("%d\n", test); // Prints - 1
-            }
-    }        
+             public static int binarySearch(List<Integer> arr, int key) {
+                  int low = 0;
+                  int high = arr.size() - 1;
+                  int result = -1;
+                  while (low <= high) {
+                          int middle = low + ((high - low) / 2);
+                          if (arr.get(middle) == key) {
+                                  return middle;
+                          } else if (arr.get(middle) < key) {
+                                  low = middle + 1;
+                          } else {
+                                  high = middle - 1;
+                          }
+                  }
+                  return result;
+          }
  ```
  ## In C++:
  ```cpp
-  #include <cstddef>
-  #include <iostream>
   #include <vector>
-  
+  #include <iostream>
   using namespace std;
   
-  static int binarySearch(vector<int> vec, int key) {
-          int first = 0;
-          int last = vec.size() - 1;
-          int middle;
-          while (first <= last) {
-                  middle = last + (last - first) / 2;
-                  if (vec[middle] == key) {
+  static int binarySearch(const vector<int>& arr, int key) {
+          int low = 0;
+          int high = arr.size() - 1;
+          int result = -1;
+          while (low <= high) {
+                  int middle = low + ((high - low) / 2);
+                  if (arr[middle] == key) {
                           return middle;
-                  } else if (vec[middle] < key) {
-                          last = middle + 1;
+                  } else if (arr[middle] < key) {
+                          low = middle + 1;
                   } else {
-                          last = middle - 1;
+                          high = middle - 1;
                   }
           }
-          return -1;
+          return result;
   }
-  
-  
-  int main() {
-  
-          vector<int> vec = {1, 2, 3, 4};
-          int key = 3;
-  
-          int test = binarySearch(vec,  key);
-  
-          cout << test; // Prints - 2 
-  
-          return 0;
-  }
-
 ``` 
 
 
