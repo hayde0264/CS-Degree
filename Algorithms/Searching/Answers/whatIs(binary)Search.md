@@ -4,7 +4,10 @@
 
 ## In Java: 
 ```java 
-             public static int binarySearch(List<Integer> arr, int key) {
+  import java.util.List;
+  
+  public class Test {
+          public static int binarySearch(List<Integer> arr, int key) {
                   int low = 0;
                   int high = arr.size() - 1;
                   int result = -1;
@@ -20,6 +23,7 @@
                   }
                   return result;
           }
+  }   
  ```
  ## In C++:
  ```cpp
