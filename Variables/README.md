@@ -8,6 +8,13 @@ Variables provide developers with "named storage." Variables allow us to **manip
 - **different operators**
 - **different methods** 
 
+## In Java: 
+```java 
+int z, y, z; declares three ints 
+int a = 1, b, c = 3; // declares three ints, but only initializes a && c 
+byte b = 22; // initializes b 
+char s = 's'; // the variable s has the value of 's'
+``` 
 
 
 
