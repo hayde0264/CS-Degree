@@ -2,7 +2,9 @@
 
 
 **boxing** - is the transformation of a primitive type to object 
+
 **unboxing** - is the transformation of an object to a primitive type 
+
 **autoboxing** - refers to the Java compiler's automatic conversion of a primitive type into its corresponding object (wrapper type) 
 
 
