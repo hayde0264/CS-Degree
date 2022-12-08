@@ -7,8 +7,7 @@ This demo will build an application that prints out the current time every five 
 2. Add the *awaitility* library to pom.xml 
 3. Create a scheduled task (src/main/java/com/exmaple/scheduilingtask/ScheduledTasks.java) 
 4. Enable scheduling (src/main/java/com/example/schedullingtask/SchedulingTaskApplication.java) 
-5. Clean package 
-6. Test 
+5. Clean package & Test
 
 # 1. 
 Navigate to <https://start.spring.io> and choose the dependencies you'll need for the application; this will generate 
@@ -51,7 +50,7 @@ mvn package
 mvn clean
 ``` 
 
-# 6. 
+## Test
 ```bash 
 ./mvnw spring-boot:run
 ``` 
