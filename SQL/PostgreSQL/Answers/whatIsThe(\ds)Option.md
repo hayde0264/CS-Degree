@@ -4,9 +4,8 @@ The **\ds** option will display information about sequences of a specified datab
 
 
 ## Usage: 
-```bash 
-postgres=# \ds 
-``` 
+<img width="140" alt="Screen Shot 2022-12-10 at 12 10 38 AM" src="https://user-images.githubusercontent.com/109105989/206830334-fcd423d6-6a7b-41bd-94f2-74747584ef5b.png">
+
 
 
 
