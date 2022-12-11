@@ -17,7 +17,17 @@ working with singly linked **, we do not keep track of any indices for the nodes
 
 ![arrayVsLinkedList](https://user-images.githubusercontent.com/109105989/203697887-b40b6023-2f18-41d6-8c70-036373dcdaf3.png)
 
-## For instance 
+## In C++: 
+```cpp 
+template <typename T>
+struct ListNode {
+    T data;
+    shared_ptr<ListNode<T>> next;
+};
+``` 
+
+
+## In Java: 
 ```java 
   public class Node {
           private String element; 
