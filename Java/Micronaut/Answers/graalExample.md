@@ -1,9 +1,6 @@
 # Graal example 
 
 
-```xml 
-
-
 
 ```java 
 
