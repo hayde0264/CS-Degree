@@ -7,8 +7,6 @@ you're not allowed to modify a string literal **through a pointer**.
 ## For example: 
   #include <iostream>
   
-  using namespace std;
-  
   
   
   int main() {
