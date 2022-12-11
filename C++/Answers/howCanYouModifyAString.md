@@ -5,11 +5,7 @@ Since string literals are **constants**, so in order to modify a string, the **c
 ## For example: 
 ```cpp 
 #include <iostream>
-#include <vector>
-  
-using namespace std;
-  
-  
+#include <vector>  
  
  int main() {
   
@@ -17,7 +13,7 @@ using namespace std;
         char hayden[] = "hayden";
         hayden[0] = 'Q';
  
-        cout << hayden; // Prints - Qayden 
+        std::cout << hayden; // Prints - Qayden 
 }                       
 ``` 
 
