@@ -6,12 +6,10 @@ Lambdas are prefixed with the **auto** keyword, have lambda introducers **([])**
 ## For instance: 
 ```cpp 
   #include <iostream>
-  
-  using namespace std;
-  
+
   int main() {
   
-          auto greeting = [] () { cout << "hello, world"; };
+          auto greeting = [] () { std::cout << "hello, world"; };
   
           greeting(); // Prints - hello, world
           return 0;
