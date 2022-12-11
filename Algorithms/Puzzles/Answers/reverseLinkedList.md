@@ -6,6 +6,7 @@ Given a singly linked list *L* of integers sorted in **ascending order**, return
 **solution** - the natural way of implementing the reversal is through recursion. 
 
 **time**: O(n)
+
 **space**:  O(n) 
 
 
