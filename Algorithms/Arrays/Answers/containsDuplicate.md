@@ -1,6 +1,6 @@
 # Contains Duplicate 
 
-Given an array of integers <code>arr</code>, return <code>true</code> if any value appears twice within the array; return <code>false</false> if there are no repeats within the array. 
+Given an array of integers <code>arr</code>, return <code>true</code> if any value appears twice within the array; return <code>false</code> if there are no repeats within the array. 
 
 ## Ex. 1: 
 > Input: arr = [2, 3, 4, 2] 
