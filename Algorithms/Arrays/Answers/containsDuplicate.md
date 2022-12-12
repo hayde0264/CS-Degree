@@ -32,6 +32,3 @@ public:
 };
 ``` 
 
-
-# References 
-Valeo, S. (2021). *C by Example*. <https://www.wbyexample.com> 
