@@ -19,7 +19,7 @@ Computer hardware, or components, refer to the **physical** parts of a computer.
 Software provides hardware with a **"set of instructions**, so hardware is generally directed through commands 
 or instructions. 
 
-## 
+## What is the difference between hardware and software? 
 ![hardwarevssoftware](https://user-images.githubusercontent.com/109105989/207137704-af920641-0d16-4c85-b86f-d700ee0a1642.png)
 
 
