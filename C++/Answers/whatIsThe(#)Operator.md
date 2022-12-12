@@ -1,4 +1,4 @@
-# What is the # operator used for? 
+# What is the # operator? 
 
 The **(#)** operator is used within a parameterized macro to **turn an argument into a string**. 
 
