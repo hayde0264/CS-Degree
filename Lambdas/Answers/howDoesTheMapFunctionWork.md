@@ -21,10 +21,7 @@ public void makeNamesUppercase() {
    System.out.println(uppercaseNames);
 }            // PRINTS - ["BEN", "KATY", "SUSSIE", "ROBBIE"] 
 ```
-## Go 
-``` go 
 
-``` 
 ## Swift 
 ``` swift
 func makeNamesUppercased() {
