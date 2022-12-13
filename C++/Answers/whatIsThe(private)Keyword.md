@@ -5,16 +5,18 @@ The private keyword prevents code outside of a class from directly accessing dat
 
 ## For instance: 
 ```cpp 
+//
+
 #include "iostream"
 
 using namespace std;
 
 class Developer {
-private:
+private:                    // NOTICE PRIVATE (all objects will not have direct access to name or age) 
     string name = "";
     int age = 0;
 public:
-    string getName();
+    string getName();       
     void setName(string);
     int getAge();
     void setAge(int);
@@ -40,13 +42,15 @@ int main() {
     dev.setName("Hayden");  // OK!
     
     
-    
-    
     cout << "DEVELOPER DATA\n"
     << "name: " << dev.getName() << endl
     << "age: " << dev.getAge() << endl;
 }
-
+/* OUTPUT
+DEVELOPER DATA
+name: Hayden
+age: 21
+*/
 
 ``` 
 
