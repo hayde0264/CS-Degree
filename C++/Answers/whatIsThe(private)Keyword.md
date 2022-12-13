@@ -23,13 +23,13 @@ public:
 };
 
 // member functions
-string Developer::getName() {
+string Developer::getName() const {
     return name;
 }
 void Developer::setName(string name) {
     this->name = name;
 }
-int Developer::getAge() {
+int Developer::getAge() const {
     return age;
 }
 void Developer::setAge(int age) {
