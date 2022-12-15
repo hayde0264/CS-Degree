@@ -4,7 +4,7 @@ The bitwise OR operator, noted as (|), returns 1 if at least one out of the two 
 
 ## Visually: 
 
-![or](https://user-images.githubusercontent.com/109105989/207988917-3937875c-5bff-4720-b7d1-114c6a60a406.png)
+![or](https://user-images.githubusercontent.com/109105989/207989042-fcbb3f0e-a140-4184-acaf-735dca6e6a79.png)
 
 
 
