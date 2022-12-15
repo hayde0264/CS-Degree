@@ -1,6 +1,10 @@
 # What is the bitwise AND operator? 
 
-The bitwise AND operator, denoted as (&), takes two operands and applies AND on each bit of the two numbers and returns 1 only if both bits are 1. 
+The bitwise AND operator, denoted as (&), takes two operands and returns 1 if both integers contain 1; otherwise it returns 0; 
+
+## Visually: 
+
+![and](https://user-images.githubusercontent.com/109105989/207984903-98964974-44df-4d24-99b9-c3bc63dee9f7.png)
 
 
 ## For instance: 
