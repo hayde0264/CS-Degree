@@ -9,7 +9,8 @@ Bits are the most basic units of information computers process. Bits are represe
 ## What is a byte?
 Since bits are so small, you don't work with single bits but rather with a string of bits, sometimes called a "byte." Bytes, which are composed of eight bits, contain enough information to store ASCII characters (ASCII enables electronic communication). 
 
-![byte](https://user-images.githubusercontent.com/109105989/207977080-9a694362-6d2f-4030-9b9b-7c7679799387.png)
+![byte](https://user-images.githubusercontent.com/109105989/207977756-f23b7238-81ea-4233-9157-a653d4c25918.png)
+
 
 
 ## How many bytes are in a: 
@@ -18,6 +19,8 @@ Since bits are so small, you don't work with single bits but rather with a strin
 - **Gigabyte (GB)** - one billion bytes 
 - **Terabyte (TB)** - one trillion bytes 
 
+
+![storage](https://user-images.githubusercontent.com/109105989/207977842-45ebf4bc-6c96-4e23-891d-feba4f44a7d3.png)
 
 
 # References 
