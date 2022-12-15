@@ -43,4 +43,4 @@ int main() {
 ``` 
 
 # References 
-GeeksforGeeks. (2022). *Bitwise Operators in C/C++*. <https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/> 
+Programiz. (2022). *C++ Bitwise Operators*. <https://www.programiz.com/cpp-programming/bitwise-operators> 
