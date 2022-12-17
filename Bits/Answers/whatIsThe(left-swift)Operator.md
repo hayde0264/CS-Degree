@@ -1,6 +1,6 @@
 # What is the left swift operator? 
 
-The left shift operator, which is denoted as (<<), shifts each bit to the left by a specified amount of bits. Within this process, the furthest bit will be discarded and 
+The left shift operator, which is denoted as <code><<</code>, shifts each bit to the left by a specified amount of bits. Within this process, the furthest bit will be discarded and 
 its vacancy will be replaced with a zero. 
 
 
