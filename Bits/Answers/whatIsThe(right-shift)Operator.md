@@ -1,6 +1,6 @@
 # What is the right shift operator? 
 
-The right shift operator, which is denoted as <code>></code>, moves each bit to the right by a specified number of bits. When shifting bits to the right, 
+The right shift operator, which is denoted as <code>>></code>, moves each bit to the right by a specified number of bits. When shifting bits to the right, 
 the least significant bits are discarded, while the most significant bits are replaced with zeros. 
 
 ## Visually: 
