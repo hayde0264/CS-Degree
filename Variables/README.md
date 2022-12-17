@@ -2,6 +2,10 @@
 
 Variables provide developers with "named storage." Variables allow us to **manipulate values**, through **methods** and **operations**. 
 
+## Visually:
+![variable](https://user-images.githubusercontent.com/109105989/208266035-a824a593-6be8-41b3-be61-900206699812.jpg)
+
+
 ## Variables have:
 - **specific types**
 - **different bit sizes**
@@ -23,10 +27,10 @@ what the variable represents. Remember that the best variables are as specific a
 
 ## In Java: 
 ```java 
-int z, y, z; declares three ints 
+int z, y, z;         // declares three ints 
 int a = 1, b, c = 3; // declares three ints, but only initializes a && c 
-byte b = 22; // initializes b 
-char s = 's'; // the variable s has the value of 's'
+byte b = 22;         // initializes b 
+char s = 's';        // the variable s has the value of 's'
 ``` 
 
 ## In C++: 
