@@ -27,16 +27,18 @@ what the variable represents. Remember that the best variables are as specific a
 
 ## In Java: 
 ```java 
-int z, y, z;         // declares three ints 
-int a = 1, b, c = 3; // declares three ints, but only initializes a && c 
-byte b = 22;         // initializes b 
-char s = 's';        // the variable s has the value of 's'
+public class main { 
+  public static void main(String args) {  
+    int z, y, z;         // declares three ints 
+    int a = 1, b, c = 3; // declares three ints, but only initializes a && c 
+    byte b = 22;         // initializes b 
+    char s = 's';        // the variable s has the value of 's'
+  } 
+} 
 ``` 
 
 ## In C++: 
 ```cpp 
-// operating with variables
-
 #include <iostream>
 using namespace std;
 
