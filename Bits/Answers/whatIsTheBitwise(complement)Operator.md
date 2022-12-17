@@ -1,6 +1,6 @@
 # What is the bitwise complement operator? 
 
-The bitwise complement operator denoted as (~), which works on a unary operand, changes binary digits (0 to 1, 1 to 0). 
+The bitwise complement operator denoted as <code>~</code>, which works on a unary operand, changes binary digits (0 to 1, 1 to 0). 
 
 
 ## Visually: 
