@@ -69,5 +69,3 @@ container, which **"pops"** the top-most candy as the dispenser is lifted.
   };     
 ```
 
-
-# References 
