@@ -1,6 +1,6 @@
 # What is the clear command? 
 
-**clear** - is the command that allows you to clear the terminal display
+<code>clear</code> - is the command that allows you to clear the terminal display
 
 ## Before: 
 ![Screen Shot 2022-11-16 at 2 59 41 PM](https://user-images.githubusercontent.com/109105989/202281915-69bf4481-b4ee-4502-9846-1cac95e66a49.png)
