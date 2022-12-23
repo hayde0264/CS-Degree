@@ -1,6 +1,6 @@
 # Which command allows you to move and rename files? 
 
-**mv** - is the command used to move or rename files 
+<code>mv</code> - is the command used to move or rename files 
 
 ## Before: (notice Test directory) 
 ![Screen Shot 2022-11-16 at 3 07 45 PM](https://user-images.githubusercontent.com/109105989/202283455-8b40add8-7fe3-4031-8b6a-7e0e6c44ab9b.png)
