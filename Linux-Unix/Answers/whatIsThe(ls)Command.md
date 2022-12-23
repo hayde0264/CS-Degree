@@ -1,6 +1,6 @@
 # Which command lists directories?
 
-**ls** -lists the directories of current path 
+<code>ls</code> -lists the directories of current path 
 
 
 ## Before: (clear terminal)
