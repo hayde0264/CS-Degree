@@ -3,9 +3,9 @@
 
 The two categories of Unix files are: **binary files** and **text files**. 
 
-**Text files** - are represented as **ASCII** code and can be modified using and **text editor**, 
+<code>Text files</code>- are represented as **ASCII** code and can be modified using and **text editor**, 
 
-**Binary files** - are files written in binary digits and are intended to be **processed and read by your computer**. 
+<code>Binary files</code> - are files written in binary digits and are intended to be **processed and read by your computer**. 
 
 
 
