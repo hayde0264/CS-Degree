@@ -1,6 +1,6 @@
 # Secure Sockets Layer
 
-A secure socket layer, or <code>SSL</code>, is an encryption-based internet security tool. Websites that use **"https"** in their URL, not **http** are implementing this method. 
+A secure socket layer, or <code>SSL</code>, is an encryption-based internet security tool. Websites that use **"https"** in their URL, not **"http"** are implementing this method. 
 
 ## How does it work? 
 Secure socket layers encrypt data transmitted among devices. Or in lamens terms, this means 
