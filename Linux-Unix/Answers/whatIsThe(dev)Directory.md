@@ -1,7 +1,7 @@
-# What does the root directory dev contain? 
+# What is the /dev directory? 
 
 
-**dev** - which is short for **"devices"**, holds the special files 
+<code>dev</code> - which is short for **"devices"**, holds the special files 
 needed to operate devices such as **terminals** and **printers**. 
 
 ## Where is it located? 
