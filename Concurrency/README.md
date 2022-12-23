@@ -5,7 +5,8 @@
 
 # Parallelism
 <code>parallelism</code> - references breaking down a task into sub-task which can be processed independently and whose results can be combined upon completion
-<space></space>
+
+
 ![parallelVSConcurrency1](https://user-images.githubusercontent.com/109105989/198755423-112984d2-d345-4c34-a6fe-6df345a344a8.png)
 
 
