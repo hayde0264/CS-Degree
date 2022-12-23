@@ -6,7 +6,8 @@
 <img width="439" alt="Screen Shot 2022-12-22 at 11 45 22 PM" src="https://user-images.githubusercontent.com/109105989/209272560-190807b8-3f6c-477b-819c-c8e990c66352.png">
 
 # After: 
-<img width="403" alt="Screen Shot 2022-12-22 at 11 42 07 PM" src="https://user-images.githubusercontent.com/109105989/209272623-c83345af-dba3-4400-81fd-e6c7a6398987.png">
+
+<img width="511" alt="Screen Shot 2022-12-22 at 11 45 41 PM" src="https://user-images.githubusercontent.com/109105989/209272720-34924544-4e4c-4fb0-b5a1-3fc2855ca252.png">
 
 
 # References
