@@ -39,7 +39,8 @@ Concurrency allows programs **to operate on multiple tasks at once**.
 - running a web server, sending an email, or other daemons
 
 
-#References
+# References
+
 Concurrency (computer science). (2022, October 26). Wikipedia. https://en.wikipedia.org/wiki/Concurrency_(computer_science)
 
 Introduction to Concurrency. (n.d.). https://cs.lmu.edu
