@@ -11,15 +11,15 @@ Collections use their underlying data structure
 to **store** and **manipulate** data effectively. 
 
 ## Most modern languages break collections into: 
-*Lists* - also known as arrays, lists are collections 
+<code>Lists</code> - also known as arrays, lists are collections 
           that except duplicate elements and are 
 	  accessible through indexing the elements 
           within the list.
  
-*Sets* - are collections that **do not** allow 
+<code>Sets</code> - are collections that **do not** allow 
 	 duplicate elements.
  
-*Maps* - also known as dictionaries, are collections 
+<code>Maps</code> - also known as dictionaries, are collections 
 	 that contain key/value pairs. Maps **cannot** 
 	 contain duplicate pairs. 
 
