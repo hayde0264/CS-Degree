@@ -11,7 +11,7 @@ Collections use their underlying data structure
 to **store** and **manipulate** data effectively. 
 
 ## Most modern languages break collections into: 
-<code>Lists</code> - also known as arrays, are collections 
+<code>Lists</code> - or arrays, are collections 
           that except duplicate elements and are 
 	  accessible through indexing the elements 
           within the list.
