@@ -1,4 +1,4 @@
-# What does the root director bin contain? 
+# What is the /bin directory? 
 
 <code>bin</code> - contains software for the shell, as well as **system commands**. Even though 
 bin is short for **"binary"**, the bin is known as holding **useful software tools**. 
