@@ -1,6 +1,6 @@
 # What is the mkdir command? 
 
-**mkdir** - is the command used to create directories 
+<code>mkdir</code> - is the command used to create directories 
 
 ## Before: 
 ![Screen Shot 2022-11-16 at 3 10 34 PM](https://user-images.githubusercontent.com/109105989/202283996-9f5d2fb4-f501-4022-ae19-4490d28e2035.png)
