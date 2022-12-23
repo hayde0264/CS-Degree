@@ -1,6 +1,6 @@
 # What are Buses? 
 
-Buses connect the CPU to different internal components. 
+<code>Buses</code> - connect the CPU to different internal components. 
 
 ## Looks like: 
 ![bus](https://user-images.githubusercontent.com/109105989/207144420-1386105f-ae47-499c-afa7-758fdb20e31e.jpg)
