@@ -1,6 +1,6 @@
 # What does the root director bin contain? 
 
-**bin** - contains software for the shell, as well as **system commands**. Even though 
+<code>bin</code> - contains software for the shell, as well as **system commands**. Even though 
 bin is short for **"binary"**, the bin is known as holding **useful software tools**. 
 
 ## Where is it located? 
