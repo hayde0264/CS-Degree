@@ -11,7 +11,7 @@ SSL ensures that communicating devices are who they claim to be when making a **
 
 
 ## How is SSL different from TLS? 
-SSL is the predecessor of another protocol called the **Transport Layer Security** (TLS). However, since 
+SSL is the predecessor of another protocol called the <code>Transport Layer Security (TLS) </code>. However, since 
 the two are so closely related some people refer to SSL when mentioning TLS. 
 
 ## What are SSL certificates? 
