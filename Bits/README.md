@@ -1,7 +1,7 @@
 # Bits 
 
-Bits are the most basic units of information computers process. Bits are represented as either "1" or "0," which can be interpreted as true (1) or false (b). Such bits are stored in memory with capacitors whose responsibility is to determine the electrical charge. Within the hardware layer, the charge determines the state of each bit 
-(1 or 0). 
+<code>Bits</code> - are the most basic units of information computers process. Bits are represented as either "1" or "0," which can be interpreted as true (1) or false (0). Bits are stored in memory with capacitors whose responsibility is to determine the electrical charge. Within the hardware layer, the charge determines the state of each bit 
+1 or 0. 
 
 ![bits](https://user-images.githubusercontent.com/109105989/207976988-2226aefc-27d8-4cce-9f35-b7d80e4d4dab.png)
 
