@@ -13,11 +13,14 @@ Since bits are so small, you don't work with single bits but rather with a strin
 
 
 
-## How many bytes are in a: 
-<code>Kilobyte (KB)</code> - one thousand bytes 
-<code>Megabyte (MB)</code> - one million bytes 
-<code>Gigabyte (GB)</code> - one billion bytes 
-<code>Terabyte (TB)</code> - one trillion bytes 
+## How many bytes are in: 
+<code>Kilobytes (KB)</code> - one thousand bytes 
+
+<code>Megabytes (MB)</code> - one million bytes 
+
+<code>Gigabytes (GB)</code> - one billion bytes 
+
+<code>Terabytes (TB)</code> - one trillion bytes 
 
 
 ![storage](https://user-images.githubusercontent.com/109105989/207977842-45ebf4bc-6c96-4e23-891d-feba4f44a7d3.png)
